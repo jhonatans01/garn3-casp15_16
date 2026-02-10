@@ -1,0 +1,32 @@
+\begin{table}[!ht]
+\begin{adjustwidth}{-2.5in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
+\centering
+\caption{{\bf Test set}. Molecules used to run the simulations. This test set contains 22 molecules.}
+\begin{tabular}{llll}
+\toprule
+\textbf{Molecule} & \textbf{Description}                                                                                                                                                              & \textbf{Nucleotides} & \textbf{Players} \\ \midrule
+1XHP              & Extended U6 ISL                                                                                                                                                                   & 32                   & 14               \\ \hline
+1MNX              & \begin{tabular}[c]{@{}l@{}}Loop E Region of the 5S rRNA from\\ Spinach Chloroplasts\end{tabular}                                                                                  & 42                   & 14               \\ \hline
+1CQ5              & NMR structure of SRP RNA domain IV                                                                                                                                                & 43                   & 14               \\ \hline
+2RP0              & PEMV-1 mRNA pseudoknot                                                                                                                                                            & 27                   & 7                \\ \hline
+2N6S              & CssA4 (bottom stem) of CssA thermometer                                                                                                                                           & 36                   & 18               \\ \hline
+1Q29              & Hammerhead Ribozyme with 5'-5' G-G linkage                                                                                                                                        & 41                   & 16               \\ \hline
+3DIR              & \begin{tabular}[c]{@{}l@{}}Crystallization of the Thermotoga maritima lysine\\ riboswitch bound to N6-1-iminoethyl-L-Lysine\end{tabular}                                          & 174                  & 72               \\ \hline
+4P8Z              & \begin{tabular}[c]{@{}l@{}}Speciation of a group I intron into a lariat\\ capping ribozyme\end{tabular}                                                                           & 188                  & 67               \\ \hline
+3AM1              & \begin{tabular}[c]{@{}l@{}}O-Phosphoseryl-tRNA kinase complexed with\\ anticodon-stem/loop truncated tRNA\end{tabular}                                                            & 81                   & 36               \\ \hline
+4RZD              & Crystal Structure of a PreQ1 Riboswitch                                                                                                                                           & 102                  & 31               \\ \hline
+4QKA              & \begin{tabular}[c]{@{}l@{}}c-di-AMP riboswitch from Thermoanaerobacter pseudethanolicus,\\ iridium hexamine soak\end{tabular}                                                     & 122                  & 38               \\ \hline
+1Z43              & Crystal structure of 7S.S SRP RNA of M. jannaschii                                                                                                                                & 101                  & 40               \\ \hline
+4P9R              & Speciation of a group I intron into a lariat capping ribozyme                                                                                                                     & 189                  & 67               \\ \hline
+4OQU              & Structure of the SAM-I/IV riboswitch                                                                                                                                              & 97                   & 38               \\ \hline
+4QK8              & Thermoanaerobacter pseudethanolicus c-di-AMP riboswitch                                                                                                                           & 124                  & 38               \\ \hline
+5J01              & \begin{tabular}[c]{@{}l@{}}Structure of the lariat form of a chimeric derivative of the\\ Oceanobacillus iheyensis group II intron in the presence of NH4+ and MG2+.\end{tabular} & 418                  & 132              \\ \hline
+3J28              & \begin{tabular}[c]{@{}l@{}}Dissecting the in vivo assembly of the 30S ribosomal subunit\\ reveals the role of RimM\end{tabular}                                                   & 1533                 & 584              \\ \hline
+1C2W              & 23S RRNA structure                                                                                                                                                                & 2904                 & 1079             \\ \hline
+2NBX              & Solution structure of the J-K region of EMCV IRES                                                                                                                                 & 108                  & 55               \\ \hline
+2G1W              & NMR structure of the Aquifex aeolicus tmRNA pseudoknot PK1                                                                                                                        & 22                   & 6                \\ \hline
+1KAJ              & RNA pseudoknot from mouse mammary tumor virus                                                                                                                                     & 32                   & 6                \\ \hline
+2ZUF              & \begin{tabular}[c]{@{}l@{}}Crystal structure of Pyrococcus horikoshii arginyl-tRNA synthetase\\ complexed with tRNA\end{tabular}                                                  & 78                   & 29               \\ \bottomrule
+\end{tabular}
+\end{adjustwidth}
+\end{table}

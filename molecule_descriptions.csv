@@ -1,0 +1,22 @@
+CASP,Target_ID,Molecule,Description
+CASP15,R1108,7QR3,CPEB3 ribozyme Chimpanzee
+CASP15,R1107,7QR4,CPEB3 ribozyme Human
+CASP15,R1190,7YR6,Pseudomonas aeruginosa RsmZ with two RsmA protein dimers
+CASP15,R1189,7YR7,Pseudomonas aeruginosa RsmZ with three RsmA protein dimers
+CASP15,R1117,8FZA,PreQ1 class I type III riboswitch
+CASP15,R1116,8S95,Cloverleaf RNA
+CASP15,R1203,8UO6,Rev response element stem-loop II
+CASP15,R1156,8UYE,BtCoV-HKU5 SL5
+CASP15,R1149,8UYS,SARS-CoV-2 SL5
+CASP15,R1263,8VQV,ZTP riboswitch with m-1-pyridinyl AICA
+CASP15,R1264,8VVJ,ZTP riboswitch with AICA derivative
+CASP16,R1262v1,9BZ1,ZTP riboswitch with AICA
+CASP16,R1261v1,9BZC,ZTP riboswitch
+CASP16,R1296,9C75,G34U mutant of M1209 complex
+CASP16,R1260,9CBU,Ribozyme solvent shell
+CASP16,R1211,9DCF,CVB3 cloverleaf RNA in complex with 3C protease
+CASP16,R1242,9ELY,RaiA RNA motif C. acetobutylicum
+CASP16,R1283v1,9ISV,Enterococcus ncRNA
+CASP16,R1283v2,9J3R,Enterococcus ncRNA
+CASP16,R1286,9J6Y,Lactobacillus ncRNA
+CASP16,R1285,9MCW,OLE
