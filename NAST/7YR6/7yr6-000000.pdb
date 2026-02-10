@@ -1,0 +1,25 @@
+REMARK  STEP 0
+REMARK  ENERGIES: EK = 0.0 EP = 16.9
+ATOM     90  C3*   G    90       2.760   0.000   0.000
+ATOM     91  C3*   U    91      -1.380   2.390   0.000
+ATOM     92  C3*   G    92      -1.380  -2.390   0.000
+END
+REMARK  STEP 1000
+REMARK  ENERGIES: EK = 9.7 EP = 10.8
+ATOM     90  C3*   G    90       3.860   2.528  -0.584
+ATOM     91  C3*   U    91      -2.328   2.668   1.083
+ATOM     92  C3*   G    92       0.057  -2.186  -0.332
+END
+REMARK  STEP 2000
+REMARK  ENERGIES: EK = 11.8 EP = 3.5
+ATOM     90  C3*   G    90       4.977   6.653  -0.863
+ATOM     91  C3*   U    91       0.167   2.651   0.080
+ATOM     92  C3*   G    92      -2.172  -0.866  -4.836
+END
+REMARK  STEP 3000
+REMARK  ENERGIES: EK = 8.7 EP = 2.5
+ATOM     90  C3*   G    90       0.607   5.545   1.637
+ATOM     91  C3*   U    91       1.647   2.028  -2.426
+ATOM     92  C3*   G    92      -3.320  -1.575  -4.087
+END
+END

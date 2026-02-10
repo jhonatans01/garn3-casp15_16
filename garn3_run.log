@@ -1,0 +1,757 @@
+============================================================
+GARN3 Model Generation
+============================================================
+
+🔍 Processing AlphaFold...
+  Found 320 PDB files (processing 320 total)
+  [0] ✅ 7QR3_A.pdb
+  [1] ✅ 7QR3_B.pdb
+  [2] ✅ 7QR3_C.pdb
+  [3] ✅ 7QR3_D.pdb
+  [4] ✅ 7QR3_E.pdb
+  [5] ✅ 7QR3_F.pdb
+  [6] ✅ 7QR3_G.pdb
+  [7] ✅ 7QR3_H.pdb
+  [8] ✅ 7QR3_I.pdb
+  [9] ✅ 7QR3_J.pdb
+  [10] ✅ 7QR3_K.pdb
+  [11] ✅ 7QR3_L.pdb
+  [12] ✅ 7QR3_M.pdb
+  [13] ✅ 7QR3_N.pdb
+  [14] ✅ 7QR3_O.pdb
+  [15] ✅ 7QR3_P.pdb
+  [16] ✅ 7QR3_Q.pdb
+  [17] ✅ 7QR3_R.pdb
+  [18] ✅ 7QR3_S.pdb
+  [19] ✅ 7QR3_T.pdb
+  [20] ✅ 7QR4_A.pdb
+  [21] ✅ 7QR4_B.pdb
+  [22] ✅ 7QR4_C.pdb
+  [23] ✅ 7QR4_D.pdb
+  [24] ✅ 7QR4_E.pdb
+  [25] ✅ 7QR4_F.pdb
+  [26] ✅ 7QR4_G.pdb
+  [27] ✅ 7QR4_H.pdb
+  [28] ✅ 7QR4_I.pdb
+  [29] ✅ 7QR4_J.pdb
+  [30] ✅ 7QR4_K.pdb
+  [31] ✅ 7QR4_L.pdb
+  [32] ✅ 7QR4_M.pdb
+  [33] ✅ 7QR4_N.pdb
+  [34] ✅ 7QR4_O.pdb
+  [35] ✅ 7QR4_P.pdb
+  [36] ✅ 7QR4_Q.pdb
+  [37] ✅ 7QR4_R.pdb
+  [38] ✅ 7QR4_S.pdb
+  [39] ✅ 7QR4_T.pdb
+  [40] ✅ 7YR6_A.pdb
+  [41] ✅ 7YR6_B.pdb
+  [42] ✅ 7YR6_C.pdb
+  [43] ✅ 7YR6_D.pdb
+  [44] ✅ 7YR6_E.pdb
+  [45] ✅ 7YR6_F.pdb
+  [46] ✅ 7YR6_G.pdb
+  [47] ✅ 7YR6_H.pdb
+  [48] ✅ 7YR6_I.pdb
+  [49] ✅ 7YR6_J.pdb
+  [50] ✅ 7YR6_K.pdb
+  [51] ✅ 7YR6_L.pdb
+  [52] ✅ 7YR6_M.pdb
+  [53] ✅ 7YR6_N.pdb
+  [54] ✅ 7YR6_O.pdb
+  [55] ✅ 7YR6_P.pdb
+  [56] ✅ 7YR6_Q.pdb
+  [57] ✅ 7YR6_R.pdb
+  [58] ✅ 7YR6_S.pdb
+  [59] ✅ 7YR6_T.pdb
+  [60] ✅ 7YR7_A.pdb
+  [61] ✅ 7YR7_B.pdb
+  [62] ✅ 7YR7_C.pdb
+  [63] ✅ 7YR7_D.pdb
+  [64] ✅ 7YR7_E.pdb
+  [65] ✅ 7YR7_F.pdb
+  [66] ✅ 7YR7_G.pdb
+  [67] ✅ 7YR7_H.pdb
+  [68] ✅ 7YR7_I.pdb
+  [69] ✅ 7YR7_J.pdb
+  [70] ✅ 7YR7_K.pdb
+  [71] ✅ 7YR7_L.pdb
+  [72] ✅ 7YR7_M.pdb
+  [73] ✅ 7YR7_N.pdb
+  [74] ✅ 7YR7_O.pdb
+  [75] ✅ 7YR7_P.pdb
+  [76] ✅ 7YR7_Q.pdb
+  [77] ✅ 7YR7_R.pdb
+  [78] ✅ 7YR7_S.pdb
+  [79] ✅ 7YR7_T.pdb
+  [80] ✅ 8FZA_A.pdb
+  [81] ✅ 8FZA_B.pdb
+  [82] ✅ 8FZA_C.pdb
+  [83] ✅ 8FZA_D.pdb
+  [84] ✅ 8FZA_E.pdb
+  [85] ✅ 8FZA_F.pdb
+  [86] ✅ 8FZA_G.pdb
+  [87] ✅ 8FZA_H.pdb
+  [88] ✅ 8FZA_I.pdb
+  [89] ✅ 8FZA_J.pdb
+  [90] ✅ 8FZA_K.pdb
+  [91] ✅ 8FZA_L.pdb
+  [92] ✅ 8FZA_M.pdb
+  [93] ✅ 8FZA_N.pdb
+  [94] ✅ 8FZA_O.pdb
+  [95] ✅ 8FZA_P.pdb
+  [96] ✅ 8FZA_Q.pdb
+  [97] ✅ 8FZA_R.pdb
+  [98] ✅ 8FZA_S.pdb
+  [99] ✅ 8FZA_T.pdb
+  [100] ✅ 8S95_A.pdb
+  [101] ✅ 8S95_B.pdb
+  [102] ✅ 8S95_C.pdb
+  [103] ✅ 8S95_D.pdb
+  [104] ✅ 8S95_E.pdb
+  [105] ✅ 8S95_F.pdb
+  [106] ✅ 8S95_G.pdb
+  [107] ✅ 8S95_H.pdb
+  [108] ✅ 8S95_I.pdb
+  [109] ✅ 8S95_J.pdb
+  [110] ✅ 8S95_K.pdb
+  [111] ✅ 8S95_L.pdb
+  [112] ✅ 8S95_M.pdb
+  [113] ✅ 8S95_N.pdb
+  [114] ✅ 8S95_O.pdb
+  [115] ✅ 8S95_P.pdb
+  [116] ✅ 8S95_Q.pdb
+  [117] ✅ 8S95_R.pdb
+  [118] ✅ 8S95_S.pdb
+  [119] ✅ 8S95_T.pdb
+  [120] ✅ 8UO6_A.pdb
+  [121] ✅ 8UO6_B.pdb
+  [122] ✅ 8UO6_C.pdb
+  [123] ✅ 8UO6_D.pdb
+  [124] ✅ 8UO6_E.pdb
+  [125] ✅ 8UO6_F.pdb
+  [126] ✅ 8UO6_G.pdb
+  [127] ✅ 8UO6_H.pdb
+  [128] ✅ 8UO6_I.pdb
+  [129] ✅ 8UO6_J.pdb
+  [130] ✅ 8UO6_K.pdb
+  [131] ✅ 8UO6_L.pdb
+  [132] ✅ 8UO6_M.pdb
+  [133] ✅ 8UO6_N.pdb
+  [134] ✅ 8UO6_O.pdb
+  [135] ✅ 8UO6_P.pdb
+  [136] ✅ 8UO6_Q.pdb
+  [137] ✅ 8UO6_R.pdb
+  [138] ✅ 8UO6_S.pdb
+  [139] ✅ 8UO6_T.pdb
+  [140] ✅ 8UYE_A.pdb
+  [141] ✅ 8UYE_B.pdb
+  [142] ✅ 8UYE_C.pdb
+  [143] ✅ 8UYE_D.pdb
+  [144] ✅ 8UYE_E.pdb
+  [145] ✅ 8UYE_F.pdb
+  [146] ✅ 8UYE_G.pdb
+  [147] ✅ 8UYE_H.pdb
+  [148] ✅ 8UYE_I.pdb
+  [149] ✅ 8UYE_J.pdb
+  [150] ✅ 8UYE_K.pdb
+  [151] ✅ 8UYE_L.pdb
+  [152] ✅ 8UYE_M.pdb
+  [153] ✅ 8UYE_N.pdb
+  [154] ✅ 8UYE_O.pdb
+  [155] ✅ 8UYE_P.pdb
+  [156] ✅ 8UYE_Q.pdb
+  [157] ✅ 8UYE_R.pdb
+  [158] ✅ 8UYE_S.pdb
+  [159] ✅ 8UYE_T.pdb
+  [160] ✅ 8UYS_A.pdb
+  [161] ✅ 8UYS_B.pdb
+  [162] ✅ 8UYS_C.pdb
+  [163] ✅ 8UYS_D.pdb
+  [164] ✅ 8UYS_E.pdb
+  [165] ✅ 8UYS_F.pdb
+  [166] ✅ 8UYS_G.pdb
+  [167] ✅ 8UYS_H.pdb
+  [168] ✅ 8UYS_I.pdb
+  [169] ✅ 8UYS_J.pdb
+  [170] ✅ 8UYS_K.pdb
+  [171] ✅ 8UYS_L.pdb
+  [172] ✅ 8UYS_M.pdb
+  [173] ✅ 8UYS_N.pdb
+  [174] ✅ 8UYS_O.pdb
+  [175] ✅ 8UYS_P.pdb
+  [176] ✅ 8UYS_Q.pdb
+  [177] ✅ 8UYS_R.pdb
+  [178] ✅ 8UYS_S.pdb
+  [179] ✅ 8UYS_T.pdb
+  [180] ✅ 8VQV_A.pdb
+  [181] ✅ 8VQV_B.pdb
+  [182] ✅ 8VQV_C.pdb
+  [183] ✅ 8VQV_D.pdb
+  [184] ✅ 8VQV_E.pdb
+  [185] ✅ 8VQV_F.pdb
+  [186] ✅ 8VQV_G.pdb
+  [187] ✅ 8VQV_H.pdb
+  [188] ✅ 8VQV_I.pdb
+  [189] ✅ 8VQV_J.pdb
+  [190] ✅ 8VQV_K.pdb
+  [191] ✅ 8VQV_L.pdb
+  [192] ✅ 8VQV_M.pdb
+  [193] ✅ 8VQV_N.pdb
+  [194] ✅ 8VQV_O.pdb
+  [195] ✅ 8VQV_P.pdb
+  [196] ✅ 8VQV_Q.pdb
+  [197] ✅ 8VQV_R.pdb
+  [198] ✅ 8VQV_S.pdb
+  [199] ✅ 8VQV_T.pdb
+  [200] ✅ 8VVJ_A.pdb
+  [201] ✅ 8VVJ_B.pdb
+  [202] ✅ 8VVJ_C.pdb
+  [203] ✅ 8VVJ_D.pdb
+  [204] ✅ 8VVJ_E.pdb
+  [205] ✅ 8VVJ_F.pdb
+  [206] ✅ 8VVJ_G.pdb
+  [207] ✅ 8VVJ_H.pdb
+  [208] ✅ 8VVJ_I.pdb
+  [209] ✅ 8VVJ_J.pdb
+  [210] ✅ 8VVJ_K.pdb
+  [211] ✅ 8VVJ_L.pdb
+  [212] ✅ 8VVJ_M.pdb
+  [213] ✅ 8VVJ_N.pdb
+  [214] ✅ 8VVJ_O.pdb
+  [215] ✅ 8VVJ_P.pdb
+  [216] ✅ 8VVJ_Q.pdb
+  [217] ✅ 8VVJ_R.pdb
+  [218] ✅ 8VVJ_S.pdb
+  [219] ✅ 8VVJ_T.pdb
+  [220] ✅ 9BZ1_A.pdb
+  [221] ✅ 9BZ1_B.pdb
+  [222] ✅ 9BZ1_C.pdb
+  [223] ✅ 9BZ1_D.pdb
+  [224] ✅ 9BZ1_E.pdb
+  [225] ✅ 9BZ1_F.pdb
+  [226] ✅ 9BZ1_G.pdb
+  [227] ✅ 9BZ1_H.pdb
+  [228] ✅ 9BZ1_I.pdb
+  [229] ✅ 9BZ1_J.pdb
+  [230] ✅ 9BZ1_K.pdb
+  [231] ✅ 9BZ1_L.pdb
+  [232] ✅ 9BZ1_M.pdb
+  [233] ✅ 9BZ1_N.pdb
+  [234] ✅ 9BZ1_O.pdb
+  [235] ✅ 9BZ1_P.pdb
+  [236] ✅ 9BZ1_Q.pdb
+  [237] ✅ 9BZ1_R.pdb
+  [238] ✅ 9BZ1_S.pdb
+  [239] ✅ 9BZ1_T.pdb
+  [240] ✅ 9BZC_A.pdb
+  [241] ✅ 9BZC_B.pdb
+  [242] ✅ 9BZC_C.pdb
+  [243] ✅ 9BZC_D.pdb
+  [244] ✅ 9BZC_E.pdb
+  [245] ✅ 9BZC_F.pdb
+  [246] ✅ 9BZC_G.pdb
+  [247] ✅ 9BZC_H.pdb
+  [248] ✅ 9BZC_I.pdb
+  [249] ✅ 9BZC_J.pdb
+  [250] ✅ 9BZC_K.pdb
+  [251] ✅ 9BZC_L.pdb
+  [252] ✅ 9BZC_M.pdb
+  [253] ✅ 9BZC_N.pdb
+  [254] ✅ 9BZC_O.pdb
+  [255] ✅ 9BZC_P.pdb
+  [256] ✅ 9BZC_Q.pdb
+  [257] ✅ 9BZC_R.pdb
+  [258] ✅ 9BZC_S.pdb
+  [259] ✅ 9BZC_T.pdb
+  [260] ✅ 9C75_A.pdb
+  [261] ✅ 9C75_B.pdb
+  [262] ✅ 9C75_C.pdb
+  [263] ✅ 9C75_D.pdb
+  [264] ✅ 9C75_E.pdb
+  [265] ✅ 9C75_F.pdb
+  [266] ✅ 9C75_G.pdb
+  [267] ✅ 9C75_H.pdb
+  [268] ✅ 9C75_I.pdb
+  [269] ✅ 9C75_J.pdb
+  [270] ✅ 9C75_K.pdb
+  [271] ✅ 9C75_L.pdb
+  [272] ✅ 9C75_M.pdb
+  [273] ✅ 9C75_N.pdb
+  [274] ✅ 9C75_O.pdb
+  [275] ✅ 9C75_P.pdb
+  [276] ✅ 9C75_Q.pdb
+  [277] ✅ 9C75_R.pdb
+  [278] ✅ 9C75_S.pdb
+  [279] ✅ 9C75_T.pdb
+  [280] ✅ 9DCF_A.pdb
+  [281] ✅ 9DCF_B.pdb
+  [282] ✅ 9DCF_C.pdb
+  [283] ✅ 9DCF_D.pdb
+  [284] ✅ 9DCF_E.pdb
+  [285] ✅ 9DCF_F.pdb
+  [286] ✅ 9DCF_G.pdb
+  [287] ✅ 9DCF_H.pdb
+  [288] ✅ 9DCF_I.pdb
+  [289] ✅ 9DCF_J.pdb
+  [290] ✅ 9DCF_K.pdb
+  [291] ✅ 9DCF_L.pdb
+  [292] ✅ 9DCF_M.pdb
+  [293] ✅ 9DCF_N.pdb
+  [294] ✅ 9DCF_O.pdb
+  [295] ✅ 9DCF_P.pdb
+  [296] ✅ 9DCF_Q.pdb
+  [297] ✅ 9DCF_R.pdb
+  [298] ✅ 9DCF_S.pdb
+  [299] ✅ 9DCF_T.pdb
+  [300] ✅ 9ELY_A.pdb
+  [301] ✅ 9ELY_B.pdb
+  [302] ✅ 9ELY_C.pdb
+  [303] ✅ 9ELY_D.pdb
+  [304] ✅ 9ELY_E.pdb
+  [305] ✅ 9ELY_F.pdb
+  [306] ✅ 9ELY_G.pdb
+  [307] ✅ 9ELY_H.pdb
+  [308] ✅ 9ELY_I.pdb
+  [309] ✅ 9ELY_J.pdb
+  [310] ✅ 9ELY_K.pdb
+  [311] ✅ 9ELY_L.pdb
+  [312] ✅ 9ELY_M.pdb
+  [313] ✅ 9ELY_N.pdb
+  [314] ✅ 9ELY_O.pdb
+  [315] ✅ 9ELY_P.pdb
+  [316] ✅ 9ELY_Q.pdb
+  [317] ✅ 9ELY_R.pdb
+  [318] ✅ 9ELY_S.pdb
+  [319] ✅ 9ELY_T.pdb
+
+🔍 Processing FARFAR2...
+  Found 140 PDB files (processing 140 total)
+  [0] ❌ No SECONDARY file for 7QR3-1.pdb
+  [1] ❌ No SECONDARY file for 7QR3-10.pdb
+  [2] ❌ No SECONDARY file for 7QR3-2.pdb
+  [3] ❌ No SECONDARY file for 7QR3-3.pdb
+  [4] ❌ No SECONDARY file for 7QR3-4.pdb
+  [5] ❌ No SECONDARY file for 7QR3-5.pdb
+  [6] ❌ No SECONDARY file for 7QR3-6.pdb
+  [7] ❌ No SECONDARY file for 7QR3-7.pdb
+  [8] ❌ No SECONDARY file for 7QR3-8.pdb
+  [9] ❌ No SECONDARY file for 7QR3-9.pdb
+  [10] ❌ No SECONDARY file for 7QR4-1.pdb
+  [11] ❌ No SECONDARY file for 7QR4-10.pdb
+  [12] ❌ No SECONDARY file for 7QR4-2.pdb
+  [13] ❌ No SECONDARY file for 7QR4-3.pdb
+  [14] ❌ No SECONDARY file for 7QR4-4.pdb
+  [15] ❌ No SECONDARY file for 7QR4-5.pdb
+  [16] ❌ No SECONDARY file for 7QR4-6.pdb
+  [17] ❌ No SECONDARY file for 7QR4-7.pdb
+  [18] ❌ No SECONDARY file for 7QR4-8.pdb
+  [19] ❌ No SECONDARY file for 7QR4-9.pdb
+  [20] ❌ No SECONDARY file for 7YR6-1.pdb
+  [21] ❌ No SECONDARY file for 7YR6-10.pdb
+  [22] ❌ No SECONDARY file for 7YR6-2.pdb
+  [23] ❌ No SECONDARY file for 7YR6-3.pdb
+  [24] ❌ No SECONDARY file for 7YR6-4.pdb
+  [25] ❌ No SECONDARY file for 7YR6-5.pdb
+  [26] ❌ No SECONDARY file for 7YR6-6.pdb
+  [27] ❌ No SECONDARY file for 7YR6-7.pdb
+  [28] ❌ No SECONDARY file for 7YR6-8.pdb
+  [29] ❌ No SECONDARY file for 7YR6-9.pdb
+  [30] ❌ No SECONDARY file for 7YR7-1.pdb
+  [31] ❌ No SECONDARY file for 7YR7-10.pdb
+  [32] ❌ No SECONDARY file for 7YR7-2.pdb
+  [33] ❌ No SECONDARY file for 7YR7-3.pdb
+  [34] ❌ No SECONDARY file for 7YR7-4.pdb
+  [35] ❌ No SECONDARY file for 7YR7-5.pdb
+  [36] ❌ No SECONDARY file for 7YR7-6.pdb
+  [37] ❌ No SECONDARY file for 7YR7-7.pdb
+  [38] ❌ No SECONDARY file for 7YR7-8.pdb
+  [39] ❌ No SECONDARY file for 7YR7-9.pdb
+  [40] ❌ No SECONDARY file for 8UO6-1.pdb
+  [41] ❌ No SECONDARY file for 8UO6-10.pdb
+  [42] ❌ No SECONDARY file for 8UO6-2.pdb
+  [43] ❌ No SECONDARY file for 8UO6-3.pdb
+  [44] ❌ No SECONDARY file for 8UO6-4.pdb
+  [45] ❌ No SECONDARY file for 8UO6-5.pdb
+  [46] ❌ No SECONDARY file for 8UO6-6.pdb
+  [47] ❌ No SECONDARY file for 8UO6-7.pdb
+  [48] ❌ No SECONDARY file for 8UO6-8.pdb
+  [49] ❌ No SECONDARY file for 8UO6-9.pdb
+  [50] ❌ No SECONDARY file for 8UYE-1.pdb
+  [51] ❌ No SECONDARY file for 8UYE-10.pdb
+  [52] ❌ No SECONDARY file for 8UYE-2.pdb
+  [53] ❌ No SECONDARY file for 8UYE-3.pdb
+  [54] ❌ No SECONDARY file for 8UYE-4.pdb
+  [55] ❌ No SECONDARY file for 8UYE-5.pdb
+  [56] ❌ No SECONDARY file for 8UYE-6.pdb
+  [57] ❌ No SECONDARY file for 8UYE-7.pdb
+  [58] ❌ No SECONDARY file for 8UYE-8.pdb
+  [59] ❌ No SECONDARY file for 8UYE-9.pdb
+  [60] ❌ No SECONDARY file for 8UYS-1.pdb
+  [61] ❌ No SECONDARY file for 8UYS-10.pdb
+  [62] ❌ No SECONDARY file for 8UYS-2.pdb
+  [63] ❌ No SECONDARY file for 8UYS-3.pdb
+  [64] ❌ No SECONDARY file for 8UYS-4.pdb
+  [65] ❌ No SECONDARY file for 8UYS-5.pdb
+  [66] ❌ No SECONDARY file for 8UYS-6.pdb
+  [67] ❌ No SECONDARY file for 8UYS-7.pdb
+  [68] ❌ No SECONDARY file for 8UYS-8.pdb
+  [69] ❌ No SECONDARY file for 8UYS-9.pdb
+  [70] ❌ No SECONDARY file for 8VQV-1.pdb
+  [71] ❌ No SECONDARY file for 8VQV-10.pdb
+  [72] ❌ No SECONDARY file for 8VQV-2.pdb
+  [73] ❌ No SECONDARY file for 8VQV-3.pdb
+  [74] ❌ No SECONDARY file for 8VQV-4.pdb
+  [75] ❌ No SECONDARY file for 8VQV-5.pdb
+  [76] ❌ No SECONDARY file for 8VQV-6.pdb
+  [77] ❌ No SECONDARY file for 8VQV-7.pdb
+  [78] ❌ No SECONDARY file for 8VQV-8.pdb
+  [79] ❌ No SECONDARY file for 8VQV-9.pdb
+  [80] ❌ No SECONDARY file for 8VVJ-1.pdb
+  [81] ❌ No SECONDARY file for 8VVJ-10.pdb
+  [82] ❌ No SECONDARY file for 8VVJ-2.pdb
+  [83] ❌ No SECONDARY file for 8VVJ-3.pdb
+  [84] ❌ No SECONDARY file for 8VVJ-4.pdb
+  [85] ❌ No SECONDARY file for 8VVJ-5.pdb
+  [86] ❌ No SECONDARY file for 8VVJ-6.pdb
+  [87] ❌ No SECONDARY file for 8VVJ-7.pdb
+  [88] ❌ No SECONDARY file for 8VVJ-8.pdb
+  [89] ❌ No SECONDARY file for 8VVJ-9.pdb
+  [90] ❌ No SECONDARY file for 9BZ1-1.pdb
+  [91] ❌ No SECONDARY file for 9BZ1-10.pdb
+  [92] ❌ No SECONDARY file for 9BZ1-2.pdb
+  [93] ❌ No SECONDARY file for 9BZ1-3.pdb
+  [94] ❌ No SECONDARY file for 9BZ1-4.pdb
+  [95] ❌ No SECONDARY file for 9BZ1-5.pdb
+  [96] ❌ No SECONDARY file for 9BZ1-6.pdb
+  [97] ❌ No SECONDARY file for 9BZ1-7.pdb
+  [98] ❌ No SECONDARY file for 9BZ1-8.pdb
+  [99] ❌ No SECONDARY file for 9BZ1-9.pdb
+  [100] ❌ No SECONDARY file for 9BZC-1.pdb
+  [101] ❌ No SECONDARY file for 9BZC-10.pdb
+  [102] ❌ No SECONDARY file for 9BZC-2.pdb
+  [103] ❌ No SECONDARY file for 9BZC-3.pdb
+  [104] ❌ No SECONDARY file for 9BZC-4.pdb
+  [105] ❌ No SECONDARY file for 9BZC-5.pdb
+  [106] ❌ No SECONDARY file for 9BZC-6.pdb
+  [107] ❌ No SECONDARY file for 9BZC-7.pdb
+  [108] ❌ No SECONDARY file for 9BZC-8.pdb
+  [109] ❌ No SECONDARY file for 9BZC-9.pdb
+  [110] ❌ No SECONDARY file for 9C75-1.pdb
+  [111] ❌ No SECONDARY file for 9C75-10.pdb
+  [112] ❌ No SECONDARY file for 9C75-2.pdb
+  [113] ❌ No SECONDARY file for 9C75-3.pdb
+  [114] ❌ No SECONDARY file for 9C75-4.pdb
+  [115] ❌ No SECONDARY file for 9C75-5.pdb
+  [116] ❌ No SECONDARY file for 9C75-6.pdb
+  [117] ❌ No SECONDARY file for 9C75-7.pdb
+  [118] ❌ No SECONDARY file for 9C75-8.pdb
+  [119] ❌ No SECONDARY file for 9C75-9.pdb
+  [120] ❌ No SECONDARY file for 9CBU-1.pdb
+  [121] ❌ No SECONDARY file for 9CBU-10.pdb
+  [122] ❌ No SECONDARY file for 9CBU-2.pdb
+  [123] ❌ No SECONDARY file for 9CBU-3.pdb
+  [124] ❌ No SECONDARY file for 9CBU-4.pdb
+  [125] ❌ No SECONDARY file for 9CBU-5.pdb
+  [126] ❌ No SECONDARY file for 9CBU-6.pdb
+  [127] ❌ No SECONDARY file for 9CBU-7.pdb
+  [128] ❌ No SECONDARY file for 9CBU-8.pdb
+  [129] ❌ No SECONDARY file for 9CBU-9.pdb
+  [130] ❌ No SECONDARY file for 9ELY-1.pdb
+  [131] ❌ No SECONDARY file for 9ELY-10.pdb
+  [132] ❌ No SECONDARY file for 9ELY-2.pdb
+  [133] ❌ No SECONDARY file for 9ELY-3.pdb
+  [134] ❌ No SECONDARY file for 9ELY-4.pdb
+  [135] ❌ No SECONDARY file for 9ELY-5.pdb
+  [136] ❌ No SECONDARY file for 9ELY-6.pdb
+  [137] ❌ No SECONDARY file for 9ELY-7.pdb
+  [138] ❌ No SECONDARY file for 9ELY-8.pdb
+  [139] ❌ No SECONDARY file for 9ELY-9.pdb
+
+🔍 Processing FebRNA...
+  Found 100 PDB files (processing 100 total)
+  [0] ❌ No SECONDARY file for Select_Top1.pdb
+  [1] ❌ No SECONDARY file for Select_Top10.pdb
+  [2] ❌ No SECONDARY file for Select_Top11.pdb
+  [3] ❌ No SECONDARY file for Select_Top12.pdb
+  [4] ❌ No SECONDARY file for Select_Top13.pdb
+  [5] ❌ No SECONDARY file for Select_Top14.pdb
+  [6] ❌ No SECONDARY file for Select_Top15.pdb
+  [7] ❌ No SECONDARY file for Select_Top16.pdb
+  [8] ❌ No SECONDARY file for Select_Top17.pdb
+  [9] ❌ No SECONDARY file for Select_Top18.pdb
+  [10] ❌ No SECONDARY file for Select_Top19.pdb
+  [11] ❌ No SECONDARY file for Select_Top2.pdb
+  [12] ❌ No SECONDARY file for Select_Top20.pdb
+  [13] ❌ No SECONDARY file for Select_Top3.pdb
+  [14] ❌ No SECONDARY file for Select_Top4.pdb
+  [15] ❌ No SECONDARY file for Select_Top5.pdb
+  [16] ❌ No SECONDARY file for Select_Top6.pdb
+  [17] ❌ No SECONDARY file for Select_Top7.pdb
+  [18] ❌ No SECONDARY file for Select_Top8.pdb
+  [19] ❌ No SECONDARY file for Select_Top9.pdb
+  [20] ❌ No SECONDARY file for Select_Top1.pdb
+  [21] ❌ No SECONDARY file for Select_Top10.pdb
+  [22] ❌ No SECONDARY file for Select_Top11.pdb
+  [23] ❌ No SECONDARY file for Select_Top12.pdb
+  [24] ❌ No SECONDARY file for Select_Top13.pdb
+  [25] ❌ No SECONDARY file for Select_Top14.pdb
+  [26] ❌ No SECONDARY file for Select_Top15.pdb
+  [27] ❌ No SECONDARY file for Select_Top16.pdb
+  [28] ❌ No SECONDARY file for Select_Top17.pdb
+  [29] ❌ No SECONDARY file for Select_Top18.pdb
+  [30] ❌ No SECONDARY file for Select_Top19.pdb
+  [31] ❌ No SECONDARY file for Select_Top2.pdb
+  [32] ❌ No SECONDARY file for Select_Top20.pdb
+  [33] ❌ No SECONDARY file for Select_Top3.pdb
+  [34] ❌ No SECONDARY file for Select_Top4.pdb
+  [35] ❌ No SECONDARY file for Select_Top5.pdb
+  [36] ❌ No SECONDARY file for Select_Top6.pdb
+  [37] ❌ No SECONDARY file for Select_Top7.pdb
+  [38] ❌ No SECONDARY file for Select_Top8.pdb
+  [39] ❌ No SECONDARY file for Select_Top9.pdb
+  [40] ❌ No SECONDARY file for Select_Top1.pdb
+  [41] ❌ No SECONDARY file for Select_Top10.pdb
+  [42] ❌ No SECONDARY file for Select_Top11.pdb
+  [43] ❌ No SECONDARY file for Select_Top12.pdb
+  [44] ❌ No SECONDARY file for Select_Top13.pdb
+  [45] ❌ No SECONDARY file for Select_Top14.pdb
+  [46] ❌ No SECONDARY file for Select_Top15.pdb
+  [47] ❌ No SECONDARY file for Select_Top16.pdb
+  [48] ❌ No SECONDARY file for Select_Top17.pdb
+  [49] ❌ No SECONDARY file for Select_Top18.pdb
+  [50] ❌ No SECONDARY file for Select_Top19.pdb
+  [51] ❌ No SECONDARY file for Select_Top2.pdb
+  [52] ❌ No SECONDARY file for Select_Top20.pdb
+  [53] ❌ No SECONDARY file for Select_Top3.pdb
+  [54] ❌ No SECONDARY file for Select_Top4.pdb
+  [55] ❌ No SECONDARY file for Select_Top5.pdb
+  [56] ❌ No SECONDARY file for Select_Top6.pdb
+  [57] ❌ No SECONDARY file for Select_Top7.pdb
+  [58] ❌ No SECONDARY file for Select_Top8.pdb
+  [59] ❌ No SECONDARY file for Select_Top9.pdb
+  [60] ❌ No SECONDARY file for Select_Top1.pdb
+  [61] ❌ No SECONDARY file for Select_Top10.pdb
+  [62] ❌ No SECONDARY file for Select_Top11.pdb
+  [63] ❌ No SECONDARY file for Select_Top12.pdb
+  [64] ❌ No SECONDARY file for Select_Top13.pdb
+  [65] ❌ No SECONDARY file for Select_Top14.pdb
+  [66] ❌ No SECONDARY file for Select_Top15.pdb
+  [67] ❌ No SECONDARY file for Select_Top16.pdb
+  [68] ❌ No SECONDARY file for Select_Top17.pdb
+  [69] ❌ No SECONDARY file for Select_Top18.pdb
+  [70] ❌ No SECONDARY file for Select_Top19.pdb
+  [71] ❌ No SECONDARY file for Select_Top2.pdb
+  [72] ❌ No SECONDARY file for Select_Top20.pdb
+  [73] ❌ No SECONDARY file for Select_Top3.pdb
+  [74] ❌ No SECONDARY file for Select_Top4.pdb
+  [75] ❌ No SECONDARY file for Select_Top5.pdb
+  [76] ❌ No SECONDARY file for Select_Top6.pdb
+  [77] ❌ No SECONDARY file for Select_Top7.pdb
+  [78] ❌ No SECONDARY file for Select_Top8.pdb
+  [79] ❌ No SECONDARY file for Select_Top9.pdb
+  [80] ❌ No SECONDARY file for Select_Top1.pdb
+  [81] ❌ No SECONDARY file for Select_Top10.pdb
+  [82] ❌ No SECONDARY file for Select_Top11.pdb
+  [83] ❌ No SECONDARY file for Select_Top12.pdb
+  [84] ❌ No SECONDARY file for Select_Top13.pdb
+  [85] ❌ No SECONDARY file for Select_Top14.pdb
+  [86] ❌ No SECONDARY file for Select_Top15.pdb
+  [87] ❌ No SECONDARY file for Select_Top16.pdb
+  [88] ❌ No SECONDARY file for Select_Top17.pdb
+  [89] ❌ No SECONDARY file for Select_Top18.pdb
+  [90] ❌ No SECONDARY file for Select_Top19.pdb
+  [91] ❌ No SECONDARY file for Select_Top2.pdb
+  [92] ❌ No SECONDARY file for Select_Top20.pdb
+  [93] ❌ No SECONDARY file for Select_Top3.pdb
+  [94] ❌ No SECONDARY file for Select_Top4.pdb
+  [95] ❌ No SECONDARY file for Select_Top5.pdb
+  [96] ❌ No SECONDARY file for Select_Top6.pdb
+  [97] ❌ No SECONDARY file for Select_Top7.pdb
+  [98] ❌ No SECONDARY file for Select_Top8.pdb
+  [99] ❌ No SECONDARY file for Select_Top9.pdb
+
+🔍 Processing iFoldRNA...
+  Found 65 PDB files (processing 65 total)
+  [0] ❌ No SECONDARY file for cluster.1.pdb
+  [1] ❌ No SECONDARY file for cluster.2.pdb
+  [2] ❌ No SECONDARY file for cluster.1.pdb
+  [3] ❌ No SECONDARY file for cluster.1.pdb
+  [4] ❌ No SECONDARY file for cluster.2.pdb
+  [5] ❌ No SECONDARY file for cluster.3.pdb
+  [6] ❌ No SECONDARY file for cluster.4.pdb
+  [7] ❌ No SECONDARY file for cluster.5.pdb
+  [8] ❌ No SECONDARY file for cluster.1.pdb
+  [9] ❌ No SECONDARY file for cluster.2.pdb
+  [10] ❌ No SECONDARY file for cluster.3.pdb
+  [11] ❌ No SECONDARY file for cluster.4.pdb
+  [12] ❌ No SECONDARY file for cluster.5.pdb
+  [13] ❌ No SECONDARY file for cluster.1.pdb
+  [14] ❌ No SECONDARY file for cluster.2.pdb
+  [15] ❌ No SECONDARY file for cluster.3.pdb
+  [16] ❌ No SECONDARY file for cluster.4.pdb
+  [17] ❌ No SECONDARY file for cluster.5.pdb
+  [18] ❌ No SECONDARY file for cluster.1.pdb
+  [19] ❌ No SECONDARY file for cluster.2.pdb
+  [20] ❌ No SECONDARY file for cluster.3.pdb
+  [21] ❌ No SECONDARY file for cluster.4.pdb
+  [22] ❌ No SECONDARY file for cluster.5.pdb
+  [23] ❌ No SECONDARY file for cluster.1.pdb
+  [24] ❌ No SECONDARY file for cluster.2.pdb
+  [25] ❌ No SECONDARY file for cluster.3.pdb
+  [26] ❌ No SECONDARY file for cluster.4.pdb
+  [27] ❌ No SECONDARY file for cluster.5.pdb
+  [28] ❌ No SECONDARY file for cluster.1.pdb
+  [29] ❌ No SECONDARY file for cluster.2.pdb
+  [30] ❌ No SECONDARY file for cluster.1.pdb
+  [31] ❌ No SECONDARY file for cluster.2.pdb
+  [32] ❌ No SECONDARY file for cluster.3.pdb
+  [33] ❌ No SECONDARY file for cluster.4.pdb
+  [34] ❌ No SECONDARY file for cluster.5.pdb
+  [35] ❌ No SECONDARY file for cluster.1.pdb
+  [36] ❌ No SECONDARY file for cluster.2.pdb
+  [37] ❌ No SECONDARY file for cluster.3.pdb
+  [38] ❌ No SECONDARY file for cluster.4.pdb
+  [39] ❌ No SECONDARY file for cluster.5.pdb
+  [40] ❌ No SECONDARY file for cluster.1.pdb
+  [41] ❌ No SECONDARY file for cluster.2.pdb
+  [42] ❌ No SECONDARY file for cluster.3.pdb
+  [43] ❌ No SECONDARY file for cluster.4.pdb
+  [44] ❌ No SECONDARY file for cluster.5.pdb
+  [45] ❌ No SECONDARY file for cluster.1.pdb
+  [46] ❌ No SECONDARY file for cluster.2.pdb
+  [47] ❌ No SECONDARY file for cluster.3.pdb
+  [48] ❌ No SECONDARY file for cluster.4.pdb
+  [49] ❌ No SECONDARY file for cluster.5.pdb
+  [50] ❌ No SECONDARY file for cluster.1.pdb
+  [51] ❌ No SECONDARY file for cluster.2.pdb
+  [52] ❌ No SECONDARY file for cluster.3.pdb
+  [53] ❌ No SECONDARY file for cluster.4.pdb
+  [54] ❌ No SECONDARY file for cluster.5.pdb
+  [55] ❌ No SECONDARY file for cluster.1.pdb
+  [56] ❌ No SECONDARY file for cluster.2.pdb
+  [57] ❌ No SECONDARY file for cluster.3.pdb
+  [58] ❌ No SECONDARY file for cluster.4.pdb
+  [59] ❌ No SECONDARY file for cluster.5.pdb
+  [60] ❌ No SECONDARY file for cluster.1.pdb
+  [61] ❌ No SECONDARY file for cluster.2.pdb
+  [62] ❌ No SECONDARY file for cluster.3.pdb
+  [63] ❌ No SECONDARY file for cluster.4.pdb
+  [64] ❌ No SECONDARY file for cluster.5.pdb
+
+🔍 Processing NAST...
+  Found 51 PDB files (processing 51 total)
+  [0] ❌ No SECONDARY file for 7qr3-last.pdb
+  [1] ❌ No SECONDARY file for 7qr3-movie.pdb
+  [2] ❌ No SECONDARY file for 7qr4-last.pdb
+  [3] ❌ No SECONDARY file for 7qr4-movie.pdb
+  [4] ❌ No SECONDARY file for 7yr6-000000.pdb
+  [5] ❌ No SECONDARY file for 7yr6-000001.pdb
+  [6] ❌ No SECONDARY file for 7yr6-000002.pdb
+  [7] ❌ No SECONDARY file for 7yr6-000003.pdb
+  [8] ❌ No SECONDARY file for 7yr6-000004.pdb
+  [9] ❌ No SECONDARY file for 7yr6-000005.pdb
+  [10] ❌ No SECONDARY file for 7yr6-000006.pdb
+  [11] ❌ No SECONDARY file for 7yr6-000007.pdb
+  [12] ❌ No SECONDARY file for 7yr6-000008.pdb
+  [13] ❌ No SECONDARY file for 7yr6-000009.pdb
+  [14] ❌ No SECONDARY file for 7yr6-000010.pdb
+  [15] ❌ No SECONDARY file for 7yr6-000011.pdb
+  [16] ❌ No SECONDARY file for 7yr6-000012.pdb
+  [17] ❌ No SECONDARY file for 7yr6-000013.pdb
+  [18] ❌ No SECONDARY file for 7yr6-000014.pdb
+  [19] ❌ No SECONDARY file for 7yr6-000015.pdb
+  [20] ❌ No SECONDARY file for 7yr6-000016.pdb
+  [21] ❌ No SECONDARY file for 7yr7-last.pdb
+  [22] ❌ No SECONDARY file for 7yr7-movie.pdb
+  [23] ❌ No SECONDARY file for 8fza-last.pdb
+  [24] ❌ No SECONDARY file for 8fza-movie.pdb
+  [25] ❌ No SECONDARY file for 8s95-last.pdb
+  [26] ❌ No SECONDARY file for 8s95-movie.pdb
+  [27] ❌ No SECONDARY file for 8uo6-last.pdb
+  [28] ❌ No SECONDARY file for 8uo6-movie.pdb
+  [29] ❌ No SECONDARY file for 8uye-last.pdb
+  [30] ❌ No SECONDARY file for 8uye-movie.pdb
+  [31] ❌ No SECONDARY file for 8uys-last.pdb
+  [32] ❌ No SECONDARY file for 8uys-movie.pdb
+  [33] ❌ No SECONDARY file for 8vqv-last.pdb
+  [34] ❌ No SECONDARY file for 8vqv-movie.pdb
+  [35] ❌ No SECONDARY file for 8vvj-last.pdb
+  [36] ❌ No SECONDARY file for 8vvj-movie.pdb
+  [37] ❌ No SECONDARY file for 9bz1-last.pdb
+  [38] ❌ No SECONDARY file for 9bz1-movie.pdb
+  [39] ❌ No SECONDARY file for 9bzc-last.pdb
+  [40] ❌ No SECONDARY file for 9bzc-movie.pdb
+  [41] ❌ No SECONDARY file for 9c75-last.pdb
+  [42] ❌ No SECONDARY file for 9c75-movie.pdb
+  [43] ❌ No SECONDARY file for 9cbu-last.pdb
+  [44] ❌ No SECONDARY file for 9cbu-movie.pdb
+  [45] ❌ No SECONDARY file for 9dcf-last.pdb
+  [46] ❌ No SECONDARY file for 9dcf-movie.pdb
+  [47] ❌ No SECONDARY file for 9ely-last.pdb
+  [48] ❌ No SECONDARY file for 9ely-movie.pdb
+  [49] ❌ No SECONDARY file for 9j6y-last.pdb
+  [50] ❌ No SECONDARY file for 9j6y-movie.pdb
+
+🔍 Processing RNAComposer...
+  Found 134 PDB files (processing 134 total)
+  [0] ✅ 7QR3.pdb
+  [1] ✅ 7QR3_model_1.pdb
+  [2] ✅ 7QR3.pdb
+  [3] ✅ 7QR3_model_1.pdb
+  [4] ✅ 7QR3_model_10.pdb
+  [5] ✅ 7QR3_model_2.pdb
+  [6] ✅ 7QR3_model_3.pdb
+  [7] ✅ 7QR3_model_4.pdb
+  [8] ✅ 7QR3_model_5.pdb
+  [9] ✅ 7QR3_model_6.pdb
+  [10] ✅ 7QR3_model_7.pdb
+  [11] ✅ 7QR3_model_8.pdb
+  [12] ✅ 7QR3_model_9.pdb
+  [13] ✅ 7QR3.pdb
+  [14] ✅ 7QR3_model_1.pdb
+  [15] ✅ 7QR3_model_10.pdb
+  [16] ✅ 7QR3_model_2.pdb
+  [17] ✅ 7QR3_model_3.pdb
+  [18] ✅ 7QR3_model_4.pdb
+  [19] ✅ 7QR3_model_5.pdb
+  [20] ✅ 7QR3_model_6.pdb
+  [21] ✅ 7QR3_model_7.pdb
+  [22] ✅ 7QR3_model_8.pdb
+  [23] ✅ 7QR3_model_9.pdb
+  [24] ✅ 7QR4.pdb
+  [25] ✅ 7QR4_model_1.pdb
+  [26] ✅ 7QR4_model_10.pdb
+  [27] ✅ 7QR4_model_2.pdb
+  [28] ✅ 7QR4_model_3.pdb
+  [29] ✅ 7QR4_model_4.pdb
+  [30] ✅ 7QR4_model_5.pdb
+  [31] ✅ 7QR4_model_6.pdb
+  [32] ✅ 7QR4_model_7.pdb
+  [33] ✅ 7QR4_model_8.pdb
+  [34] ✅ 7QR4_model_9.pdb
+  [35] ✅ 7YR6.pdb
+  [36] ✅ 7YR6_model_1.pdb
+  [37] ✅ 7YR6_model_10.pdb
+  [38] ✅ 7YR6_model_2.pdb
+  [39] ✅ 7YR6_model_3.pdb
+  [40] ✅ 7YR6_model_4.pdb
+  [41] ✅ 7YR6_model_5.pdb
+  [42] ✅ 7YR6_model_6.pdb
+  [43] ✅ 7YR6_model_7.pdb
+  [44] ✅ 7YR6_model_8.pdb
+  [44] ❌ Error: 7YR6_model_8.pdb: [Errno 2] No such file or directory: '/Users/jhonatan/Downloads/casp-predictions
+Traceback (most recent call last):
+  File "/Users/jhonatan/Downloads/casp-predictions/run_garn3.py", line 206, in <module>
+    print("\n" + "=" * 60)
+    ^^^^^^
+  File "/Users/jhonatan/Downloads/casp-predictions/run_garn3.py", line 195, in main
+    print(f"❌ SECONDARY folder not found at {SECONDARY_DIR}")
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jhonatan/Downloads/casp-predictions/run_garn3.py", line 101, in process_tool_folder
+    molecule_output_dir.mkdir(exist_ok=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 1011, in mkdir
+    os.mkdir(self, mode)
+    ~~~~~~~~^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/jhonatan/Downloads/casp-predictions/RNAComposer_GARN/7YR6'

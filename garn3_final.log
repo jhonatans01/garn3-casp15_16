@@ -1,0 +1,1465 @@
+============================================================
+GARN3 Model Generation
+============================================================
+
+🔍 Processing AlphaFold...
+  Found 320 PDB files (processing 320 total)
+  [0] ✅ 7QR3_A.pdb
+  [1] ✅ 7QR3_B.pdb
+  [2] ✅ 7QR3_C.pdb
+  [3] ✅ 7QR3_D.pdb
+  [4] ✅ 7QR3_E.pdb
+  [5] ✅ 7QR3_F.pdb
+  [6] ✅ 7QR3_G.pdb
+  [7] ✅ 7QR3_H.pdb
+  [8] ✅ 7QR3_I.pdb
+  [9] ✅ 7QR3_J.pdb
+  [10] ✅ 7QR3_K.pdb
+  [11] ✅ 7QR3_L.pdb
+  [12] ✅ 7QR3_M.pdb
+  [13] ✅ 7QR3_N.pdb
+  [14] ✅ 7QR3_O.pdb
+  [15] ✅ 7QR3_P.pdb
+  [16] ✅ 7QR3_Q.pdb
+  [17] ✅ 7QR3_R.pdb
+  [18] ✅ 7QR3_S.pdb
+  [19] ✅ 7QR3_T.pdb
+  [20] ✅ 7QR4_A.pdb
+  [21] ✅ 7QR4_B.pdb
+  [22] ✅ 7QR4_C.pdb
+  [23] ✅ 7QR4_D.pdb
+  [24] ✅ 7QR4_E.pdb
+  [25] ✅ 7QR4_F.pdb
+  [26] ✅ 7QR4_G.pdb
+  [27] ✅ 7QR4_H.pdb
+  [28] ✅ 7QR4_I.pdb
+  [29] ✅ 7QR4_J.pdb
+  [30] ✅ 7QR4_K.pdb
+  [31] ✅ 7QR4_L.pdb
+  [32] ✅ 7QR4_M.pdb
+  [33] ✅ 7QR4_N.pdb
+  [34] ✅ 7QR4_O.pdb
+  [35] ✅ 7QR4_P.pdb
+  [36] ✅ 7QR4_Q.pdb
+  [37] ✅ 7QR4_R.pdb
+  [38] ✅ 7QR4_S.pdb
+  [39] ✅ 7QR4_T.pdb
+  [40] ✅ 7YR6_A.pdb
+  [41] ✅ 7YR6_B.pdb
+  [42] ✅ 7YR6_C.pdb
+  [43] ✅ 7YR6_D.pdb
+  [44] ✅ 7YR6_E.pdb
+  [45] ✅ 7YR6_F.pdb
+  [46] ✅ 7YR6_G.pdb
+  [47] ✅ 7YR6_H.pdb
+  [48] ✅ 7YR6_I.pdb
+  [49] ✅ 7YR6_J.pdb
+  [50] ✅ 7YR6_K.pdb
+  [51] ✅ 7YR6_L.pdb
+  [52] ✅ 7YR6_M.pdb
+  [53] ✅ 7YR6_N.pdb
+  [54] ✅ 7YR6_O.pdb
+  [55] ✅ 7YR6_P.pdb
+  [56] ✅ 7YR6_Q.pdb
+  [57] ✅ 7YR6_R.pdb
+  [58] ✅ 7YR6_S.pdb
+  [59] ✅ 7YR6_T.pdb
+  [60] ✅ 7YR7_A.pdb
+  [61] ✅ 7YR7_B.pdb
+  [62] ✅ 7YR7_C.pdb
+  [63] ✅ 7YR7_D.pdb
+  [64] ✅ 7YR7_E.pdb
+  [65] ✅ 7YR7_F.pdb
+  [66] ✅ 7YR7_G.pdb
+  [67] ✅ 7YR7_H.pdb
+  [68] ✅ 7YR7_I.pdb
+  [69] ✅ 7YR7_J.pdb
+  [70] ✅ 7YR7_K.pdb
+  [71] ✅ 7YR7_L.pdb
+  [72] ✅ 7YR7_M.pdb
+  [73] ✅ 7YR7_N.pdb
+  [74] ✅ 7YR7_O.pdb
+  [75] ✅ 7YR7_P.pdb
+  [76] ✅ 7YR7_Q.pdb
+  [77] ✅ 7YR7_R.pdb
+  [78] ✅ 7YR7_S.pdb
+  [79] ✅ 7YR7_T.pdb
+  [80] ✅ 8FZA_A.pdb
+  [81] ✅ 8FZA_B.pdb
+  [82] ✅ 8FZA_C.pdb
+  [83] ✅ 8FZA_D.pdb
+  [84] ✅ 8FZA_E.pdb
+  [85] ✅ 8FZA_F.pdb
+  [86] ✅ 8FZA_G.pdb
+  [87] ✅ 8FZA_H.pdb
+  [88] ✅ 8FZA_I.pdb
+  [89] ✅ 8FZA_J.pdb
+  [90] ✅ 8FZA_K.pdb
+  [91] ✅ 8FZA_L.pdb
+  [92] ✅ 8FZA_M.pdb
+  [93] ✅ 8FZA_N.pdb
+  [94] ✅ 8FZA_O.pdb
+  [95] ✅ 8FZA_P.pdb
+  [96] ✅ 8FZA_Q.pdb
+  [97] ✅ 8FZA_R.pdb
+  [98] ✅ 8FZA_S.pdb
+  [99] ✅ 8FZA_T.pdb
+  [100] ✅ 8S95_A.pdb
+  [101] ✅ 8S95_B.pdb
+  [102] ✅ 8S95_C.pdb
+  [103] ✅ 8S95_D.pdb
+  [104] ✅ 8S95_E.pdb
+  [105] ✅ 8S95_F.pdb
+  [106] ✅ 8S95_G.pdb
+  [107] ✅ 8S95_H.pdb
+  [108] ✅ 8S95_I.pdb
+  [109] ✅ 8S95_J.pdb
+  [110] ✅ 8S95_K.pdb
+  [111] ✅ 8S95_L.pdb
+  [112] ✅ 8S95_M.pdb
+  [113] ✅ 8S95_N.pdb
+  [114] ✅ 8S95_O.pdb
+  [115] ✅ 8S95_P.pdb
+  [116] ✅ 8S95_Q.pdb
+  [117] ✅ 8S95_R.pdb
+  [118] ✅ 8S95_S.pdb
+  [119] ✅ 8S95_T.pdb
+  [120] ✅ 8UO6_A.pdb
+  [121] ✅ 8UO6_B.pdb
+  [122] ✅ 8UO6_C.pdb
+  [123] ✅ 8UO6_D.pdb
+  [124] ✅ 8UO6_E.pdb
+  [125] ✅ 8UO6_F.pdb
+  [126] ✅ 8UO6_G.pdb
+  [127] ✅ 8UO6_H.pdb
+  [128] ✅ 8UO6_I.pdb
+  [129] ✅ 8UO6_J.pdb
+  [130] ✅ 8UO6_K.pdb
+  [131] ✅ 8UO6_L.pdb
+  [132] ✅ 8UO6_M.pdb
+  [133] ✅ 8UO6_N.pdb
+  [134] ✅ 8UO6_O.pdb
+  [135] ✅ 8UO6_P.pdb
+  [136] ✅ 8UO6_Q.pdb
+  [137] ✅ 8UO6_R.pdb
+  [138] ✅ 8UO6_S.pdb
+  [139] ✅ 8UO6_T.pdb
+  [140] ✅ 8UYE_A.pdb
+  [141] ✅ 8UYE_B.pdb
+  [142] ✅ 8UYE_C.pdb
+  [143] ✅ 8UYE_D.pdb
+  [144] ✅ 8UYE_E.pdb
+  [145] ✅ 8UYE_F.pdb
+  [146] ✅ 8UYE_G.pdb
+  [147] ✅ 8UYE_H.pdb
+  [148] ✅ 8UYE_I.pdb
+  [149] ✅ 8UYE_J.pdb
+  [150] ✅ 8UYE_K.pdb
+  [151] ✅ 8UYE_L.pdb
+  [152] ✅ 8UYE_M.pdb
+  [153] ✅ 8UYE_N.pdb
+  [154] ✅ 8UYE_O.pdb
+  [155] ✅ 8UYE_P.pdb
+  [156] ✅ 8UYE_Q.pdb
+  [157] ✅ 8UYE_R.pdb
+  [158] ✅ 8UYE_S.pdb
+  [159] ✅ 8UYE_T.pdb
+  [160] ✅ 8UYS_A.pdb
+  [161] ✅ 8UYS_B.pdb
+  [162] ✅ 8UYS_C.pdb
+  [163] ✅ 8UYS_D.pdb
+  [164] ✅ 8UYS_E.pdb
+  [165] ✅ 8UYS_F.pdb
+  [166] ✅ 8UYS_G.pdb
+  [167] ✅ 8UYS_H.pdb
+  [168] ✅ 8UYS_I.pdb
+  [169] ✅ 8UYS_J.pdb
+  [170] ✅ 8UYS_K.pdb
+  [171] ✅ 8UYS_L.pdb
+  [172] ✅ 8UYS_M.pdb
+  [173] ✅ 8UYS_N.pdb
+  [174] ✅ 8UYS_O.pdb
+  [175] ✅ 8UYS_P.pdb
+  [176] ✅ 8UYS_Q.pdb
+  [177] ✅ 8UYS_R.pdb
+  [178] ✅ 8UYS_S.pdb
+  [179] ✅ 8UYS_T.pdb
+  [180] ❌ Failed: 8VQV_A.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [181] ❌ Failed: 8VQV_B.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [182] ❌ Failed: 8VQV_C.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [183] ❌ Failed: 8VQV_D.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [184] ❌ Failed: 8VQV_E.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [185] ❌ Failed: 8VQV_F.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [186] ❌ Failed: 8VQV_G.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [187] ❌ Failed: 8VQV_H.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [188] ❌ Failed: 8VQV_I.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [189] ❌ Failed: 8VQV_J.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [190] ❌ Failed: 8VQV_K.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [191] ❌ Failed: 8VQV_L.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [192] ❌ Failed: 8VQV_M.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [193] ❌ Failed: 8VQV_N.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [194] ❌ Failed: 8VQV_O.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [195] ❌ Failed: 8VQV_P.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [196] ❌ Failed: 8VQV_Q.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [197] ❌ Failed: 8VQV_R.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [198] ❌ Failed: 8VQV_S.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [199] ❌ Failed: 8VQV_T.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [200] ❌ Failed: 8VVJ_A.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [201] ❌ Failed: 8VVJ_B.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [202] ❌ Failed: 8VVJ_C.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [203] ❌ Failed: 8VVJ_D.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [204] ❌ Failed: 8VVJ_E.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [205] ❌ Failed: 8VVJ_F.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [206] ❌ Failed: 8VVJ_G.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [207] ❌ Failed: 8VVJ_H.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [208] ❌ Failed: 8VVJ_I.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [209] ❌ Failed: 8VVJ_J.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [210] ❌ Failed: 8VVJ_K.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [211] ❌ Failed: 8VVJ_L.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [212] ❌ Failed: 8VVJ_M.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [213] ❌ Failed: 8VVJ_N.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [214] ❌ Failed: 8VVJ_O.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [215] ❌ Failed: 8VVJ_P.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [216] ❌ Failed: 8VVJ_Q.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [217] ❌ Failed: 8VVJ_R.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [218] ❌ Failed: 8VVJ_S.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [219] ❌ Failed: 8VVJ_T.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [220] ✅ 9BZ1_A.pdb
+  [221] ✅ 9BZ1_B.pdb
+  [222] ✅ 9BZ1_C.pdb
+  [223] ✅ 9BZ1_D.pdb
+  [224] ✅ 9BZ1_E.pdb
+  [225] ✅ 9BZ1_F.pdb
+  [226] ✅ 9BZ1_G.pdb
+  [227] ✅ 9BZ1_H.pdb
+  [228] ✅ 9BZ1_I.pdb
+  [229] ✅ 9BZ1_J.pdb
+  [230] ✅ 9BZ1_K.pdb
+  [231] ✅ 9BZ1_L.pdb
+  [232] ✅ 9BZ1_M.pdb
+  [233] ✅ 9BZ1_N.pdb
+  [234] ✅ 9BZ1_O.pdb
+  [235] ✅ 9BZ1_P.pdb
+  [236] ✅ 9BZ1_Q.pdb
+  [237] ✅ 9BZ1_R.pdb
+  [238] ✅ 9BZ1_S.pdb
+  [239] ✅ 9BZ1_T.pdb
+  [240] ✅ 9BZC_A.pdb
+  [241] ✅ 9BZC_B.pdb
+  [242] ✅ 9BZC_C.pdb
+  [243] ✅ 9BZC_D.pdb
+  [244] ✅ 9BZC_E.pdb
+  [245] ✅ 9BZC_F.pdb
+  [246] ✅ 9BZC_G.pdb
+  [247] ✅ 9BZC_H.pdb
+  [248] ✅ 9BZC_I.pdb
+  [249] ✅ 9BZC_J.pdb
+  [250] ✅ 9BZC_K.pdb
+  [251] ✅ 9BZC_L.pdb
+  [252] ✅ 9BZC_M.pdb
+  [253] ✅ 9BZC_N.pdb
+  [254] ✅ 9BZC_O.pdb
+  [255] ✅ 9BZC_P.pdb
+  [256] ✅ 9BZC_Q.pdb
+  [257] ✅ 9BZC_R.pdb
+  [258] ✅ 9BZC_S.pdb
+  [259] ✅ 9BZC_T.pdb
+  [260] ✅ 9C75_A.pdb
+  [261] ✅ 9C75_B.pdb
+  [262] ✅ 9C75_C.pdb
+  [263] ✅ 9C75_D.pdb
+  [264] ✅ 9C75_E.pdb
+  [265] ✅ 9C75_F.pdb
+  [266] ✅ 9C75_G.pdb
+  [267] ✅ 9C75_H.pdb
+  [268] ✅ 9C75_I.pdb
+  [269] ✅ 9C75_J.pdb
+  [270] ✅ 9C75_K.pdb
+  [271] ✅ 9C75_L.pdb
+  [272] ✅ 9C75_M.pdb
+  [273] ✅ 9C75_N.pdb
+  [274] ✅ 9C75_O.pdb
+  [275] ✅ 9C75_P.pdb
+  [276] ✅ 9C75_Q.pdb
+  [277] ✅ 9C75_R.pdb
+  [278] ✅ 9C75_S.pdb
+  [279] ✅ 9C75_T.pdb
+  [280] ✅ 9DCF_A.pdb
+  [281] ✅ 9DCF_B.pdb
+  [282] ✅ 9DCF_C.pdb
+  [283] ✅ 9DCF_D.pdb
+  [284] ✅ 9DCF_E.pdb
+  [285] ✅ 9DCF_F.pdb
+  [286] ✅ 9DCF_G.pdb
+  [287] ✅ 9DCF_H.pdb
+  [288] ✅ 9DCF_I.pdb
+  [289] ✅ 9DCF_J.pdb
+  [290] ✅ 9DCF_K.pdb
+  [291] ✅ 9DCF_L.pdb
+  [292] ✅ 9DCF_M.pdb
+  [293] ✅ 9DCF_N.pdb
+  [294] ✅ 9DCF_O.pdb
+  [295] ✅ 9DCF_P.pdb
+  [296] ✅ 9DCF_Q.pdb
+  [297] ✅ 9DCF_R.pdb
+  [298] ✅ 9DCF_S.pdb
+  [299] ✅ 9DCF_T.pdb
+  [300] ✅ 9ELY_A.pdb
+  [301] ✅ 9ELY_B.pdb
+  [302] ✅ 9ELY_C.pdb
+  [303] ✅ 9ELY_D.pdb
+  [304] ✅ 9ELY_E.pdb
+  [305] ✅ 9ELY_F.pdb
+  [306] ✅ 9ELY_G.pdb
+  [307] ✅ 9ELY_H.pdb
+  [308] ✅ 9ELY_I.pdb
+  [309] ✅ 9ELY_J.pdb
+  [310] ✅ 9ELY_K.pdb
+  [311] ✅ 9ELY_L.pdb
+  [312] ✅ 9ELY_M.pdb
+  [313] ✅ 9ELY_N.pdb
+  [314] ✅ 9ELY_O.pdb
+  [315] ✅ 9ELY_P.pdb
+  [316] ✅ 9ELY_Q.pdb
+  [317] ✅ 9ELY_R.pdb
+  [318] ✅ 9ELY_S.pdb
+  [319] ✅ 9ELY_T.pdb
+
+🔍 Processing FARFAR2...
+  Found 140 PDB files (processing 140 total)
+  [0] ❌ No SECONDARY file for 7QR3-1.pdb
+  [1] ❌ No SECONDARY file for 7QR3-10.pdb
+  [2] ❌ No SECONDARY file for 7QR3-2.pdb
+  [3] ❌ No SECONDARY file for 7QR3-3.pdb
+  [4] ❌ No SECONDARY file for 7QR3-4.pdb
+  [5] ❌ No SECONDARY file for 7QR3-5.pdb
+  [6] ❌ No SECONDARY file for 7QR3-6.pdb
+  [7] ❌ No SECONDARY file for 7QR3-7.pdb
+  [8] ❌ No SECONDARY file for 7QR3-8.pdb
+  [9] ❌ No SECONDARY file for 7QR3-9.pdb
+  [10] ❌ No SECONDARY file for 7QR4-1.pdb
+  [11] ❌ No SECONDARY file for 7QR4-10.pdb
+  [12] ❌ No SECONDARY file for 7QR4-2.pdb
+  [13] ❌ No SECONDARY file for 7QR4-3.pdb
+  [14] ❌ No SECONDARY file for 7QR4-4.pdb
+  [15] ❌ No SECONDARY file for 7QR4-5.pdb
+  [16] ❌ No SECONDARY file for 7QR4-6.pdb
+  [17] ❌ No SECONDARY file for 7QR4-7.pdb
+  [18] ❌ No SECONDARY file for 7QR4-8.pdb
+  [19] ❌ No SECONDARY file for 7QR4-9.pdb
+  [20] ❌ No SECONDARY file for 7YR6-1.pdb
+  [21] ❌ No SECONDARY file for 7YR6-10.pdb
+  [22] ❌ No SECONDARY file for 7YR6-2.pdb
+  [23] ❌ No SECONDARY file for 7YR6-3.pdb
+  [24] ❌ No SECONDARY file for 7YR6-4.pdb
+  [25] ❌ No SECONDARY file for 7YR6-5.pdb
+  [26] ❌ No SECONDARY file for 7YR6-6.pdb
+  [27] ❌ No SECONDARY file for 7YR6-7.pdb
+  [28] ❌ No SECONDARY file for 7YR6-8.pdb
+  [29] ❌ No SECONDARY file for 7YR6-9.pdb
+  [30] ❌ No SECONDARY file for 7YR7-1.pdb
+  [31] ❌ No SECONDARY file for 7YR7-10.pdb
+  [32] ❌ No SECONDARY file for 7YR7-2.pdb
+  [33] ❌ No SECONDARY file for 7YR7-3.pdb
+  [34] ❌ No SECONDARY file for 7YR7-4.pdb
+  [35] ❌ No SECONDARY file for 7YR7-5.pdb
+  [36] ❌ No SECONDARY file for 7YR7-6.pdb
+  [37] ❌ No SECONDARY file for 7YR7-7.pdb
+  [38] ❌ No SECONDARY file for 7YR7-8.pdb
+  [39] ❌ No SECONDARY file for 7YR7-9.pdb
+  [40] ❌ No SECONDARY file for 8UO6-1.pdb
+  [41] ❌ No SECONDARY file for 8UO6-10.pdb
+  [42] ❌ No SECONDARY file for 8UO6-2.pdb
+  [43] ❌ No SECONDARY file for 8UO6-3.pdb
+  [44] ❌ No SECONDARY file for 8UO6-4.pdb
+  [45] ❌ No SECONDARY file for 8UO6-5.pdb
+  [46] ❌ No SECONDARY file for 8UO6-6.pdb
+  [47] ❌ No SECONDARY file for 8UO6-7.pdb
+  [48] ❌ No SECONDARY file for 8UO6-8.pdb
+  [49] ❌ No SECONDARY file for 8UO6-9.pdb
+  [50] ❌ No SECONDARY file for 8UYE-1.pdb
+  [51] ❌ No SECONDARY file for 8UYE-10.pdb
+  [52] ❌ No SECONDARY file for 8UYE-2.pdb
+  [53] ❌ No SECONDARY file for 8UYE-3.pdb
+  [54] ❌ No SECONDARY file for 8UYE-4.pdb
+  [55] ❌ No SECONDARY file for 8UYE-5.pdb
+  [56] ❌ No SECONDARY file for 8UYE-6.pdb
+  [57] ❌ No SECONDARY file for 8UYE-7.pdb
+  [58] ❌ No SECONDARY file for 8UYE-8.pdb
+  [59] ❌ No SECONDARY file for 8UYE-9.pdb
+  [60] ❌ No SECONDARY file for 8UYS-1.pdb
+  [61] ❌ No SECONDARY file for 8UYS-10.pdb
+  [62] ❌ No SECONDARY file for 8UYS-2.pdb
+  [63] ❌ No SECONDARY file for 8UYS-3.pdb
+  [64] ❌ No SECONDARY file for 8UYS-4.pdb
+  [65] ❌ No SECONDARY file for 8UYS-5.pdb
+  [66] ❌ No SECONDARY file for 8UYS-6.pdb
+  [67] ❌ No SECONDARY file for 8UYS-7.pdb
+  [68] ❌ No SECONDARY file for 8UYS-8.pdb
+  [69] ❌ No SECONDARY file for 8UYS-9.pdb
+  [70] ❌ No SECONDARY file for 8VQV-1.pdb
+  [71] ❌ No SECONDARY file for 8VQV-10.pdb
+  [72] ❌ No SECONDARY file for 8VQV-2.pdb
+  [73] ❌ No SECONDARY file for 8VQV-3.pdb
+  [74] ❌ No SECONDARY file for 8VQV-4.pdb
+  [75] ❌ No SECONDARY file for 8VQV-5.pdb
+  [76] ❌ No SECONDARY file for 8VQV-6.pdb
+  [77] ❌ No SECONDARY file for 8VQV-7.pdb
+  [78] ❌ No SECONDARY file for 8VQV-8.pdb
+  [79] ❌ No SECONDARY file for 8VQV-9.pdb
+  [80] ❌ No SECONDARY file for 8VVJ-1.pdb
+  [81] ❌ No SECONDARY file for 8VVJ-10.pdb
+  [82] ❌ No SECONDARY file for 8VVJ-2.pdb
+  [83] ❌ No SECONDARY file for 8VVJ-3.pdb
+  [84] ❌ No SECONDARY file for 8VVJ-4.pdb
+  [85] ❌ No SECONDARY file for 8VVJ-5.pdb
+  [86] ❌ No SECONDARY file for 8VVJ-6.pdb
+  [87] ❌ No SECONDARY file for 8VVJ-7.pdb
+  [88] ❌ No SECONDARY file for 8VVJ-8.pdb
+  [89] ❌ No SECONDARY file for 8VVJ-9.pdb
+  [90] ❌ No SECONDARY file for 9BZ1-1.pdb
+  [91] ❌ No SECONDARY file for 9BZ1-10.pdb
+  [92] ❌ No SECONDARY file for 9BZ1-2.pdb
+  [93] ❌ No SECONDARY file for 9BZ1-3.pdb
+  [94] ❌ No SECONDARY file for 9BZ1-4.pdb
+  [95] ❌ No SECONDARY file for 9BZ1-5.pdb
+  [96] ❌ No SECONDARY file for 9BZ1-6.pdb
+  [97] ❌ No SECONDARY file for 9BZ1-7.pdb
+  [98] ❌ No SECONDARY file for 9BZ1-8.pdb
+  [99] ❌ No SECONDARY file for 9BZ1-9.pdb
+  [100] ❌ No SECONDARY file for 9BZC-1.pdb
+  [101] ❌ No SECONDARY file for 9BZC-10.pdb
+  [102] ❌ No SECONDARY file for 9BZC-2.pdb
+  [103] ❌ No SECONDARY file for 9BZC-3.pdb
+  [104] ❌ No SECONDARY file for 9BZC-4.pdb
+  [105] ❌ No SECONDARY file for 9BZC-5.pdb
+  [106] ❌ No SECONDARY file for 9BZC-6.pdb
+  [107] ❌ No SECONDARY file for 9BZC-7.pdb
+  [108] ❌ No SECONDARY file for 9BZC-8.pdb
+  [109] ❌ No SECONDARY file for 9BZC-9.pdb
+  [110] ❌ No SECONDARY file for 9C75-1.pdb
+  [111] ❌ No SECONDARY file for 9C75-10.pdb
+  [112] ❌ No SECONDARY file for 9C75-2.pdb
+  [113] ❌ No SECONDARY file for 9C75-3.pdb
+  [114] ❌ No SECONDARY file for 9C75-4.pdb
+  [115] ❌ No SECONDARY file for 9C75-5.pdb
+  [116] ❌ No SECONDARY file for 9C75-6.pdb
+  [117] ❌ No SECONDARY file for 9C75-7.pdb
+  [118] ❌ No SECONDARY file for 9C75-8.pdb
+  [119] ❌ No SECONDARY file for 9C75-9.pdb
+  [120] ❌ No SECONDARY file for 9CBU-1.pdb
+  [121] ❌ No SECONDARY file for 9CBU-10.pdb
+  [122] ❌ No SECONDARY file for 9CBU-2.pdb
+  [123] ❌ No SECONDARY file for 9CBU-3.pdb
+  [124] ❌ No SECONDARY file for 9CBU-4.pdb
+  [125] ❌ No SECONDARY file for 9CBU-5.pdb
+  [126] ❌ No SECONDARY file for 9CBU-6.pdb
+  [127] ❌ No SECONDARY file for 9CBU-7.pdb
+  [128] ❌ No SECONDARY file for 9CBU-8.pdb
+  [129] ❌ No SECONDARY file for 9CBU-9.pdb
+  [130] ❌ No SECONDARY file for 9ELY-1.pdb
+  [131] ❌ No SECONDARY file for 9ELY-10.pdb
+  [132] ❌ No SECONDARY file for 9ELY-2.pdb
+  [133] ❌ No SECONDARY file for 9ELY-3.pdb
+  [134] ❌ No SECONDARY file for 9ELY-4.pdb
+  [135] ❌ No SECONDARY file for 9ELY-5.pdb
+  [136] ❌ No SECONDARY file for 9ELY-6.pdb
+  [137] ❌ No SECONDARY file for 9ELY-7.pdb
+  [138] ❌ No SECONDARY file for 9ELY-8.pdb
+  [139] ❌ No SECONDARY file for 9ELY-9.pdb
+
+🔍 Processing FebRNA...
+  Found 100 PDB files (processing 100 total)
+  [0] ❌ No SECONDARY file for Select_Top1.pdb
+  [1] ❌ No SECONDARY file for Select_Top10.pdb
+  [2] ❌ No SECONDARY file for Select_Top11.pdb
+  [3] ❌ No SECONDARY file for Select_Top12.pdb
+  [4] ❌ No SECONDARY file for Select_Top13.pdb
+  [5] ❌ No SECONDARY file for Select_Top14.pdb
+  [6] ❌ No SECONDARY file for Select_Top15.pdb
+  [7] ❌ No SECONDARY file for Select_Top16.pdb
+  [8] ❌ No SECONDARY file for Select_Top17.pdb
+  [9] ❌ No SECONDARY file for Select_Top18.pdb
+  [10] ❌ No SECONDARY file for Select_Top19.pdb
+  [11] ❌ No SECONDARY file for Select_Top2.pdb
+  [12] ❌ No SECONDARY file for Select_Top20.pdb
+  [13] ❌ No SECONDARY file for Select_Top3.pdb
+  [14] ❌ No SECONDARY file for Select_Top4.pdb
+  [15] ❌ No SECONDARY file for Select_Top5.pdb
+  [16] ❌ No SECONDARY file for Select_Top6.pdb
+  [17] ❌ No SECONDARY file for Select_Top7.pdb
+  [18] ❌ No SECONDARY file for Select_Top8.pdb
+  [19] ❌ No SECONDARY file for Select_Top9.pdb
+  [20] ❌ No SECONDARY file for Select_Top1.pdb
+  [21] ❌ No SECONDARY file for Select_Top10.pdb
+  [22] ❌ No SECONDARY file for Select_Top11.pdb
+  [23] ❌ No SECONDARY file for Select_Top12.pdb
+  [24] ❌ No SECONDARY file for Select_Top13.pdb
+  [25] ❌ No SECONDARY file for Select_Top14.pdb
+  [26] ❌ No SECONDARY file for Select_Top15.pdb
+  [27] ❌ No SECONDARY file for Select_Top16.pdb
+  [28] ❌ No SECONDARY file for Select_Top17.pdb
+  [29] ❌ No SECONDARY file for Select_Top18.pdb
+  [30] ❌ No SECONDARY file for Select_Top19.pdb
+  [31] ❌ No SECONDARY file for Select_Top2.pdb
+  [32] ❌ No SECONDARY file for Select_Top20.pdb
+  [33] ❌ No SECONDARY file for Select_Top3.pdb
+  [34] ❌ No SECONDARY file for Select_Top4.pdb
+  [35] ❌ No SECONDARY file for Select_Top5.pdb
+  [36] ❌ No SECONDARY file for Select_Top6.pdb
+  [37] ❌ No SECONDARY file for Select_Top7.pdb
+  [38] ❌ No SECONDARY file for Select_Top8.pdb
+  [39] ❌ No SECONDARY file for Select_Top9.pdb
+  [40] ❌ No SECONDARY file for Select_Top1.pdb
+  [41] ❌ No SECONDARY file for Select_Top10.pdb
+  [42] ❌ No SECONDARY file for Select_Top11.pdb
+  [43] ❌ No SECONDARY file for Select_Top12.pdb
+  [44] ❌ No SECONDARY file for Select_Top13.pdb
+  [45] ❌ No SECONDARY file for Select_Top14.pdb
+  [46] ❌ No SECONDARY file for Select_Top15.pdb
+  [47] ❌ No SECONDARY file for Select_Top16.pdb
+  [48] ❌ No SECONDARY file for Select_Top17.pdb
+  [49] ❌ No SECONDARY file for Select_Top18.pdb
+  [50] ❌ No SECONDARY file for Select_Top19.pdb
+  [51] ❌ No SECONDARY file for Select_Top2.pdb
+  [52] ❌ No SECONDARY file for Select_Top20.pdb
+  [53] ❌ No SECONDARY file for Select_Top3.pdb
+  [54] ❌ No SECONDARY file for Select_Top4.pdb
+  [55] ❌ No SECONDARY file for Select_Top5.pdb
+  [56] ❌ No SECONDARY file for Select_Top6.pdb
+  [57] ❌ No SECONDARY file for Select_Top7.pdb
+  [58] ❌ No SECONDARY file for Select_Top8.pdb
+  [59] ❌ No SECONDARY file for Select_Top9.pdb
+  [60] ❌ No SECONDARY file for Select_Top1.pdb
+  [61] ❌ No SECONDARY file for Select_Top10.pdb
+  [62] ❌ No SECONDARY file for Select_Top11.pdb
+  [63] ❌ No SECONDARY file for Select_Top12.pdb
+  [64] ❌ No SECONDARY file for Select_Top13.pdb
+  [65] ❌ No SECONDARY file for Select_Top14.pdb
+  [66] ❌ No SECONDARY file for Select_Top15.pdb
+  [67] ❌ No SECONDARY file for Select_Top16.pdb
+  [68] ❌ No SECONDARY file for Select_Top17.pdb
+  [69] ❌ No SECONDARY file for Select_Top18.pdb
+  [70] ❌ No SECONDARY file for Select_Top19.pdb
+  [71] ❌ No SECONDARY file for Select_Top2.pdb
+  [72] ❌ No SECONDARY file for Select_Top20.pdb
+  [73] ❌ No SECONDARY file for Select_Top3.pdb
+  [74] ❌ No SECONDARY file for Select_Top4.pdb
+  [75] ❌ No SECONDARY file for Select_Top5.pdb
+  [76] ❌ No SECONDARY file for Select_Top6.pdb
+  [77] ❌ No SECONDARY file for Select_Top7.pdb
+  [78] ❌ No SECONDARY file for Select_Top8.pdb
+  [79] ❌ No SECONDARY file for Select_Top9.pdb
+  [80] ❌ No SECONDARY file for Select_Top1.pdb
+  [81] ❌ No SECONDARY file for Select_Top10.pdb
+  [82] ❌ No SECONDARY file for Select_Top11.pdb
+  [83] ❌ No SECONDARY file for Select_Top12.pdb
+  [84] ❌ No SECONDARY file for Select_Top13.pdb
+  [85] ❌ No SECONDARY file for Select_Top14.pdb
+  [86] ❌ No SECONDARY file for Select_Top15.pdb
+  [87] ❌ No SECONDARY file for Select_Top16.pdb
+  [88] ❌ No SECONDARY file for Select_Top17.pdb
+  [89] ❌ No SECONDARY file for Select_Top18.pdb
+  [90] ❌ No SECONDARY file for Select_Top19.pdb
+  [91] ❌ No SECONDARY file for Select_Top2.pdb
+  [92] ❌ No SECONDARY file for Select_Top20.pdb
+  [93] ❌ No SECONDARY file for Select_Top3.pdb
+  [94] ❌ No SECONDARY file for Select_Top4.pdb
+  [95] ❌ No SECONDARY file for Select_Top5.pdb
+  [96] ❌ No SECONDARY file for Select_Top6.pdb
+  [97] ❌ No SECONDARY file for Select_Top7.pdb
+  [98] ❌ No SECONDARY file for Select_Top8.pdb
+  [99] ❌ No SECONDARY file for Select_Top9.pdb
+
+🔍 Processing iFoldRNA...
+  Found 65 PDB files (processing 65 total)
+  [0] ❌ No SECONDARY file for cluster.1.pdb
+  [1] ❌ No SECONDARY file for cluster.2.pdb
+  [2] ❌ No SECONDARY file for cluster.1.pdb
+  [3] ❌ No SECONDARY file for cluster.1.pdb
+  [4] ❌ No SECONDARY file for cluster.2.pdb
+  [5] ❌ No SECONDARY file for cluster.3.pdb
+  [6] ❌ No SECONDARY file for cluster.4.pdb
+  [7] ❌ No SECONDARY file for cluster.5.pdb
+  [8] ❌ No SECONDARY file for cluster.1.pdb
+  [9] ❌ No SECONDARY file for cluster.2.pdb
+  [10] ❌ No SECONDARY file for cluster.3.pdb
+  [11] ❌ No SECONDARY file for cluster.4.pdb
+  [12] ❌ No SECONDARY file for cluster.5.pdb
+  [13] ❌ No SECONDARY file for cluster.1.pdb
+  [14] ❌ No SECONDARY file for cluster.2.pdb
+  [15] ❌ No SECONDARY file for cluster.3.pdb
+  [16] ❌ No SECONDARY file for cluster.4.pdb
+  [17] ❌ No SECONDARY file for cluster.5.pdb
+  [18] ❌ No SECONDARY file for cluster.1.pdb
+  [19] ❌ No SECONDARY file for cluster.2.pdb
+  [20] ❌ No SECONDARY file for cluster.3.pdb
+  [21] ❌ No SECONDARY file for cluster.4.pdb
+  [22] ❌ No SECONDARY file for cluster.5.pdb
+  [23] ❌ No SECONDARY file for cluster.1.pdb
+  [24] ❌ No SECONDARY file for cluster.2.pdb
+  [25] ❌ No SECONDARY file for cluster.3.pdb
+  [26] ❌ No SECONDARY file for cluster.4.pdb
+  [27] ❌ No SECONDARY file for cluster.5.pdb
+  [28] ❌ No SECONDARY file for cluster.1.pdb
+  [29] ❌ No SECONDARY file for cluster.2.pdb
+  [30] ❌ No SECONDARY file for cluster.1.pdb
+  [31] ❌ No SECONDARY file for cluster.2.pdb
+  [32] ❌ No SECONDARY file for cluster.3.pdb
+  [33] ❌ No SECONDARY file for cluster.4.pdb
+  [34] ❌ No SECONDARY file for cluster.5.pdb
+  [35] ❌ No SECONDARY file for cluster.1.pdb
+  [36] ❌ No SECONDARY file for cluster.2.pdb
+  [37] ❌ No SECONDARY file for cluster.3.pdb
+  [38] ❌ No SECONDARY file for cluster.4.pdb
+  [39] ❌ No SECONDARY file for cluster.5.pdb
+  [40] ❌ No SECONDARY file for cluster.1.pdb
+  [41] ❌ No SECONDARY file for cluster.2.pdb
+  [42] ❌ No SECONDARY file for cluster.3.pdb
+  [43] ❌ No SECONDARY file for cluster.4.pdb
+  [44] ❌ No SECONDARY file for cluster.5.pdb
+  [45] ❌ No SECONDARY file for cluster.1.pdb
+  [46] ❌ No SECONDARY file for cluster.2.pdb
+  [47] ❌ No SECONDARY file for cluster.3.pdb
+  [48] ❌ No SECONDARY file for cluster.4.pdb
+  [49] ❌ No SECONDARY file for cluster.5.pdb
+  [50] ❌ No SECONDARY file for cluster.1.pdb
+  [51] ❌ No SECONDARY file for cluster.2.pdb
+  [52] ❌ No SECONDARY file for cluster.3.pdb
+  [53] ❌ No SECONDARY file for cluster.4.pdb
+  [54] ❌ No SECONDARY file for cluster.5.pdb
+  [55] ❌ No SECONDARY file for cluster.1.pdb
+  [56] ❌ No SECONDARY file for cluster.2.pdb
+  [57] ❌ No SECONDARY file for cluster.3.pdb
+  [58] ❌ No SECONDARY file for cluster.4.pdb
+  [59] ❌ No SECONDARY file for cluster.5.pdb
+  [60] ❌ No SECONDARY file for cluster.1.pdb
+  [61] ❌ No SECONDARY file for cluster.2.pdb
+  [62] ❌ No SECONDARY file for cluster.3.pdb
+  [63] ❌ No SECONDARY file for cluster.4.pdb
+  [64] ❌ No SECONDARY file for cluster.5.pdb
+
+🔍 Processing NAST...
+  Found 51 PDB files (processing 51 total)
+  [0] ❌ No SECONDARY file for 7qr3-last.pdb
+  [1] ❌ No SECONDARY file for 7qr3-movie.pdb
+  [2] ❌ No SECONDARY file for 7qr4-last.pdb
+  [3] ❌ No SECONDARY file for 7qr4-movie.pdb
+  [4] ❌ No SECONDARY file for 7yr6-000000.pdb
+  [5] ❌ No SECONDARY file for 7yr6-000001.pdb
+  [6] ❌ No SECONDARY file for 7yr6-000002.pdb
+  [7] ❌ No SECONDARY file for 7yr6-000003.pdb
+  [8] ❌ No SECONDARY file for 7yr6-000004.pdb
+  [9] ❌ No SECONDARY file for 7yr6-000005.pdb
+  [10] ❌ No SECONDARY file for 7yr6-000006.pdb
+  [11] ❌ No SECONDARY file for 7yr6-000007.pdb
+  [12] ❌ No SECONDARY file for 7yr6-000008.pdb
+  [13] ❌ No SECONDARY file for 7yr6-000009.pdb
+  [14] ❌ No SECONDARY file for 7yr6-000010.pdb
+  [15] ❌ No SECONDARY file for 7yr6-000011.pdb
+  [16] ❌ No SECONDARY file for 7yr6-000012.pdb
+  [17] ❌ No SECONDARY file for 7yr6-000013.pdb
+  [18] ❌ No SECONDARY file for 7yr6-000014.pdb
+  [19] ❌ No SECONDARY file for 7yr6-000015.pdb
+  [20] ❌ No SECONDARY file for 7yr6-000016.pdb
+  [21] ❌ No SECONDARY file for 7yr7-last.pdb
+  [22] ❌ No SECONDARY file for 7yr7-movie.pdb
+  [23] ❌ No SECONDARY file for 8fza-last.pdb
+  [24] ❌ No SECONDARY file for 8fza-movie.pdb
+  [25] ❌ No SECONDARY file for 8s95-last.pdb
+  [26] ❌ No SECONDARY file for 8s95-movie.pdb
+  [27] ❌ No SECONDARY file for 8uo6-last.pdb
+  [28] ❌ No SECONDARY file for 8uo6-movie.pdb
+  [29] ❌ No SECONDARY file for 8uye-last.pdb
+  [30] ❌ No SECONDARY file for 8uye-movie.pdb
+  [31] ❌ No SECONDARY file for 8uys-last.pdb
+  [32] ❌ No SECONDARY file for 8uys-movie.pdb
+  [33] ❌ No SECONDARY file for 8vqv-last.pdb
+  [34] ❌ No SECONDARY file for 8vqv-movie.pdb
+  [35] ❌ No SECONDARY file for 8vvj-last.pdb
+  [36] ❌ No SECONDARY file for 8vvj-movie.pdb
+  [37] ❌ No SECONDARY file for 9bz1-last.pdb
+  [38] ❌ No SECONDARY file for 9bz1-movie.pdb
+  [39] ❌ No SECONDARY file for 9bzc-last.pdb
+  [40] ❌ No SECONDARY file for 9bzc-movie.pdb
+  [41] ❌ No SECONDARY file for 9c75-last.pdb
+  [42] ❌ No SECONDARY file for 9c75-movie.pdb
+  [43] ❌ No SECONDARY file for 9cbu-last.pdb
+  [44] ❌ No SECONDARY file for 9cbu-movie.pdb
+  [45] ❌ No SECONDARY file for 9dcf-last.pdb
+  [46] ❌ No SECONDARY file for 9dcf-movie.pdb
+  [47] ❌ No SECONDARY file for 9ely-last.pdb
+  [48] ❌ No SECONDARY file for 9ely-movie.pdb
+  [49] ❌ No SECONDARY file for 9j6y-last.pdb
+  [50] ❌ No SECONDARY file for 9j6y-movie.pdb
+
+🔍 Processing RNAComposer...
+  Found 134 PDB files (processing 134 total)
+  [0] ✅ 7QR3.pdb
+  [1] ✅ 7QR3_model_1.pdb
+  [2] ✅ 7QR3.pdb
+  [3] ✅ 7QR3_model_1.pdb
+  [4] ✅ 7QR3_model_10.pdb
+  [5] ✅ 7QR3_model_2.pdb
+  [6] ✅ 7QR3_model_3.pdb
+  [7] ✅ 7QR3_model_4.pdb
+  [8] ✅ 7QR3_model_5.pdb
+  [9] ✅ 7QR3_model_6.pdb
+  [10] ✅ 7QR3_model_7.pdb
+  [11] ✅ 7QR3_model_8.pdb
+  [12] ✅ 7QR3_model_9.pdb
+  [13] ✅ 7QR3.pdb
+  [14] ✅ 7QR3_model_1.pdb
+  [15] ✅ 7QR3_model_10.pdb
+  [16] ✅ 7QR3_model_2.pdb
+  [17] ✅ 7QR3_model_3.pdb
+  [18] ✅ 7QR3_model_4.pdb
+  [19] ✅ 7QR3_model_5.pdb
+  [20] ✅ 7QR3_model_6.pdb
+  [21] ✅ 7QR3_model_7.pdb
+  [22] ✅ 7QR3_model_8.pdb
+  [23] ✅ 7QR3_model_9.pdb
+  [24] ✅ 7QR4.pdb
+  [25] ✅ 7QR4_model_1.pdb
+  [26] ✅ 7QR4_model_10.pdb
+  [27] ✅ 7QR4_model_2.pdb
+  [28] ✅ 7QR4_model_3.pdb
+  [29] ✅ 7QR4_model_4.pdb
+  [30] ✅ 7QR4_model_5.pdb
+  [31] ✅ 7QR4_model_6.pdb
+  [32] ✅ 7QR4_model_7.pdb
+  [33] ✅ 7QR4_model_8.pdb
+  [34] ✅ 7QR4_model_9.pdb
+  [35] ✅ 7YR6.pdb
+  [36] ✅ 7YR6_model_1.pdb
+  [37] ✅ 7YR6_model_10.pdb
+  [38] ✅ 7YR6_model_2.pdb
+  [39] ✅ 7YR6_model_3.pdb
+  [40] ✅ 7YR6_model_4.pdb
+  [41] ✅ 7YR6_model_5.pdb
+  [42] ✅ 7YR6_model_6.pdb
+  [43] ✅ 7YR6_model_7.pdb
+  [44] ✅ 7YR6_model_8.pdb
+  [45] ✅ 7YR6_model_9.pdb
+  [46] ✅ 7YR7.pdb
+  [47] ✅ 7YR7_model_1.pdb
+  [48] ✅ 7YR7_model_10.pdb
+  [49] ✅ 7YR7_model_2.pdb
+  [50] ✅ 7YR7_model_3.pdb
+  [51] ✅ 7YR7_model_4.pdb
+  [52] ✅ 7YR7_model_5.pdb
+  [53] ✅ 7YR7_model_6.pdb
+  [54] ✅ 7YR7_model_7.pdb
+  [55] ✅ 7YR7_model_8.pdb
+  [56] ✅ 7YR7_model_9.pdb
+  [57] ✅ 8FZA.pdb
+  [58] ✅ 8FZA_model_1.pdb
+  [59] ✅ 8FZA_model_10.pdb
+  [60] ✅ 8FZA_model_2.pdb
+  [61] ✅ 8FZA_model_3.pdb
+  [62] ✅ 8FZA_model_4.pdb
+  [63] ✅ 8FZA_model_5.pdb
+  [64] ✅ 8FZA_model_6.pdb
+  [65] ✅ 8FZA_model_7.pdb
+  [66] ✅ 8FZA_model_8.pdb
+  [67] ✅ 8FZA_model_9.pdb
+  [68] ✅ 8UO6.pdb
+  [69] ✅ 8UO6_model_1.pdb
+  [70] ✅ 8UO6_model_10.pdb
+  [71] ✅ 8UO6_model_2.pdb
+  [72] ✅ 8UO6_model_3.pdb
+  [73] ✅ 8UO6_model_4.pdb
+  [74] ✅ 8UO6_model_5.pdb
+  [75] ✅ 8UO6_model_6.pdb
+  [76] ✅ 8UO6_model_7.pdb
+  [77] ✅ 8UO6_model_8.pdb
+  [78] ✅ 8UO6_model_9.pdb
+  [79] ✅ 8UYE.pdb
+  [80] ✅ 8UYE_model_1.pdb
+  [81] ✅ 8UYE_model_10.pdb
+  [82] ✅ 8UYE_model_2.pdb
+  [83] ✅ 8UYE_model_3.pdb
+  [84] ✅ 8UYE_model_4.pdb
+  [85] ✅ 8UYE_model_5.pdb
+  [86] ✅ 8UYE_model_6.pdb
+  [87] ✅ 8UYE_model_7.pdb
+  [88] ✅ 8UYE_model_8.pdb
+  [89] ✅ 8UYE_model_9.pdb
+  [90] ✅ 8UYS.pdb
+  [91] ✅ 8UYS_model_1.pdb
+  [92] ✅ 8UYS_model_10.pdb
+  [93] ✅ 8UYS_model_2.pdb
+  [94] ✅ 8UYS_model_3.pdb
+  [95] ✅ 8UYS_model_4.pdb
+  [96] ✅ 8UYS_model_5.pdb
+  [97] ✅ 8UYS_model_6.pdb
+  [98] ✅ 8UYS_model_7.pdb
+  [99] ✅ 8UYS_model_8.pdb
+  [100] ✅ 8UYS_model_9.pdb
+  [101] ❌ Failed: 8VVJ.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [102] ❌ Failed: 8VVJ_model_1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [103] ❌ Failed: 8VVJ_model_10.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [104] ❌ Failed: 8VVJ_model_2.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [105] ❌ Failed: 8VVJ_model_3.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [106] ❌ Failed: 8VVJ_model_4.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [107] ❌ Failed: 8VVJ_model_5.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [108] ❌ Failed: 8VVJ_model_6.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [109] ❌ Failed: 8VVJ_model_7.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [110] ❌ Failed: 8VVJ_model_8.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [111] ❌ Failed: 8VVJ_model_9.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [112] ✅ 9BZ1.pdb
+  [113] ✅ 9BZ1_model_1.pdb
+  [114] ✅ 9BZ1_model_10.pdb
+  [115] ✅ 9BZ1_model_2.pdb
+  [116] ✅ 9BZ1_model_3.pdb
+  [117] ✅ 9BZ1_model_4.pdb
+  [118] ✅ 9BZ1_model_5.pdb
+  [119] ✅ 9BZ1_model_6.pdb
+  [120] ✅ 9BZ1_model_7.pdb
+  [121] ✅ 9BZ1_model_8.pdb
+  [122] ✅ 9BZ1_model_9.pdb
+  [123] ✅ 9BZC.pdb
+  [124] ✅ 9BZC_model_1.pdb
+  [125] ✅ 9BZC_model_10.pdb
+  [126] ✅ 9BZC_model_2.pdb
+  [127] ✅ 9BZC_model_3.pdb
+  [128] ✅ 9BZC_model_4.pdb
+  [129] ✅ 9BZC_model_5.pdb
+  [130] ✅ 9BZC_model_6.pdb
+  [131] ✅ 9BZC_model_7.pdb
+  [132] ✅ 9BZC_model_8.pdb
+  [133] ✅ 9BZC_model_9.pdb
+
+🔍 Processing SimRNA...
+  Found 23 PDB files (processing 23 total)
+  [0] ❌ No SECONDARY file for 7yr6-90f81cc2_sim_minE_TOTAL-000001_AA.pdb
+  [1] ❌ No SECONDARY file for 7yr7-c5892150_sim_minE_TOTAL-000001_AA.pdb
+  [2] ❌ No SECONDARY file for 8fza-199b0101_sim_minE_TOTAL-000001_AA.pdb
+  [3] ❌ No SECONDARY file for 8fza-199b0101_sim_thrs3.00A_clust01-000001_AA.pdb
+  [4] ❌ No SECONDARY file for 8fza-199b0101_sim_thrs3.00A_clust02-000001_AA.pdb
+  [5] ❌ No SECONDARY file for 8fza-199b0101_sim_thrs3.00A_clust03-000001_AA.pdb
+  [6] ❌ No SECONDARY file for 8fza-199b0101_sim_thrs3.00A_clust04-000001_AA.pdb
+  [7] ❌ No SECONDARY file for 8fza-199b0101_sim_thrs3.00A_clust05-000001_AA.pdb
+  [8] ❌ No SECONDARY file for 8uo6-4bf424ce_sim_minE_TOTAL-000001_AA.pdb
+  [9] ❌ No SECONDARY file for 8uye-f5a9e691_sim_minE_TOTAL-000001_AA.pdb
+  [10] ❌ No SECONDARY file for 8uys-94c4bc0d_sim_minE_TOTAL-000001_AA.pdb
+  [11] ❌ No SECONDARY file for 8vqv-9fb81108_sim_minE_TOTAL-000001_AA.pdb
+  [12] ❌ No SECONDARY file for 8vqv-9fb81108_sim_thrs6.40A_clust01-000001_AA.pdb
+  [13] ❌ No SECONDARY file for 8vqv-9fb81108_sim_thrs6.40A_clust02-000001_AA.pdb
+  [14] ❌ No SECONDARY file for 8vqv-9fb81108_sim_thrs6.40A_clust03-000001_AA.pdb
+  [15] ❌ No SECONDARY file for 8vqv-9fb81108_sim_thrs6.40A_clust04-000001_AA.pdb
+  [16] ❌ No SECONDARY file for 8vqv-9fb81108_sim_thrs6.40A_clust05-000001_AA.pdb
+  [17] ❌ No SECONDARY file for 8vvj-715c8bc6_sim_minE_TOTAL-000001_AA.pdb
+  [18] ❌ No SECONDARY file for 8vvj-715c8bc6_sim_thrs6.40A_clust01-000001_AA.pdb
+  [19] ❌ No SECONDARY file for 8vvj-715c8bc6_sim_thrs6.40A_clust02-000001_AA.pdb
+  [20] ❌ No SECONDARY file for 8vvj-715c8bc6_sim_thrs6.40A_clust03-000001_AA.pdb
+  [21] ❌ No SECONDARY file for 8vvj-715c8bc6_sim_thrs6.40A_clust04-000001_AA.pdb
+  [22] ❌ No SECONDARY file for 8vvj-715c8bc6_sim_thrs6.40A_clust05-000001_AA.pdb
+
+🔍 Processing trRosettaRNA...
+  Found 185 PDB files (processing 185 total)
+  [0] ❌ No SECONDARY file for model1 (1).pdb
+  [1] ❌ No SECONDARY file for model1 (2).pdb
+  [2] ❌ No SECONDARY file for model1 (3).pdb
+  [3] ❌ No SECONDARY file for model1 (4).pdb
+  [4] ❌ No SECONDARY file for model1 (5).pdb
+  [5] ❌ No SECONDARY file for model1 (6).pdb
+  [6] ❌ No SECONDARY file for model1 (7).pdb
+  [7] ❌ No SECONDARY file for model1.pdb
+  [8] ❌ No SECONDARY file for model1_1.pdb
+  [9] ❌ No SECONDARY file for model1_2.pdb
+  [10] ❌ No SECONDARY file for model1 (1).pdb
+  [11] ❌ No SECONDARY file for model1 (1)_1.pdb
+  [12] ❌ No SECONDARY file for model1 (2).pdb
+  [13] ❌ No SECONDARY file for model1 (3).pdb
+  [14] ❌ No SECONDARY file for model1 (4).pdb
+  [15] ❌ No SECONDARY file for model1 (5).pdb
+  [16] ❌ No SECONDARY file for model1.pdb
+  [17] ❌ No SECONDARY file for model1_1.pdb
+  [18] ❌ No SECONDARY file for model1_2.pdb
+  [19] ❌ No SECONDARY file for model1_3.pdb
+  [20] ✅ 7yr6.pdb
+  [21] ❌ No SECONDARY file for RNA025959.pdb
+  [22] ❌ No SECONDARY file for RNA025960.pdb
+  [23] ❌ No SECONDARY file for RNA025961.pdb
+  [24] ❌ No SECONDARY file for RNA025962.pdb
+  [25] ❌ No SECONDARY file for RNA025963.pdb
+  [26] ❌ No SECONDARY file for RNA025982.pdb
+  [27] ❌ No SECONDARY file for RNA025983.pdb
+  [28] ❌ No SECONDARY file for RNA025984.pdb
+  [29] ❌ No SECONDARY file for model1.pdb
+  [30] ✅ 7yr7.pdb
+  [31] ❌ No SECONDARY file for model1 (1).pdb
+  [32] ❌ No SECONDARY file for model1 (2).pdb
+  [33] ❌ No SECONDARY file for model1 (3).pdb
+  [34] ❌ No SECONDARY file for model1 (4).pdb
+  [35] ❌ No SECONDARY file for model1 (5).pdb
+  [36] ❌ No SECONDARY file for model1 (6).pdb
+  [37] ❌ No SECONDARY file for model1 (7).pdb
+  [38] ❌ No SECONDARY file for model1.pdb
+  [39] ❌ No SECONDARY file for model1_1.pdb
+  [40] ✅ 8fza.pdb
+  [41] ❌ No SECONDARY file for model1 (1).pdb
+  [42] ❌ No SECONDARY file for model1 (2).pdb
+  [43] ❌ No SECONDARY file for model1 (3).pdb
+  [44] ❌ No SECONDARY file for model1 (4).pdb
+  [45] ❌ No SECONDARY file for model1 (5).pdb
+  [46] ❌ No SECONDARY file for model1 (6).pdb
+  [47] ❌ No SECONDARY file for model1 (7).pdb
+  [48] ❌ No SECONDARY file for model1.pdb
+  [49] ❌ No SECONDARY file for model1_1.pdb
+  [50] ✅ 8s95.pdb
+  [51] ❌ No SECONDARY file for model1 (1).pdb
+  [52] ❌ No SECONDARY file for model1 (2).pdb
+  [53] ❌ No SECONDARY file for model1 (3).pdb
+  [54] ❌ No SECONDARY file for model1 (4).pdb
+  [55] ❌ No SECONDARY file for model1 (5).pdb
+  [56] ❌ No SECONDARY file for model1 (6).pdb
+  [57] ❌ No SECONDARY file for model1 (7).pdb
+  [58] ❌ No SECONDARY file for model1.pdb
+  [59] ❌ No SECONDARY file for model1_1.pdb
+  [60] ✅ 8uo6.pdb
+  [61] ❌ No SECONDARY file for RNA025985.pdb
+  [62] ❌ No SECONDARY file for RNA025986.pdb
+  [63] ❌ No SECONDARY file for RNA025987.pdb
+  [64] ❌ No SECONDARY file for RNA025988.pdb
+  [65] ❌ No SECONDARY file for RNA025989.pdb
+  [66] ❌ No SECONDARY file for RNA025990.pdb
+  [67] ❌ No SECONDARY file for RNA025991.pdb
+  [68] ❌ No SECONDARY file for RNA025992.pdb
+  [69] ❌ No SECONDARY file for model1.pdb
+  [70] ✅ 8uye.pdb
+  [71] ❌ No SECONDARY file for model1 (1).pdb
+  [72] ❌ No SECONDARY file for model1 (2).pdb
+  [73] ❌ No SECONDARY file for model1 (3).pdb
+  [74] ❌ No SECONDARY file for model1 (4).pdb
+  [75] ❌ No SECONDARY file for model1 (5).pdb
+  [76] ❌ No SECONDARY file for model1 (6).pdb
+  [77] ❌ No SECONDARY file for model1 (7).pdb
+  [78] ❌ No SECONDARY file for model1.pdb
+  [79] ❌ No SECONDARY file for model1_1.pdb
+  [80] ✅ 8uys.pdb
+  [81] ❌ No SECONDARY file for model1 (1).pdb
+  [82] ❌ No SECONDARY file for model1 (10).pdb
+  [83] ❌ No SECONDARY file for model1 (11).pdb
+  [84] ❌ No SECONDARY file for model1 (2).pdb
+  [85] ❌ No SECONDARY file for model1 (3).pdb
+  [86] ❌ No SECONDARY file for model1 (4).pdb
+  [87] ❌ No SECONDARY file for model1 (5).pdb
+  [88] ❌ No SECONDARY file for model1 (6).pdb
+  [89] ❌ No SECONDARY file for model1 (7).pdb
+  [90] ❌ No SECONDARY file for model1 (8).pdb
+  [91] ❌ No SECONDARY file for model1 (9).pdb
+  [92] ❌ No SECONDARY file for model1.pdb
+  [93] ❌ No SECONDARY file for model1_1.pdb
+  [94] ❌ Failed: 8vqv.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [95] ❌ No SECONDARY file for RNA026040.pdb
+  [96] ❌ No SECONDARY file for RNA026041.pdb
+  [97] ❌ No SECONDARY file for RNA026042.pdb
+  [98] ❌ No SECONDARY file for RNA026043.pdb
+  [99] ❌ No SECONDARY file for RNA026044.pdb
+  [100] ❌ No SECONDARY file for RNA026045.pdb
+  [101] ❌ No SECONDARY file for RNA026046.pdb
+  [102] ❌ No SECONDARY file for RNA026047.pdb
+  [103] ❌ No SECONDARY file for model1.pdb
+  [104] ❌ Failed: 8vvj.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "ty
+  [105] ❌ No SECONDARY file for RNA026048.pdb
+  [106] ❌ No SECONDARY file for RNA026049.pdb
+  [107] ❌ No SECONDARY file for RNA026050.pdb
+  [108] ❌ No SECONDARY file for RNA026051.pdb
+  [109] ❌ No SECONDARY file for RNA026052.pdb
+  [110] ❌ No SECONDARY file for RNA026053.pdb
+  [111] ❌ No SECONDARY file for RNA026054.pdb
+  [112] ❌ No SECONDARY file for RNA026055.pdb
+  [113] ❌ No SECONDARY file for model1.pdb
+  [114] ✅ 9bz1.pdb
+  [115] ❌ No SECONDARY file for RNA026032.pdb
+  [116] ❌ No SECONDARY file for RNA026033.pdb
+  [117] ❌ No SECONDARY file for RNA026034.pdb
+  [118] ❌ No SECONDARY file for RNA026035.pdb
+  [119] ❌ No SECONDARY file for RNA026036.pdb
+  [120] ❌ No SECONDARY file for RNA026037.pdb
+  [121] ❌ No SECONDARY file for RNA026038.pdb
+  [122] ❌ No SECONDARY file for RNA026039.pdb
+  [123] ❌ No SECONDARY file for model1.pdb
+  [124] ✅ 9bzc.pdb
+  [125] ❌ No SECONDARY file for RNA026019.pdb
+  [126] ❌ No SECONDARY file for RNA026020.pdb
+  [127] ❌ No SECONDARY file for RNA026021.pdb
+  [128] ❌ No SECONDARY file for RNA026022.pdb
+  [129] ❌ No SECONDARY file for RNA026023.pdb
+  [130] ❌ No SECONDARY file for RNA026029.pdb
+  [131] ❌ No SECONDARY file for RNA026030.pdb
+  [132] ❌ No SECONDARY file for RNA026031.pdb
+  [133] ❌ No SECONDARY file for model1.pdb
+  [134] ✅ 9c75.pdb
+  [135] ❌ No SECONDARY file for RNA026064.pdb
+  [136] ❌ No SECONDARY file for RNA026065.pdb
+  [137] ❌ No SECONDARY file for RNA026066.pdb
+  [138] ❌ No SECONDARY file for RNA026067.pdb
+  [139] ❌ No SECONDARY file for RNA026068.pdb
+  [140] ❌ No SECONDARY file for RNA026069.pdb
+  [141] ❌ No SECONDARY file for RNA026070.pdb
+  [142] ❌ No SECONDARY file for RNA026071.pdb
+  [143] ❌ No SECONDARY file for model1.pdb
+  [144] ✅ 9cbu.pdb
+  [145] ❌ No SECONDARY file for RNA026011.pdb
+  [146] ❌ No SECONDARY file for RNA026012.pdb
+  [147] ❌ No SECONDARY file for RNA026013.pdb
+  [148] ❌ No SECONDARY file for RNA026014.pdb
+  [149] ❌ No SECONDARY file for RNA026015.pdb
+  [150] ❌ No SECONDARY file for RNA026016.pdb
+  [151] ❌ No SECONDARY file for RNA026017.pdb
+  [152] ❌ No SECONDARY file for RNA026018.pdb
+  [153] ❌ No SECONDARY file for model1.pdb
+  [154] ✅ 9dcf.pdb
+  [155] ❌ No SECONDARY file for RNA025549.pdb
+  [156] ❌ No SECONDARY file for RNA025993.pdb
+  [157] ❌ No SECONDARY file for RNA025994.pdb
+  [158] ❌ No SECONDARY file for RNA025995.pdb
+  [159] ❌ No SECONDARY file for RNA025996.pdb
+  [160] ❌ No SECONDARY file for RNA025997.pdb
+  [161] ❌ No SECONDARY file for RNA025998.pdb
+  [162] ❌ No SECONDARY file for RNA025999.pdb
+  [163] ❌ No SECONDARY file for RNA026000.pdb
+  [164] ❌ No SECONDARY file for model1.pdb
+  [165] ✅ 9ely.pdb
+  [166] ❌ No SECONDARY file for RNA026001.pdb
+  [167] ❌ No SECONDARY file for RNA026004.pdb
+  [168] ❌ No SECONDARY file for RNA026005.pdb
+  [169] ❌ No SECONDARY file for RNA026006.pdb
+  [170] ❌ No SECONDARY file for RNA026007.pdb
+  [171] ❌ No SECONDARY file for RNA026008.pdb
+  [172] ❌ No SECONDARY file for RNA026009.pdb
+  [173] ❌ No SECONDARY file for RNA026010.pdb
+  [174] ❌ No SECONDARY file for model1.pdb
+  [175] ✅ 9j6y.pdb
+  [176] ❌ No SECONDARY file for RNA026056.pdb
+  [177] ❌ No SECONDARY file for RNA026057.pdb
+  [178] ❌ No SECONDARY file for RNA026058.pdb
+  [179] ❌ No SECONDARY file for RNA026059.pdb
+  [180] ❌ No SECONDARY file for RNA026060.pdb
+  [181] ❌ No SECONDARY file for RNA026061.pdb
+  [182] ❌ No SECONDARY file for RNA026062.pdb
+  [183] ❌ No SECONDARY file for RNA026063.pdb
+  [184] ❌ No SECONDARY file for model1.pdb
+
+🔍 Processing x3dRNA...
+  Found 330 PDB files (processing 330 total)
+  [0] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [1] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min_1.pdb
+  [2] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [3] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min_1.pdb
+  [4] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [5] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min_1.pdb
+  [6] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [7] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min_1.pdb
+  [8] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [9] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min_1.pdb
+  [10] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [11] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min_1.pdb
+  [12] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [13] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min_1.pdb
+  [14] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [15] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min_1.pdb
+  [16] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [17] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min_1.pdb
+  [18] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [19] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min_1.pdb
+  [20] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [21] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min_1.pdb
+  [22] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [23] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min_1.pdb
+  [24] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [25] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min_1.pdb
+  [26] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [27] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min_1.pdb
+  [28] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [29] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min_1.pdb
+  [30] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [31] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min_1.pdb
+  [32] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [33] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min_1.pdb
+  [34] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [35] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min_1.pdb
+  [36] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [37] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min_1.pdb
+  [38] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [39] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min_1.pdb
+  [40] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [41] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min_1.pdb
+  [42] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [43] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min_1.pdb
+  [44] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [45] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min_1.pdb
+  [46] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [47] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min_1.pdb
+  [48] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [49] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min_1.pdb
+  [50] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [51] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min_1.pdb
+  [52] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [53] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min_1.pdb
+  [54] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [55] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min_1.pdb
+  [56] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [57] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min_1.pdb
+  [58] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [59] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min_1.pdb
+  [60] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [61] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min_1.pdb
+  [62] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [63] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min_1.pdb
+  [64] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [65] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min_1.pdb
+  [66] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [67] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min_1.pdb
+  [68] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [69] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min_1.pdb
+  [70] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [71] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min_1.pdb
+  [72] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [73] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min_1.pdb
+  [74] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [75] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min_1.pdb
+  [76] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [77] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min_1.pdb
+  [78] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [79] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min_1.pdb
+  [80] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [81] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [82] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [83] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [84] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [85] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [86] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [87] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [88] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [89] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [90] ❌ No SECONDARY file for e2aae257-769e-45c4-9fa3-995eebd72627.1.pdb
+  [91] ❌ No SECONDARY file for e2aae257-769e-45c4-9fa3-995eebd72627.10.pdb
+  [92] ❌ No SECONDARY file for e2aae257-769e-45c4-9fa3-995eebd72627.2.pdb
+  [93] ❌ No SECONDARY file for e2aae257-769e-45c4-9fa3-995eebd72627.3.pdb
+  [94] ❌ No SECONDARY file for e2aae257-769e-45c4-9fa3-995eebd72627.4.pdb
+  [95] ❌ No SECONDARY file for e2aae257-769e-45c4-9fa3-995eebd72627.5.pdb
+  [96] ❌ No SECONDARY file for e2aae257-769e-45c4-9fa3-995eebd72627.6.pdb
+  [97] ❌ No SECONDARY file for e2aae257-769e-45c4-9fa3-995eebd72627.7.pdb
+  [98] ❌ No SECONDARY file for e2aae257-769e-45c4-9fa3-995eebd72627.8.pdb
+  [99] ❌ No SECONDARY file for e2aae257-769e-45c4-9fa3-995eebd72627.9.pdb
+  [100] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [101] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min_1.pdb
+  [102] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [103] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min_1.pdb
+  [104] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [105] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min_1.pdb
+  [106] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [107] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min_1.pdb
+  [108] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [109] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min_1.pdb
+  [110] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [111] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min_1.pdb
+  [112] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [113] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min_1.pdb
+  [114] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [115] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min_1.pdb
+  [116] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [117] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min_1.pdb
+  [118] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [119] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min_1.pdb
+  [120] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [121] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min_1.pdb
+  [122] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [123] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min_1.pdb
+  [124] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [125] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min_1.pdb
+  [126] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [127] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min_1.pdb
+  [128] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [129] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min_1.pdb
+  [130] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [131] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min_1.pdb
+  [132] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [133] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min_1.pdb
+  [134] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [135] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min_1.pdb
+  [136] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [137] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min_1.pdb
+  [138] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [139] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min_1.pdb
+  [140] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [141] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min_1.pdb
+  [142] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [143] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min_1.pdb
+  [144] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [145] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min_1.pdb
+  [146] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [147] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min_1.pdb
+  [148] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [149] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min_1.pdb
+  [150] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [151] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min_1.pdb
+  [152] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [153] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min_1.pdb
+  [154] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [155] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min_1.pdb
+  [156] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [157] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min_1.pdb
+  [158] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [159] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min_1.pdb
+  [160] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [161] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min_1.pdb
+  [162] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [163] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min_1.pdb
+  [164] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [165] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min_1.pdb
+  [166] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [167] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min_1.pdb
+  [168] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [169] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min_1.pdb
+  [170] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [171] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min_1.pdb
+  [172] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [173] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min_1.pdb
+  [174] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [175] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min_1.pdb
+  [176] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [177] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min_1.pdb
+  [178] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [179] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min_1.pdb
+  [180] ❌ No SECONDARY file for 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.1.pdb
+  [181] ❌ No SECONDARY file for 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.10.pdb
+  [182] ❌ No SECONDARY file for 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.2.pdb
+  [183] ❌ No SECONDARY file for 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.3.pdb
+  [184] ❌ No SECONDARY file for 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.4.pdb
+  [185] ❌ No SECONDARY file for 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.5.pdb
+  [186] ❌ No SECONDARY file for 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.6.pdb
+  [187] ❌ No SECONDARY file for 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.7.pdb
+  [188] ❌ No SECONDARY file for 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.8.pdb
+  [189] ❌ No SECONDARY file for 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.9.pdb
+  [190] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [191] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [192] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [193] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [194] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [195] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [196] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [197] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [198] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [199] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [200] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [201] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min_1.pdb
+  [202] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [203] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min_1.pdb
+  [204] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [205] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min_1.pdb
+  [206] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [207] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min_1.pdb
+  [208] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [209] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min_1.pdb
+  [210] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [211] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min_1.pdb
+  [212] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [213] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min_1.pdb
+  [214] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [215] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min_1.pdb
+  [216] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [217] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min_1.pdb
+  [218] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [219] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min_1.pdb
+  [220] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [221] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min_1.pdb
+  [222] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [223] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min_1.pdb
+  [224] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [225] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min_1.pdb
+  [226] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [227] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min_1.pdb
+  [228] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [229] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min_1.pdb
+  [230] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [231] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min_1.pdb
+  [232] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [233] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min_1.pdb
+  [234] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [235] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min_1.pdb
+  [236] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [237] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min_1.pdb
+  [238] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [239] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min_1.pdb
+  [240] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [241] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min_1.pdb
+  [242] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [243] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min_1.pdb
+  [244] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [245] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min_1.pdb
+  [246] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [247] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min_1.pdb
+  [248] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [249] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min_1.pdb
+  [250] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [251] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min_1.pdb
+  [252] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [253] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min_1.pdb
+  [254] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [255] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min_1.pdb
+  [256] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [257] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min_1.pdb
+  [258] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [259] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min_1.pdb
+  [260] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [261] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [262] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [263] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [264] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [265] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [266] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [267] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [268] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [269] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [270] ❌ No SECONDARY file for ac6eecd6-069a-4d94-a312-9a697aefdaba.1.pdb
+  [271] ❌ No SECONDARY file for ac6eecd6-069a-4d94-a312-9a697aefdaba.10.pdb
+  [272] ❌ No SECONDARY file for ac6eecd6-069a-4d94-a312-9a697aefdaba.2.pdb
+  [273] ❌ No SECONDARY file for ac6eecd6-069a-4d94-a312-9a697aefdaba.3.pdb
+  [274] ❌ No SECONDARY file for ac6eecd6-069a-4d94-a312-9a697aefdaba.4.pdb
+  [275] ❌ No SECONDARY file for ac6eecd6-069a-4d94-a312-9a697aefdaba.5.pdb
+  [276] ❌ No SECONDARY file for ac6eecd6-069a-4d94-a312-9a697aefdaba.6.pdb
+  [277] ❌ No SECONDARY file for ac6eecd6-069a-4d94-a312-9a697aefdaba.7.pdb
+  [278] ❌ No SECONDARY file for ac6eecd6-069a-4d94-a312-9a697aefdaba.8.pdb
+  [279] ❌ No SECONDARY file for ac6eecd6-069a-4d94-a312-9a697aefdaba.9.pdb
+  [280] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [281] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [282] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [283] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [284] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [285] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [286] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [287] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [288] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [289] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [290] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [291] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min_1.pdb
+  [292] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [293] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min_1.pdb
+  [294] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [295] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min_1.pdb
+  [296] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [297] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min_1.pdb
+  [298] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [299] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min_1.pdb
+  [300] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [301] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min_1.pdb
+  [302] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [303] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min_1.pdb
+  [304] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [305] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min_1.pdb
+  [306] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [307] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min_1.pdb
+  [308] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [309] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min_1.pdb
+  [310] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min.pdb
+  [311] ❌ No SECONDARY file for 3dRNA_DNA.pred1.min_1.pdb
+  [312] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min.pdb
+  [313] ❌ No SECONDARY file for 3dRNA_DNA.pred10.min_1.pdb
+  [314] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min.pdb
+  [315] ❌ No SECONDARY file for 3dRNA_DNA.pred2.min_1.pdb
+  [316] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min.pdb
+  [317] ❌ No SECONDARY file for 3dRNA_DNA.pred3.min_1.pdb
+  [318] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min.pdb
+  [319] ❌ No SECONDARY file for 3dRNA_DNA.pred4.min_1.pdb
+  [320] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min.pdb
+  [321] ❌ No SECONDARY file for 3dRNA_DNA.pred5.min_1.pdb
+  [322] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min.pdb
+  [323] ❌ No SECONDARY file for 3dRNA_DNA.pred6.min_1.pdb
+  [324] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min.pdb
+  [325] ❌ No SECONDARY file for 3dRNA_DNA.pred7.min_1.pdb
+  [326] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min.pdb
+  [327] ❌ No SECONDARY file for 3dRNA_DNA.pred8.min_1.pdb
+  [328] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min.pdb
+  [329] ❌ No SECONDARY file for 3dRNA_DNA.pred9.min_1.pdb
+
+🔍 Processing Vfold...
+  Found 12 PDB files (processing 12 total)
+  [0] ✅ 9C75_vfold3D-CLU.pdb
+  [1] ✅ 9C75_vfold3D.pdb
+  [2] ✅ 9C75_vfold3D_init.pdb
+  [3] ✅ 9C75_vfold3D_init0.pdb
+  [4] ❌ No SECONDARY file for clu-1.pdb
+  [5] ❌ No SECONDARY file for em_clu-1.pdb
+  [6] ❌ No SECONDARY file for clu-2.pdb
+  [7] ❌ No SECONDARY file for em_clu-2.pdb
+  [8] ❌ No SECONDARY file for clu-3.pdb
+  [9] ❌ No SECONDARY file for em_clu-3.pdb
+  [10] ✅ 9C75_vfold.pdb
+  [11] ✅ 9C75_vfold.pdb
+
+🔍 Processing MC-Sym...
+  Found 11 PDB files (processing 11 total)
+  [0] ❌ No SECONDARY file for 9C75-0001.pdb
+  [1] ❌ No SECONDARY file for 9C75-0002.pdb
+  [2] ❌ No SECONDARY file for 9C75-0003.pdb
+  [3] ❌ No SECONDARY file for 9C75-0004.pdb
+  [4] ❌ No SECONDARY file for 9C75-0005.pdb
+  [5] ❌ No SECONDARY file for 9C75-0006.pdb
+  [6] ❌ No SECONDARY file for 9C75-0007.pdb
+  [7] ❌ No SECONDARY file for 9C75-0008.pdb
+  [8] ❌ No SECONDARY file for 9DCF-0001.pdb
+  [9] ❌ No SECONDARY file for 9DCF-0002.pdb
+  [10] ❌ No SECONDARY file for 9DCF-0003.pdb
+
+============================================================
+✅ Total Processed: 423
+❌ Total Failed: 948
+============================================================

@@ -1,0 +1,1678 @@
+============================================================
+GARN3 Model Generation
+============================================================
+
+🔍 Processing AlphaFold...
+  Found 320 PDB files (processing 320 total)
+  [0] ✅ 7QR3_A.pdb
+  [1] ✅ 7QR3_B.pdb
+  [2] ✅ 7QR3_C.pdb
+  [3] ✅ 7QR3_D.pdb
+  [4] ✅ 7QR3_E.pdb
+  [5] ✅ 7QR3_F.pdb
+  [6] ✅ 7QR3_G.pdb
+  [7] ✅ 7QR3_H.pdb
+  [8] ✅ 7QR3_I.pdb
+  [9] ✅ 7QR3_J.pdb
+  [10] ✅ 7QR3_K.pdb
+  [11] ✅ 7QR3_L.pdb
+  [12] ✅ 7QR3_M.pdb
+  [13] ✅ 7QR3_N.pdb
+  [14] ✅ 7QR3_O.pdb
+  [15] ✅ 7QR3_P.pdb
+  [16] ✅ 7QR3_Q.pdb
+  [17] ✅ 7QR3_R.pdb
+  [18] ✅ 7QR3_S.pdb
+  [19] ✅ 7QR3_T.pdb
+  [20] ✅ 7QR4_A.pdb
+  [21] ✅ 7QR4_B.pdb
+  [22] ✅ 7QR4_C.pdb
+  [23] ✅ 7QR4_D.pdb
+  [24] ✅ 7QR4_E.pdb
+  [25] ✅ 7QR4_F.pdb
+  [26] ✅ 7QR4_G.pdb
+  [27] ✅ 7QR4_H.pdb
+  [28] ✅ 7QR4_I.pdb
+  [29] ✅ 7QR4_J.pdb
+  [30] ✅ 7QR4_K.pdb
+  [31] ✅ 7QR4_L.pdb
+  [32] ✅ 7QR4_M.pdb
+  [33] ✅ 7QR4_N.pdb
+  [34] ✅ 7QR4_O.pdb
+  [35] ✅ 7QR4_P.pdb
+  [36] ✅ 7QR4_Q.pdb
+  [37] ✅ 7QR4_R.pdb
+  [38] ✅ 7QR4_S.pdb
+  [39] ✅ 7QR4_T.pdb
+  [40] ✅ 7YR6_A.pdb
+  [41] ✅ 7YR6_B.pdb
+  [42] ✅ 7YR6_C.pdb
+  [43] ✅ 7YR6_D.pdb
+  [44] ✅ 7YR6_E.pdb
+  [45] ✅ 7YR6_F.pdb
+  [46] ✅ 7YR6_G.pdb
+  [47] ✅ 7YR6_H.pdb
+  [48] ✅ 7YR6_I.pdb
+  [49] ✅ 7YR6_J.pdb
+  [50] ✅ 7YR6_K.pdb
+  [51] ✅ 7YR6_L.pdb
+  [52] ✅ 7YR6_M.pdb
+  [53] ✅ 7YR6_N.pdb
+  [54] ✅ 7YR6_O.pdb
+  [55] ✅ 7YR6_P.pdb
+  [56] ✅ 7YR6_Q.pdb
+  [57] ✅ 7YR6_R.pdb
+  [58] ✅ 7YR6_S.pdb
+  [59] ✅ 7YR6_T.pdb
+  [60] ✅ 7YR7_A.pdb
+  [61] ✅ 7YR7_B.pdb
+  [62] ✅ 7YR7_C.pdb
+  [63] ✅ 7YR7_D.pdb
+  [64] ✅ 7YR7_E.pdb
+  [65] ✅ 7YR7_F.pdb
+  [66] ✅ 7YR7_G.pdb
+  [67] ✅ 7YR7_H.pdb
+  [68] ✅ 7YR7_I.pdb
+  [69] ✅ 7YR7_J.pdb
+  [70] ✅ 7YR7_K.pdb
+  [71] ✅ 7YR7_L.pdb
+  [72] ✅ 7YR7_M.pdb
+  [73] ✅ 7YR7_N.pdb
+  [74] ✅ 7YR7_O.pdb
+  [75] ✅ 7YR7_P.pdb
+  [76] ✅ 7YR7_Q.pdb
+  [77] ✅ 7YR7_R.pdb
+  [78] ✅ 7YR7_S.pdb
+  [79] ✅ 7YR7_T.pdb
+  [80] ✅ 8FZA_A.pdb
+  [81] ✅ 8FZA_B.pdb
+  [82] ✅ 8FZA_C.pdb
+  [83] ✅ 8FZA_D.pdb
+  [84] ✅ 8FZA_E.pdb
+  [85] ✅ 8FZA_F.pdb
+  [86] ✅ 8FZA_G.pdb
+  [87] ✅ 8FZA_H.pdb
+  [88] ✅ 8FZA_I.pdb
+  [89] ✅ 8FZA_J.pdb
+  [90] ✅ 8FZA_K.pdb
+  [91] ✅ 8FZA_L.pdb
+  [92] ✅ 8FZA_M.pdb
+  [93] ✅ 8FZA_N.pdb
+  [94] ✅ 8FZA_O.pdb
+  [95] ✅ 8FZA_P.pdb
+  [96] ✅ 8FZA_Q.pdb
+  [97] ✅ 8FZA_R.pdb
+  [98] ✅ 8FZA_S.pdb
+  [99] ✅ 8FZA_T.pdb
+  [100] ✅ 8S95_A.pdb
+  [101] ✅ 8S95_B.pdb
+  [102] ✅ 8S95_C.pdb
+  [103] ✅ 8S95_D.pdb
+  [104] ✅ 8S95_E.pdb
+  [105] ✅ 8S95_F.pdb
+  [106] ✅ 8S95_G.pdb
+  [107] ✅ 8S95_H.pdb
+  [108] ✅ 8S95_I.pdb
+  [109] ✅ 8S95_J.pdb
+  [110] ✅ 8S95_K.pdb
+  [111] ✅ 8S95_L.pdb
+  [112] ✅ 8S95_M.pdb
+  [113] ✅ 8S95_N.pdb
+  [114] ✅ 8S95_O.pdb
+  [115] ✅ 8S95_P.pdb
+  [116] ✅ 8S95_Q.pdb
+  [117] ✅ 8S95_R.pdb
+  [118] ✅ 8S95_S.pdb
+  [119] ✅ 8S95_T.pdb
+  [120] ✅ 8UO6_A.pdb
+  [121] ✅ 8UO6_B.pdb
+  [122] ✅ 8UO6_C.pdb
+  [123] ✅ 8UO6_D.pdb
+  [124] ✅ 8UO6_E.pdb
+  [125] ✅ 8UO6_F.pdb
+  [126] ✅ 8UO6_G.pdb
+  [127] ✅ 8UO6_H.pdb
+  [128] ✅ 8UO6_I.pdb
+  [129] ✅ 8UO6_J.pdb
+  [130] ✅ 8UO6_K.pdb
+  [131] ✅ 8UO6_L.pdb
+  [132] ✅ 8UO6_M.pdb
+  [133] ✅ 8UO6_N.pdb
+  [134] ✅ 8UO6_O.pdb
+  [135] ✅ 8UO6_P.pdb
+  [136] ✅ 8UO6_Q.pdb
+  [137] ✅ 8UO6_R.pdb
+  [138] ✅ 8UO6_S.pdb
+  [139] ✅ 8UO6_T.pdb
+  [140] ✅ 8UYE_A.pdb
+  [141] ✅ 8UYE_B.pdb
+  [142] ✅ 8UYE_C.pdb
+  [143] ✅ 8UYE_D.pdb
+  [144] ✅ 8UYE_E.pdb
+  [145] ✅ 8UYE_F.pdb
+  [146] ✅ 8UYE_G.pdb
+  [147] ✅ 8UYE_H.pdb
+  [148] ✅ 8UYE_I.pdb
+  [149] ✅ 8UYE_J.pdb
+  [150] ✅ 8UYE_K.pdb
+  [151] ✅ 8UYE_L.pdb
+  [152] ✅ 8UYE_M.pdb
+  [153] ✅ 8UYE_N.pdb
+  [154] ✅ 8UYE_O.pdb
+  [155] ✅ 8UYE_P.pdb
+  [156] ✅ 8UYE_Q.pdb
+  [157] ✅ 8UYE_R.pdb
+  [158] ✅ 8UYE_S.pdb
+  [159] ✅ 8UYE_T.pdb
+  [160] ✅ 8UYS_A.pdb
+  [161] ✅ 8UYS_B.pdb
+  [162] ✅ 8UYS_C.pdb
+  [163] ✅ 8UYS_D.pdb
+  [164] ✅ 8UYS_E.pdb
+  [165] ✅ 8UYS_F.pdb
+  [166] ✅ 8UYS_G.pdb
+  [167] ✅ 8UYS_H.pdb
+  [168] ✅ 8UYS_I.pdb
+  [169] ✅ 8UYS_J.pdb
+  [170] ✅ 8UYS_K.pdb
+  [171] ✅ 8UYS_L.pdb
+  [172] ✅ 8UYS_M.pdb
+  [173] ✅ 8UYS_N.pdb
+  [174] ✅ 8UYS_O.pdb
+  [175] ✅ 8UYS_P.pdb
+  [176] ✅ 8UYS_Q.pdb
+  [177] ✅ 8UYS_R.pdb
+  [178] ✅ 8UYS_S.pdb
+  [179] ✅ 8UYS_T.pdb
+  [180] ❌ Failed: 8VQV_A.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [181] ❌ Failed: 8VQV_B.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [182] ❌ Failed: 8VQV_C.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [183] ❌ Failed: 8VQV_D.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [184] ❌ Failed: 8VQV_E.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [185] ❌ Failed: 8VQV_F.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [186] ❌ Failed: 8VQV_G.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [187] ❌ Failed: 8VQV_H.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [188] ❌ Failed: 8VQV_I.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [189] ❌ Failed: 8VQV_J.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [190] ❌ Failed: 8VQV_K.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [191] ❌ Failed: 8VQV_L.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [192] ❌ Failed: 8VQV_M.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [193] ❌ Failed: 8VQV_N.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [194] ❌ Failed: 8VQV_O.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [195] ❌ Failed: 8VQV_P.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [196] ❌ Failed: 8VQV_Q.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [197] ❌ Failed: 8VQV_R.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [198] ❌ Failed: 8VQV_S.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [199] ❌ Failed: 8VQV_T.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [200] ❌ Failed: 8VVJ_A.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [201] ❌ Failed: 8VVJ_B.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [202] ❌ Failed: 8VVJ_C.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [203] ❌ Failed: 8VVJ_D.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [204] ❌ Failed: 8VVJ_E.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [205] ❌ Failed: 8VVJ_F.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [206] ❌ Failed: 8VVJ_G.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [207] ❌ Failed: 8VVJ_H.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [208] ❌ Failed: 8VVJ_I.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [209] ❌ Failed: 8VVJ_J.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [210] ❌ Failed: 8VVJ_K.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [211] ❌ Failed: 8VVJ_L.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [212] ❌ Failed: 8VVJ_M.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [213] ❌ Failed: 8VVJ_N.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [214] ❌ Failed: 8VVJ_O.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [215] ❌ Failed: 8VVJ_P.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [216] ❌ Failed: 8VVJ_Q.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [217] ❌ Failed: 8VVJ_R.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [218] ❌ Failed: 8VVJ_S.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [219] ❌ Failed: 8VVJ_T.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [220] ✅ 9BZ1_A.pdb
+  [221] ✅ 9BZ1_B.pdb
+  [222] ✅ 9BZ1_C.pdb
+  [223] ✅ 9BZ1_D.pdb
+  [224] ✅ 9BZ1_E.pdb
+  [225] ✅ 9BZ1_F.pdb
+  [226] ✅ 9BZ1_G.pdb
+  [227] ✅ 9BZ1_H.pdb
+  [228] ✅ 9BZ1_I.pdb
+  [229] ✅ 9BZ1_J.pdb
+  [230] ✅ 9BZ1_K.pdb
+  [231] ✅ 9BZ1_L.pdb
+  [232] ✅ 9BZ1_M.pdb
+  [233] ✅ 9BZ1_N.pdb
+  [234] ✅ 9BZ1_O.pdb
+  [235] ✅ 9BZ1_P.pdb
+  [236] ✅ 9BZ1_Q.pdb
+  [237] ✅ 9BZ1_R.pdb
+  [238] ✅ 9BZ1_S.pdb
+  [239] ✅ 9BZ1_T.pdb
+  [240] ✅ 9BZC_A.pdb
+  [241] ✅ 9BZC_B.pdb
+  [242] ✅ 9BZC_C.pdb
+  [243] ✅ 9BZC_D.pdb
+  [244] ✅ 9BZC_E.pdb
+  [245] ✅ 9BZC_F.pdb
+  [246] ✅ 9BZC_G.pdb
+  [247] ✅ 9BZC_H.pdb
+  [248] ✅ 9BZC_I.pdb
+  [249] ✅ 9BZC_J.pdb
+  [250] ✅ 9BZC_K.pdb
+  [251] ✅ 9BZC_L.pdb
+  [252] ✅ 9BZC_M.pdb
+  [253] ✅ 9BZC_N.pdb
+  [254] ✅ 9BZC_O.pdb
+  [255] ✅ 9BZC_P.pdb
+  [256] ✅ 9BZC_Q.pdb
+  [257] ✅ 9BZC_R.pdb
+  [258] ✅ 9BZC_S.pdb
+  [259] ✅ 9BZC_T.pdb
+  [260] ✅ 9C75_A.pdb
+  [261] ✅ 9C75_B.pdb
+  [262] ✅ 9C75_C.pdb
+  [263] ✅ 9C75_D.pdb
+  [264] ✅ 9C75_E.pdb
+  [265] ✅ 9C75_F.pdb
+  [266] ✅ 9C75_G.pdb
+  [267] ✅ 9C75_H.pdb
+  [268] ✅ 9C75_I.pdb
+  [269] ✅ 9C75_J.pdb
+  [270] ✅ 9C75_K.pdb
+  [271] ✅ 9C75_L.pdb
+  [272] ✅ 9C75_M.pdb
+  [273] ✅ 9C75_N.pdb
+  [274] ✅ 9C75_O.pdb
+  [275] ✅ 9C75_P.pdb
+  [276] ✅ 9C75_Q.pdb
+  [277] ✅ 9C75_R.pdb
+  [278] ✅ 9C75_S.pdb
+  [279] ✅ 9C75_T.pdb
+  [280] ✅ 9DCF_A.pdb
+  [281] ✅ 9DCF_B.pdb
+  [282] ✅ 9DCF_C.pdb
+  [283] ✅ 9DCF_D.pdb
+  [284] ✅ 9DCF_E.pdb
+  [285] ✅ 9DCF_F.pdb
+  [286] ✅ 9DCF_G.pdb
+  [287] ✅ 9DCF_H.pdb
+  [288] ✅ 9DCF_I.pdb
+  [289] ✅ 9DCF_J.pdb
+  [290] ✅ 9DCF_K.pdb
+  [291] ✅ 9DCF_L.pdb
+  [292] ✅ 9DCF_M.pdb
+  [293] ✅ 9DCF_N.pdb
+  [294] ✅ 9DCF_O.pdb
+  [295] ✅ 9DCF_P.pdb
+  [296] ✅ 9DCF_Q.pdb
+  [297] ✅ 9DCF_R.pdb
+  [298] ✅ 9DCF_S.pdb
+  [299] ✅ 9DCF_T.pdb
+  [300] ✅ 9ELY_A.pdb
+  [301] ✅ 9ELY_B.pdb
+  [302] ✅ 9ELY_C.pdb
+  [303] ✅ 9ELY_D.pdb
+  [304] ✅ 9ELY_E.pdb
+  [305] ✅ 9ELY_F.pdb
+  [306] ✅ 9ELY_G.pdb
+  [307] ✅ 9ELY_H.pdb
+  [308] ✅ 9ELY_I.pdb
+  [309] ✅ 9ELY_J.pdb
+  [310] ✅ 9ELY_K.pdb
+  [311] ✅ 9ELY_L.pdb
+  [312] ✅ 9ELY_M.pdb
+  [313] ✅ 9ELY_N.pdb
+  [314] ✅ 9ELY_O.pdb
+  [315] ✅ 9ELY_P.pdb
+  [316] ✅ 9ELY_Q.pdb
+  [317] ✅ 9ELY_R.pdb
+  [318] ✅ 9ELY_S.pdb
+  [319] ✅ 9ELY_T.pdb
+
+🔍 Processing FARFAR2...
+  Found 140 PDB files (processing 140 total)
+  [0] ✅ 7QR3-1.pdb
+  [1] ✅ 7QR3-10.pdb
+  [2] ✅ 7QR3-2.pdb
+  [3] ✅ 7QR3-3.pdb
+  [4] ✅ 7QR3-4.pdb
+  [5] ✅ 7QR3-5.pdb
+  [6] ✅ 7QR3-6.pdb
+  [7] ✅ 7QR3-7.pdb
+  [8] ✅ 7QR3-8.pdb
+  [9] ✅ 7QR3-9.pdb
+  [10] ✅ 7QR4-1.pdb
+  [11] ✅ 7QR4-10.pdb
+  [12] ✅ 7QR4-2.pdb
+  [13] ✅ 7QR4-3.pdb
+  [14] ✅ 7QR4-4.pdb
+  [15] ✅ 7QR4-5.pdb
+  [16] ✅ 7QR4-6.pdb
+  [17] ✅ 7QR4-7.pdb
+  [18] ✅ 7QR4-8.pdb
+  [19] ✅ 7QR4-9.pdb
+  [20] ✅ 7YR6-1.pdb
+  [21] ✅ 7YR6-10.pdb
+  [22] ✅ 7YR6-2.pdb
+  [23] ✅ 7YR6-3.pdb
+  [24] ✅ 7YR6-4.pdb
+  [25] ✅ 7YR6-5.pdb
+  [26] ✅ 7YR6-6.pdb
+  [27] ✅ 7YR6-7.pdb
+  [28] ✅ 7YR6-8.pdb
+  [29] ✅ 7YR6-9.pdb
+  [30] ✅ 7YR7-1.pdb
+  [31] ✅ 7YR7-10.pdb
+  [32] ✅ 7YR7-2.pdb
+  [33] ✅ 7YR7-3.pdb
+  [34] ✅ 7YR7-4.pdb
+  [35] ✅ 7YR7-5.pdb
+  [36] ✅ 7YR7-6.pdb
+  [37] ✅ 7YR7-7.pdb
+  [38] ✅ 7YR7-8.pdb
+  [39] ✅ 7YR7-9.pdb
+  [40] ✅ 8UO6-1.pdb
+  [41] ✅ 8UO6-10.pdb
+  [42] ✅ 8UO6-2.pdb
+  [43] ✅ 8UO6-3.pdb
+  [44] ✅ 8UO6-4.pdb
+  [45] ✅ 8UO6-5.pdb
+  [46] ✅ 8UO6-6.pdb
+  [47] ✅ 8UO6-7.pdb
+  [48] ✅ 8UO6-8.pdb
+  [49] ✅ 8UO6-9.pdb
+  [50] ✅ 8UYE-1.pdb
+  [51] ✅ 8UYE-10.pdb
+  [52] ✅ 8UYE-2.pdb
+  [53] ✅ 8UYE-3.pdb
+  [54] ✅ 8UYE-4.pdb
+  [55] ✅ 8UYE-5.pdb
+  [56] ✅ 8UYE-6.pdb
+  [57] ✅ 8UYE-7.pdb
+  [58] ✅ 8UYE-8.pdb
+  [59] ✅ 8UYE-9.pdb
+  [60] ✅ 8UYS-1.pdb
+  [61] ✅ 8UYS-10.pdb
+  [62] ✅ 8UYS-2.pdb
+  [63] ✅ 8UYS-3.pdb
+  [64] ✅ 8UYS-4.pdb
+  [65] ✅ 8UYS-5.pdb
+  [66] ✅ 8UYS-6.pdb
+  [67] ✅ 8UYS-7.pdb
+  [68] ✅ 8UYS-8.pdb
+  [69] ✅ 8UYS-9.pdb
+  [70] ❌ Failed: 8VQV-1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [71] ❌ Failed: 8VQV-10.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [72] ❌ Failed: 8VQV-2.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [73] ❌ Failed: 8VQV-3.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [74] ❌ Failed: 8VQV-4.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [75] ❌ Failed: 8VQV-5.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [76] ❌ Failed: 8VQV-6.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [77] ❌ Failed: 8VQV-7.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [78] ❌ Failed: 8VQV-8.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [79] ❌ Failed: 8VQV-9.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [80] ❌ Failed: 8VVJ-1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [81] ❌ Failed: 8VVJ-10.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [82] ❌ Failed: 8VVJ-2.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [83] ❌ Failed: 8VVJ-3.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [84] ❌ Failed: 8VVJ-4.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [85] ❌ Failed: 8VVJ-5.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [86] ❌ Failed: 8VVJ-6.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [87] ❌ Failed: 8VVJ-7.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [88] ❌ Failed: 8VVJ-8.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [89] ❌ Failed: 8VVJ-9.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [90] ✅ 9BZ1-1.pdb
+  [91] ✅ 9BZ1-10.pdb
+  [92] ✅ 9BZ1-2.pdb
+  [93] ✅ 9BZ1-3.pdb
+  [94] ✅ 9BZ1-4.pdb
+  [95] ✅ 9BZ1-5.pdb
+  [96] ✅ 9BZ1-6.pdb
+  [97] ✅ 9BZ1-7.pdb
+  [98] ✅ 9BZ1-8.pdb
+  [99] ✅ 9BZ1-9.pdb
+  [100] ✅ 9BZC-1.pdb
+  [101] ✅ 9BZC-10.pdb
+  [102] ✅ 9BZC-2.pdb
+  [103] ✅ 9BZC-3.pdb
+  [104] ✅ 9BZC-4.pdb
+  [105] ✅ 9BZC-5.pdb
+  [106] ✅ 9BZC-6.pdb
+  [107] ✅ 9BZC-7.pdb
+  [108] ✅ 9BZC-8.pdb
+  [109] ✅ 9BZC-9.pdb
+  [110] ✅ 9C75-1.pdb
+  [111] ✅ 9C75-10.pdb
+  [112] ✅ 9C75-2.pdb
+  [113] ✅ 9C75-3.pdb
+  [114] ✅ 9C75-4.pdb
+  [115] ✅ 9C75-5.pdb
+  [116] ✅ 9C75-6.pdb
+  [117] ✅ 9C75-7.pdb
+  [118] ✅ 9C75-8.pdb
+  [119] ✅ 9C75-9.pdb
+  [120] ✅ 9CBU-1.pdb
+  [121] ✅ 9CBU-10.pdb
+  [122] ✅ 9CBU-2.pdb
+  [123] ✅ 9CBU-3.pdb
+  [124] ✅ 9CBU-4.pdb
+  [125] ✅ 9CBU-5.pdb
+  [126] ✅ 9CBU-6.pdb
+  [127] ✅ 9CBU-7.pdb
+  [128] ✅ 9CBU-8.pdb
+  [129] ✅ 9CBU-9.pdb
+  [130] ✅ 9ELY-1.pdb
+  [131] ✅ 9ELY-10.pdb
+  [132] ✅ 9ELY-2.pdb
+  [133] ✅ 9ELY-3.pdb
+  [134] ✅ 9ELY-4.pdb
+  [135] ✅ 9ELY-5.pdb
+  [136] ✅ 9ELY-6.pdb
+  [137] ✅ 9ELY-7.pdb
+  [138] ✅ 9ELY-8.pdb
+  [139] ✅ 9ELY-9.pdb
+
+🔍 Processing FebRNA...
+  Found 100 PDB files (processing 100 total)
+  [0] ❌ Failed: Select_Top1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [1] ❌ Failed: Select_Top10.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [2] ❌ Failed: Select_Top11.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [3] ❌ Failed: Select_Top12.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [4] ❌ Failed: Select_Top13.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [5] ❌ Failed: Select_Top14.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [6] ❌ Failed: Select_Top15.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [7] ❌ Failed: Select_Top16.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [8] ❌ Failed: Select_Top17.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [9] ❌ Failed: Select_Top18.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [10] ❌ Failed: Select_Top19.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [11] ❌ Failed: Select_Top2.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [12] ❌ Failed: Select_Top20.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [13] ❌ Failed: Select_Top3.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [14] ❌ Failed: Select_Top4.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [15] ❌ Failed: Select_Top5.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [16] ❌ Failed: Select_Top6.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [17] ❌ Failed: Select_Top7.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [18] ❌ Failed: Select_Top8.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [19] ❌ Failed: Select_Top9.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [20] ✅ Select_Top1.pdb
+  [21] ✅ Select_Top10.pdb
+  [22] ✅ Select_Top11.pdb
+  [23] ✅ Select_Top12.pdb
+  [24] ✅ Select_Top13.pdb
+  [25] ✅ Select_Top14.pdb
+  [26] ✅ Select_Top15.pdb
+  [27] ✅ Select_Top16.pdb
+  [28] ✅ Select_Top17.pdb
+  [29] ✅ Select_Top18.pdb
+  [30] ✅ Select_Top19.pdb
+  [31] ✅ Select_Top2.pdb
+  [32] ✅ Select_Top20.pdb
+  [33] ✅ Select_Top3.pdb
+  [34] ✅ Select_Top4.pdb
+  [35] ✅ Select_Top5.pdb
+  [36] ✅ Select_Top6.pdb
+  [37] ✅ Select_Top7.pdb
+  [38] ✅ Select_Top8.pdb
+  [39] ✅ Select_Top9.pdb
+  [40] ❌ Failed: Select_Top1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [41] ❌ Failed: Select_Top10.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [42] ❌ Failed: Select_Top11.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [43] ❌ Failed: Select_Top12.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [44] ❌ Failed: Select_Top13.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [45] ❌ Failed: Select_Top14.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [46] ❌ Failed: Select_Top15.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [47] ❌ Failed: Select_Top16.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [48] ❌ Failed: Select_Top17.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [49] ❌ Failed: Select_Top18.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [50] ❌ Failed: Select_Top19.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [51] ❌ Failed: Select_Top2.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [52] ❌ Failed: Select_Top20.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [53] ❌ Failed: Select_Top3.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [54] ❌ Failed: Select_Top4.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [55] ❌ Failed: Select_Top5.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [56] ❌ Failed: Select_Top6.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [57] ❌ Failed: Select_Top7.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [58] ❌ Failed: Select_Top8.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [59] ❌ Failed: Select_Top9.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [60] ❌ Failed: Select_Top1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [61] ❌ Failed: Select_Top10.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [62] ❌ Failed: Select_Top11.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [63] ❌ Failed: Select_Top12.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [64] ❌ Failed: Select_Top13.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [65] ❌ Failed: Select_Top14.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [66] ❌ Failed: Select_Top15.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [67] ❌ Failed: Select_Top16.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [68] ❌ Failed: Select_Top17.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [69] ❌ Failed: Select_Top18.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [70] ❌ Failed: Select_Top19.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [71] ❌ Failed: Select_Top2.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [72] ❌ Failed: Select_Top20.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [73] ❌ Failed: Select_Top3.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [74] ❌ Failed: Select_Top4.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [75] ❌ Failed: Select_Top5.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [76] ❌ Failed: Select_Top6.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [77] ❌ Failed: Select_Top7.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [78] ❌ Failed: Select_Top8.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [79] ❌ Failed: Select_Top9.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [80] ❌ Failed: Select_Top1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [81] ❌ Failed: Select_Top10.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [82] ❌ Failed: Select_Top11.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [83] ❌ Failed: Select_Top12.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [84] ❌ Failed: Select_Top13.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [85] ❌ Failed: Select_Top14.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [86] ❌ Failed: Select_Top15.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [87] ❌ Failed: Select_Top16.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [88] ❌ Failed: Select_Top17.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [89] ❌ Failed: Select_Top18.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [90] ❌ Failed: Select_Top19.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [91] ❌ Failed: Select_Top2.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [92] ❌ Failed: Select_Top20.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [93] ❌ Failed: Select_Top3.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [94] ❌ Failed: Select_Top4.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [95] ❌ Failed: Select_Top5.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [96] ❌ Failed: Select_Top6.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [97] ❌ Failed: Select_Top7.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [98] ❌ Failed: Select_Top8.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+  [99] ❌ Failed: Select_Top9.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.subSequence(int, int)" because "line" is null
+
+🔍 Processing iFoldRNA...
+  Found 65 PDB files (processing 65 total)
+  [0] ✅ cluster.1.pdb
+  [1] ✅ cluster.2.pdb
+  [2] ✅ cluster.1.pdb
+  [3] ✅ cluster.1.pdb
+  [4] ✅ cluster.2.pdb
+  [5] ✅ cluster.3.pdb
+  [6] ✅ cluster.4.pdb
+  [7] ✅ cluster.5.pdb
+  [8] ✅ cluster.1.pdb
+  [9] ✅ cluster.2.pdb
+  [10] ✅ cluster.3.pdb
+  [11] ✅ cluster.4.pdb
+  [12] ✅ cluster.5.pdb
+  [13] ✅ cluster.1.pdb
+  [14] ✅ cluster.2.pdb
+  [15] ✅ cluster.3.pdb
+  [16] ✅ cluster.4.pdb
+  [17] ✅ cluster.5.pdb
+  [18] ✅ cluster.1.pdb
+  [19] ✅ cluster.2.pdb
+  [20] ✅ cluster.3.pdb
+  [21] ✅ cluster.4.pdb
+  [22] ✅ cluster.5.pdb
+  [23] ✅ cluster.1.pdb
+  [24] ✅ cluster.2.pdb
+  [25] ✅ cluster.3.pdb
+  [26] ✅ cluster.4.pdb
+  [27] ✅ cluster.5.pdb
+  [28] ❌ Failed: cluster.1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [29] ❌ Failed: cluster.2.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [30] ❌ Failed: cluster.1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [31] ❌ Failed: cluster.2.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [32] ❌ Failed: cluster.3.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [33] ❌ Failed: cluster.4.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [34] ❌ Failed: cluster.5.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [35] ✅ cluster.1.pdb
+  [36] ✅ cluster.2.pdb
+  [37] ✅ cluster.3.pdb
+  [38] ✅ cluster.4.pdb
+  [39] ✅ cluster.5.pdb
+  [40] ✅ cluster.1.pdb
+  [41] ✅ cluster.2.pdb
+  [42] ✅ cluster.3.pdb
+  [43] ✅ cluster.4.pdb
+  [44] ✅ cluster.5.pdb
+  [45] ✅ cluster.1.pdb
+  [46] ✅ cluster.2.pdb
+  [47] ✅ cluster.3.pdb
+  [48] ✅ cluster.4.pdb
+  [49] ✅ cluster.5.pdb
+  [50] ✅ cluster.1.pdb
+  [51] ✅ cluster.2.pdb
+  [52] ✅ cluster.3.pdb
+  [53] ✅ cluster.4.pdb
+  [54] ✅ cluster.5.pdb
+  [55] ✅ cluster.1.pdb
+  [56] ✅ cluster.2.pdb
+  [57] ✅ cluster.3.pdb
+  [58] ✅ cluster.4.pdb
+  [59] ✅ cluster.5.pdb
+  [60] ✅ cluster.1.pdb
+  [61] ✅ cluster.2.pdb
+  [62] ✅ cluster.3.pdb
+  [63] ✅ cluster.4.pdb
+  [64] ✅ cluster.5.pdb
+
+🔍 Processing NAST...
+  Found 51 PDB files (processing 51 total)
+  [0] ✅ 7qr3-last.pdb
+  [1] ❌ Failed: 7qr3-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [2] ✅ 7qr4-last.pdb
+  [3] ❌ Failed: 7qr4-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [4] ❌ Failed: 7yr6-000000.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [5] ❌ Failed: 7yr6-000001.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 1
+  [6] ❌ Failed: 7yr6-000002.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 1
+  [7] ❌ Failed: 7yr6-000003.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [8] ❌ Failed: 7yr6-000004.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [9] ❌ Failed: 7yr6-000005.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [10] ❌ Failed: 7yr6-000006.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [11] ❌ Failed: 7yr6-000007.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [12] ❌ Failed: 7yr6-000008.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [13] ❌ Failed: 7yr6-000009.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [14] ❌ Failed: 7yr6-000010.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [15] ❌ Failed: 7yr6-000011.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [16] ❌ Failed: 7yr6-000012.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [17] ❌ Failed: 7yr6-000013.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [18] ❌ Failed: 7yr6-000014.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [19] ❌ Failed: 7yr6-000015.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [20] ❌ Failed: 7yr6-000016.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [21] ✅ 7yr7-last.pdb
+  [22] ❌ Failed: 7yr7-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [23] ✅ 8fza-last.pdb
+  [24] ❌ Failed: 8fza-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [25] ✅ 8s95-last.pdb
+  [26] ❌ Failed: 8s95-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [27] ✅ 8uo6-last.pdb
+  [28] ❌ Failed: 8uo6-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [29] ✅ 8uye-last.pdb
+  [30] ❌ Failed: 8uye-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [31] ✅ 8uys-last.pdb
+  [32] ❌ Failed: 8uys-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [33] ❌ Failed: 8vqv-last.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [34] ❌ Failed: 8vqv-movie.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [35] ❌ Failed: 8vvj-last.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [36] ❌ Failed: 8vvj-movie.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [37] ✅ 9bz1-last.pdb
+  [38] ❌ Failed: 9bz1-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [39] ✅ 9bzc-last.pdb
+  [40] ❌ Failed: 9bzc-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [41] ✅ 9c75-last.pdb
+  [42] ❌ Failed: 9c75-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [43] ✅ 9cbu-last.pdb
+  [44] ❌ Failed: 9cbu-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [45] ✅ 9dcf-last.pdb
+  [46] ❌ Failed: 9dcf-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 1
+  [47] ✅ 9ely-last.pdb
+  [48] ❌ Failed: 9ely-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+  [49] ✅ 9j6y-last.pdb
+  [50] ❌ Failed: 9j6y-movie.pdb
+     Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+🔍 Processing RNAComposer...
+  Found 134 PDB files (processing 134 total)
+  [0] ✅ 7QR3.pdb
+  [1] ✅ 7QR3_model_1.pdb
+  [2] ✅ 7QR3.pdb
+  [3] ✅ 7QR3_model_1.pdb
+  [4] ✅ 7QR3_model_10.pdb
+  [5] ✅ 7QR3_model_2.pdb
+  [6] ✅ 7QR3_model_3.pdb
+  [7] ✅ 7QR3_model_4.pdb
+  [8] ✅ 7QR3_model_5.pdb
+  [9] ✅ 7QR3_model_6.pdb
+  [10] ✅ 7QR3_model_7.pdb
+  [11] ✅ 7QR3_model_8.pdb
+  [12] ✅ 7QR3_model_9.pdb
+  [13] ✅ 7QR3.pdb
+  [14] ✅ 7QR3_model_1.pdb
+  [15] ✅ 7QR3_model_10.pdb
+  [16] ✅ 7QR3_model_2.pdb
+  [17] ✅ 7QR3_model_3.pdb
+  [18] ✅ 7QR3_model_4.pdb
+  [19] ✅ 7QR3_model_5.pdb
+  [20] ✅ 7QR3_model_6.pdb
+  [21] ✅ 7QR3_model_7.pdb
+  [22] ✅ 7QR3_model_8.pdb
+  [23] ✅ 7QR3_model_9.pdb
+  [24] ✅ 7QR4.pdb
+  [25] ✅ 7QR4_model_1.pdb
+  [26] ✅ 7QR4_model_10.pdb
+  [27] ✅ 7QR4_model_2.pdb
+  [28] ✅ 7QR4_model_3.pdb
+  [29] ✅ 7QR4_model_4.pdb
+  [30] ✅ 7QR4_model_5.pdb
+  [31] ✅ 7QR4_model_6.pdb
+  [32] ✅ 7QR4_model_7.pdb
+  [33] ✅ 7QR4_model_8.pdb
+  [34] ✅ 7QR4_model_9.pdb
+  [35] ✅ 7YR6.pdb
+  [36] ✅ 7YR6_model_1.pdb
+  [37] ✅ 7YR6_model_10.pdb
+  [38] ✅ 7YR6_model_2.pdb
+  [39] ✅ 7YR6_model_3.pdb
+  [40] ✅ 7YR6_model_4.pdb
+  [41] ✅ 7YR6_model_5.pdb
+  [42] ✅ 7YR6_model_6.pdb
+  [43] ✅ 7YR6_model_7.pdb
+  [44] ✅ 7YR6_model_8.pdb
+  [45] ✅ 7YR6_model_9.pdb
+  [46] ✅ 7YR7.pdb
+  [47] ✅ 7YR7_model_1.pdb
+  [48] ✅ 7YR7_model_10.pdb
+  [49] ✅ 7YR7_model_2.pdb
+  [50] ✅ 7YR7_model_3.pdb
+  [51] ✅ 7YR7_model_4.pdb
+  [52] ✅ 7YR7_model_5.pdb
+  [53] ✅ 7YR7_model_6.pdb
+  [54] ✅ 7YR7_model_7.pdb
+  [55] ✅ 7YR7_model_8.pdb
+  [56] ✅ 7YR7_model_9.pdb
+  [57] ✅ 8FZA.pdb
+  [58] ✅ 8FZA_model_1.pdb
+  [59] ✅ 8FZA_model_10.pdb
+  [60] ✅ 8FZA_model_2.pdb
+  [61] ✅ 8FZA_model_3.pdb
+  [62] ✅ 8FZA_model_4.pdb
+  [63] ✅ 8FZA_model_5.pdb
+  [64] ✅ 8FZA_model_6.pdb
+  [65] ✅ 8FZA_model_7.pdb
+  [66] ✅ 8FZA_model_8.pdb
+  [67] ✅ 8FZA_model_9.pdb
+  [68] ✅ 8UO6.pdb
+  [69] ✅ 8UO6_model_1.pdb
+  [70] ✅ 8UO6_model_10.pdb
+  [71] ✅ 8UO6_model_2.pdb
+  [72] ✅ 8UO6_model_3.pdb
+  [73] ✅ 8UO6_model_4.pdb
+  [74] ✅ 8UO6_model_5.pdb
+  [75] ✅ 8UO6_model_6.pdb
+  [76] ✅ 8UO6_model_7.pdb
+  [77] ✅ 8UO6_model_8.pdb
+  [78] ✅ 8UO6_model_9.pdb
+  [79] ✅ 8UYE.pdb
+  [80] ✅ 8UYE_model_1.pdb
+  [81] ✅ 8UYE_model_10.pdb
+  [82] ✅ 8UYE_model_2.pdb
+  [83] ✅ 8UYE_model_3.pdb
+  [84] ✅ 8UYE_model_4.pdb
+  [85] ✅ 8UYE_model_5.pdb
+  [86] ✅ 8UYE_model_6.pdb
+  [87] ✅ 8UYE_model_7.pdb
+  [88] ✅ 8UYE_model_8.pdb
+  [89] ✅ 8UYE_model_9.pdb
+  [90] ✅ 8UYS.pdb
+  [91] ✅ 8UYS_model_1.pdb
+  [92] ✅ 8UYS_model_10.pdb
+  [93] ✅ 8UYS_model_2.pdb
+  [94] ✅ 8UYS_model_3.pdb
+  [95] ✅ 8UYS_model_4.pdb
+  [96] ✅ 8UYS_model_5.pdb
+  [97] ✅ 8UYS_model_6.pdb
+  [98] ✅ 8UYS_model_7.pdb
+  [99] ✅ 8UYS_model_8.pdb
+  [100] ✅ 8UYS_model_9.pdb
+  [101] ❌ Failed: 8VVJ.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [102] ❌ Failed: 8VVJ_model_1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [103] ❌ Failed: 8VVJ_model_10.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [104] ❌ Failed: 8VVJ_model_2.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [105] ❌ Failed: 8VVJ_model_3.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [106] ❌ Failed: 8VVJ_model_4.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [107] ❌ Failed: 8VVJ_model_5.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [108] ❌ Failed: 8VVJ_model_6.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [109] ❌ Failed: 8VVJ_model_7.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [110] ❌ Failed: 8VVJ_model_8.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [111] ❌ Failed: 8VVJ_model_9.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [112] ✅ 9BZ1.pdb
+  [113] ✅ 9BZ1_model_1.pdb
+  [114] ✅ 9BZ1_model_10.pdb
+  [115] ✅ 9BZ1_model_2.pdb
+  [116] ✅ 9BZ1_model_3.pdb
+  [117] ✅ 9BZ1_model_4.pdb
+  [118] ✅ 9BZ1_model_5.pdb
+  [119] ✅ 9BZ1_model_6.pdb
+  [120] ✅ 9BZ1_model_7.pdb
+  [121] ✅ 9BZ1_model_8.pdb
+  [122] ✅ 9BZ1_model_9.pdb
+  [123] ✅ 9BZC.pdb
+  [124] ✅ 9BZC_model_1.pdb
+  [125] ✅ 9BZC_model_10.pdb
+  [126] ✅ 9BZC_model_2.pdb
+  [127] ✅ 9BZC_model_3.pdb
+  [128] ✅ 9BZC_model_4.pdb
+  [129] ✅ 9BZC_model_5.pdb
+  [130] ✅ 9BZC_model_6.pdb
+  [131] ✅ 9BZC_model_7.pdb
+  [132] ✅ 9BZC_model_8.pdb
+  [133] ✅ 9BZC_model_9.pdb
+
+🔍 Processing SimRNA...
+  Found 23 PDB files (processing 23 total)
+  [0] ✅ 7yr6-90f81cc2_sim_minE_TOTAL-000001_AA.pdb
+  [1] ✅ 7yr7-c5892150_sim_minE_TOTAL-000001_AA.pdb
+  [2] ✅ 8fza-199b0101_sim_minE_TOTAL-000001_AA.pdb
+  [3] ✅ 8fza-199b0101_sim_thrs3.00A_clust01-000001_AA.pdb
+  [4] ✅ 8fza-199b0101_sim_thrs3.00A_clust02-000001_AA.pdb
+  [5] ✅ 8fza-199b0101_sim_thrs3.00A_clust03-000001_AA.pdb
+  [6] ✅ 8fza-199b0101_sim_thrs3.00A_clust04-000001_AA.pdb
+  [7] ✅ 8fza-199b0101_sim_thrs3.00A_clust05-000001_AA.pdb
+  [8] ✅ 8uo6-4bf424ce_sim_minE_TOTAL-000001_AA.pdb
+  [9] ✅ 8uye-f5a9e691_sim_minE_TOTAL-000001_AA.pdb
+  [10] ✅ 8uys-94c4bc0d_sim_minE_TOTAL-000001_AA.pdb
+  [11] ❌ Failed: 8vqv-9fb81108_sim_minE_TOTAL-000001_AA.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [12] ❌ Failed: 8vqv-9fb81108_sim_thrs6.40A_clust01-000001_AA.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [13] ❌ Failed: 8vqv-9fb81108_sim_thrs6.40A_clust02-000001_AA.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [14] ❌ Failed: 8vqv-9fb81108_sim_thrs6.40A_clust03-000001_AA.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [15] ❌ Failed: 8vqv-9fb81108_sim_thrs6.40A_clust04-000001_AA.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [16] ❌ Failed: 8vqv-9fb81108_sim_thrs6.40A_clust05-000001_AA.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [17] ❌ Failed: 8vvj-715c8bc6_sim_minE_TOTAL-000001_AA.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [18] ❌ Failed: 8vvj-715c8bc6_sim_thrs6.40A_clust01-000001_AA.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [19] ❌ Failed: 8vvj-715c8bc6_sim_thrs6.40A_clust02-000001_AA.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [20] ❌ Failed: 8vvj-715c8bc6_sim_thrs6.40A_clust03-000001_AA.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [21] ❌ Failed: 8vvj-715c8bc6_sim_thrs6.40A_clust04-000001_AA.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [22] ❌ Failed: 8vvj-715c8bc6_sim_thrs6.40A_clust05-000001_AA.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+
+🔍 Processing trRosettaRNA...
+  Found 185 PDB files (processing 185 total)
+  [0] ✅ model1 (1).pdb
+  [1] ✅ model1 (2).pdb
+  [2] ✅ model1 (3).pdb
+  [3] ✅ model1 (4).pdb
+  [4] ✅ model1 (5).pdb
+  [5] ✅ model1 (6).pdb
+  [6] ✅ model1 (7).pdb
+  [7] ✅ model1.pdb
+  [8] ✅ model1_1.pdb
+  [9] ✅ model1_2.pdb
+  [10] ✅ model1 (1).pdb
+  [11] ✅ model1 (1)_1.pdb
+  [12] ✅ model1 (2).pdb
+  [13] ✅ model1 (3).pdb
+  [14] ✅ model1 (4).pdb
+  [15] ✅ model1 (5).pdb
+  [16] ✅ model1.pdb
+  [17] ✅ model1_1.pdb
+  [18] ✅ model1_2.pdb
+  [19] ✅ model1_3.pdb
+  [20] ✅ 7yr6.pdb
+  [21] ✅ RNA025959.pdb
+  [22] ✅ RNA025960.pdb
+  [23] ✅ RNA025961.pdb
+  [24] ✅ RNA025962.pdb
+  [25] ✅ RNA025963.pdb
+  [26] ✅ RNA025982.pdb
+  [27] ✅ RNA025983.pdb
+  [28] ✅ RNA025984.pdb
+  [29] ✅ model1.pdb
+  [30] ✅ 7yr7.pdb
+  [31] ✅ model1 (1).pdb
+  [32] ✅ model1 (2).pdb
+  [33] ✅ model1 (3).pdb
+  [34] ✅ model1 (4).pdb
+  [35] ✅ model1 (5).pdb
+  [36] ✅ model1 (6).pdb
+  [37] ✅ model1 (7).pdb
+  [38] ✅ model1.pdb
+  [39] ✅ model1_1.pdb
+  [40] ✅ 8fza.pdb
+  [41] ✅ model1 (1).pdb
+  [42] ✅ model1 (2).pdb
+  [43] ✅ model1 (3).pdb
+  [44] ✅ model1 (4).pdb
+  [45] ✅ model1 (5).pdb
+  [46] ✅ model1 (6).pdb
+  [47] ✅ model1 (7).pdb
+  [48] ✅ model1.pdb
+  [49] ✅ model1_1.pdb
+  [50] ✅ 8s95.pdb
+  [51] ✅ model1 (1).pdb
+  [52] ✅ model1 (2).pdb
+  [53] ✅ model1 (3).pdb
+  [54] ✅ model1 (4).pdb
+  [55] ✅ model1 (5).pdb
+  [56] ✅ model1 (6).pdb
+  [57] ✅ model1 (7).pdb
+  [58] ✅ model1.pdb
+  [59] ✅ model1_1.pdb
+  [60] ✅ 8uo6.pdb
+  [61] ✅ RNA025985.pdb
+  [62] ✅ RNA025986.pdb
+  [63] ✅ RNA025987.pdb
+  [64] ✅ RNA025988.pdb
+  [65] ✅ RNA025989.pdb
+  [66] ✅ RNA025990.pdb
+  [67] ✅ RNA025991.pdb
+  [68] ✅ RNA025992.pdb
+  [69] ✅ model1.pdb
+  [70] ✅ 8uye.pdb
+  [71] ✅ model1 (1).pdb
+  [72] ✅ model1 (2).pdb
+  [73] ✅ model1 (3).pdb
+  [74] ✅ model1 (4).pdb
+  [75] ✅ model1 (5).pdb
+  [76] ✅ model1 (6).pdb
+  [77] ✅ model1 (7).pdb
+  [78] ✅ model1.pdb
+  [79] ✅ model1_1.pdb
+  [80] ✅ 8uys.pdb
+  [81] ✅ model1 (1).pdb
+  [82] ✅ model1 (10).pdb
+  [83] ✅ model1 (11).pdb
+  [84] ✅ model1 (2).pdb
+  [85] ✅ model1 (3).pdb
+  [86] ✅ model1 (4).pdb
+  [87] ✅ model1 (5).pdb
+  [88] ✅ model1 (6).pdb
+  [89] ✅ model1 (7).pdb
+  [90] ✅ model1 (8).pdb
+  [91] ✅ model1 (9).pdb
+  [92] ✅ model1.pdb
+  [93] ✅ model1_1.pdb
+  [94] ❌ Failed: 8vqv.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [95] ❌ Failed: RNA026040.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [96] ❌ Failed: RNA026041.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [97] ❌ Failed: RNA026042.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [98] ❌ Failed: RNA026043.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [99] ❌ Failed: RNA026044.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [100] ❌ Failed: RNA026045.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [101] ❌ Failed: RNA026046.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [102] ❌ Failed: RNA026047.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [103] ❌ Failed: model1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [104] ❌ Failed: 8vvj.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [105] ❌ Failed: RNA026048.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [106] ❌ Failed: RNA026049.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [107] ❌ Failed: RNA026050.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [108] ❌ Failed: RNA026051.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [109] ❌ Failed: RNA026052.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [110] ❌ Failed: RNA026053.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [111] ❌ Failed: RNA026054.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [112] ❌ Failed: RNA026055.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [113] ❌ Failed: model1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [114] ✅ 9bz1.pdb
+  [115] ✅ RNA026032.pdb
+  [116] ✅ RNA026033.pdb
+  [117] ✅ RNA026034.pdb
+  [118] ✅ RNA026035.pdb
+  [119] ✅ RNA026036.pdb
+  [120] ✅ RNA026037.pdb
+  [121] ✅ RNA026038.pdb
+  [122] ✅ RNA026039.pdb
+  [123] ✅ model1.pdb
+  [124] ✅ 9bzc.pdb
+  [125] ✅ RNA026019.pdb
+  [126] ✅ RNA026020.pdb
+  [127] ✅ RNA026021.pdb
+  [128] ✅ RNA026022.pdb
+  [129] ✅ RNA026023.pdb
+  [130] ✅ RNA026029.pdb
+  [131] ✅ RNA026030.pdb
+  [132] ✅ RNA026031.pdb
+  [133] ✅ model1.pdb
+  [134] ✅ 9c75.pdb
+  [135] ✅ RNA026064.pdb
+  [136] ✅ RNA026065.pdb
+  [137] ✅ RNA026066.pdb
+  [138] ✅ RNA026067.pdb
+  [139] ✅ RNA026068.pdb
+  [140] ✅ RNA026069.pdb
+  [141] ✅ RNA026070.pdb
+  [142] ✅ RNA026071.pdb
+  [143] ✅ model1.pdb
+  [144] ✅ 9cbu.pdb
+  [145] ✅ RNA026011.pdb
+  [146] ✅ RNA026012.pdb
+  [147] ✅ RNA026013.pdb
+  [148] ✅ RNA026014.pdb
+  [149] ✅ RNA026015.pdb
+  [150] ✅ RNA026016.pdb
+  [151] ✅ RNA026017.pdb
+  [152] ✅ RNA026018.pdb
+  [153] ✅ model1.pdb
+  [154] ✅ 9dcf.pdb
+  [155] ✅ RNA025549.pdb
+  [156] ✅ RNA025993.pdb
+  [157] ✅ RNA025994.pdb
+  [158] ✅ RNA025995.pdb
+  [159] ✅ RNA025996.pdb
+  [160] ✅ RNA025997.pdb
+  [161] ✅ RNA025998.pdb
+  [162] ✅ RNA025999.pdb
+  [163] ✅ RNA026000.pdb
+  [164] ✅ model1.pdb
+  [165] ✅ 9ely.pdb
+  [166] ✅ RNA026001.pdb
+  [167] ✅ RNA026004.pdb
+  [168] ✅ RNA026005.pdb
+  [169] ✅ RNA026006.pdb
+  [170] ✅ RNA026007.pdb
+  [171] ✅ RNA026008.pdb
+  [172] ✅ RNA026009.pdb
+  [173] ✅ RNA026010.pdb
+  [174] ✅ model1.pdb
+  [175] ✅ 9j6y.pdb
+  [176] ✅ RNA026056.pdb
+  [177] ✅ RNA026057.pdb
+  [178] ✅ RNA026058.pdb
+  [179] ✅ RNA026059.pdb
+  [180] ✅ RNA026060.pdb
+  [181] ✅ RNA026061.pdb
+  [182] ✅ RNA026062.pdb
+  [183] ✅ RNA026063.pdb
+  [184] ✅ model1.pdb
+
+🔍 Processing x3dRNA...
+  Found 330 PDB files (processing 330 total)
+  [0] ✅ 3dRNA_DNA.pred1.min.pdb
+  [1] ✅ 3dRNA_DNA.pred1.min_1.pdb
+  [2] ✅ 3dRNA_DNA.pred10.min.pdb
+  [3] ✅ 3dRNA_DNA.pred10.min_1.pdb
+  [4] ✅ 3dRNA_DNA.pred2.min.pdb
+  [5] ✅ 3dRNA_DNA.pred2.min_1.pdb
+  [6] ✅ 3dRNA_DNA.pred3.min.pdb
+  [7] ✅ 3dRNA_DNA.pred3.min_1.pdb
+  [8] ✅ 3dRNA_DNA.pred4.min.pdb
+  [9] ✅ 3dRNA_DNA.pred4.min_1.pdb
+  [10] ✅ 3dRNA_DNA.pred5.min.pdb
+  [11] ✅ 3dRNA_DNA.pred5.min_1.pdb
+  [12] ✅ 3dRNA_DNA.pred6.min.pdb
+  [13] ✅ 3dRNA_DNA.pred6.min_1.pdb
+  [14] ✅ 3dRNA_DNA.pred7.min.pdb
+  [15] ✅ 3dRNA_DNA.pred7.min_1.pdb
+  [16] ✅ 3dRNA_DNA.pred8.min.pdb
+  [17] ✅ 3dRNA_DNA.pred8.min_1.pdb
+  [18] ✅ 3dRNA_DNA.pred9.min.pdb
+  [19] ✅ 3dRNA_DNA.pred9.min_1.pdb
+  [20] ✅ 3dRNA_DNA.pred1.min.pdb
+  [21] ✅ 3dRNA_DNA.pred1.min_1.pdb
+  [22] ✅ 3dRNA_DNA.pred10.min.pdb
+  [23] ✅ 3dRNA_DNA.pred10.min_1.pdb
+  [24] ✅ 3dRNA_DNA.pred2.min.pdb
+  [25] ✅ 3dRNA_DNA.pred2.min_1.pdb
+  [26] ✅ 3dRNA_DNA.pred3.min.pdb
+  [27] ✅ 3dRNA_DNA.pred3.min_1.pdb
+  [28] ✅ 3dRNA_DNA.pred4.min.pdb
+  [29] ✅ 3dRNA_DNA.pred4.min_1.pdb
+  [30] ✅ 3dRNA_DNA.pred5.min.pdb
+  [31] ✅ 3dRNA_DNA.pred5.min_1.pdb
+  [32] ✅ 3dRNA_DNA.pred6.min.pdb
+  [33] ✅ 3dRNA_DNA.pred6.min_1.pdb
+  [34] ✅ 3dRNA_DNA.pred7.min.pdb
+  [35] ✅ 3dRNA_DNA.pred7.min_1.pdb
+  [36] ✅ 3dRNA_DNA.pred8.min.pdb
+  [37] ✅ 3dRNA_DNA.pred8.min_1.pdb
+  [38] ✅ 3dRNA_DNA.pred9.min.pdb
+  [39] ✅ 3dRNA_DNA.pred9.min_1.pdb
+  [40] ✅ 3dRNA_DNA.pred1.min.pdb
+  [41] ✅ 3dRNA_DNA.pred1.min_1.pdb
+  [42] ✅ 3dRNA_DNA.pred10.min.pdb
+  [43] ✅ 3dRNA_DNA.pred10.min_1.pdb
+  [44] ✅ 3dRNA_DNA.pred2.min.pdb
+  [45] ✅ 3dRNA_DNA.pred2.min_1.pdb
+  [46] ✅ 3dRNA_DNA.pred3.min.pdb
+  [47] ✅ 3dRNA_DNA.pred3.min_1.pdb
+  [48] ✅ 3dRNA_DNA.pred4.min.pdb
+  [49] ✅ 3dRNA_DNA.pred4.min_1.pdb
+  [50] ✅ 3dRNA_DNA.pred5.min.pdb
+  [51] ✅ 3dRNA_DNA.pred5.min_1.pdb
+  [52] ✅ 3dRNA_DNA.pred6.min.pdb
+  [53] ✅ 3dRNA_DNA.pred6.min_1.pdb
+  [54] ✅ 3dRNA_DNA.pred7.min.pdb
+  [55] ✅ 3dRNA_DNA.pred7.min_1.pdb
+  [56] ✅ 3dRNA_DNA.pred8.min.pdb
+  [57] ✅ 3dRNA_DNA.pred8.min_1.pdb
+  [58] ✅ 3dRNA_DNA.pred9.min.pdb
+  [59] ✅ 3dRNA_DNA.pred9.min_1.pdb
+  [60] ✅ 3dRNA_DNA.pred1.min.pdb
+  [61] ✅ 3dRNA_DNA.pred1.min_1.pdb
+  [62] ✅ 3dRNA_DNA.pred10.min.pdb
+  [63] ✅ 3dRNA_DNA.pred10.min_1.pdb
+  [64] ✅ 3dRNA_DNA.pred2.min.pdb
+  [65] ✅ 3dRNA_DNA.pred2.min_1.pdb
+  [66] ✅ 3dRNA_DNA.pred3.min.pdb
+  [67] ✅ 3dRNA_DNA.pred3.min_1.pdb
+  [68] ✅ 3dRNA_DNA.pred4.min.pdb
+  [69] ✅ 3dRNA_DNA.pred4.min_1.pdb
+  [70] ✅ 3dRNA_DNA.pred5.min.pdb
+  [71] ✅ 3dRNA_DNA.pred5.min_1.pdb
+  [72] ✅ 3dRNA_DNA.pred6.min.pdb
+  [73] ✅ 3dRNA_DNA.pred6.min_1.pdb
+  [74] ✅ 3dRNA_DNA.pred7.min.pdb
+  [75] ✅ 3dRNA_DNA.pred7.min_1.pdb
+  [76] ✅ 3dRNA_DNA.pred8.min.pdb
+  [77] ✅ 3dRNA_DNA.pred8.min_1.pdb
+  [78] ✅ 3dRNA_DNA.pred9.min.pdb
+  [79] ✅ 3dRNA_DNA.pred9.min_1.pdb
+  [80] ✅ 3dRNA_DNA.pred1.min.pdb
+  [81] ✅ 3dRNA_DNA.pred10.min.pdb
+  [82] ✅ 3dRNA_DNA.pred2.min.pdb
+  [83] ✅ 3dRNA_DNA.pred3.min.pdb
+  [84] ✅ 3dRNA_DNA.pred4.min.pdb
+  [85] ✅ 3dRNA_DNA.pred5.min.pdb
+  [86] ✅ 3dRNA_DNA.pred6.min.pdb
+  [87] ✅ 3dRNA_DNA.pred7.min.pdb
+  [88] ✅ 3dRNA_DNA.pred8.min.pdb
+  [89] ✅ 3dRNA_DNA.pred9.min.pdb
+  [90] ✅ e2aae257-769e-45c4-9fa3-995eebd72627.1.pdb
+  [91] ✅ e2aae257-769e-45c4-9fa3-995eebd72627.10.pdb
+  [92] ✅ e2aae257-769e-45c4-9fa3-995eebd72627.2.pdb
+  [93] ✅ e2aae257-769e-45c4-9fa3-995eebd72627.3.pdb
+  [94] ✅ e2aae257-769e-45c4-9fa3-995eebd72627.4.pdb
+  [95] ✅ e2aae257-769e-45c4-9fa3-995eebd72627.5.pdb
+  [96] ✅ e2aae257-769e-45c4-9fa3-995eebd72627.6.pdb
+  [97] ✅ e2aae257-769e-45c4-9fa3-995eebd72627.7.pdb
+  [98] ✅ e2aae257-769e-45c4-9fa3-995eebd72627.8.pdb
+  [99] ✅ e2aae257-769e-45c4-9fa3-995eebd72627.9.pdb
+  [100] ✅ 3dRNA_DNA.pred1.min.pdb
+  [101] ✅ 3dRNA_DNA.pred1.min_1.pdb
+  [102] ✅ 3dRNA_DNA.pred10.min.pdb
+  [103] ✅ 3dRNA_DNA.pred10.min_1.pdb
+  [104] ✅ 3dRNA_DNA.pred2.min.pdb
+  [105] ✅ 3dRNA_DNA.pred2.min_1.pdb
+  [106] ✅ 3dRNA_DNA.pred3.min.pdb
+  [107] ✅ 3dRNA_DNA.pred3.min_1.pdb
+  [108] ✅ 3dRNA_DNA.pred4.min.pdb
+  [109] ✅ 3dRNA_DNA.pred4.min_1.pdb
+  [110] ✅ 3dRNA_DNA.pred5.min.pdb
+  [111] ✅ 3dRNA_DNA.pred5.min_1.pdb
+  [112] ✅ 3dRNA_DNA.pred6.min.pdb
+  [113] ✅ 3dRNA_DNA.pred6.min_1.pdb
+  [114] ✅ 3dRNA_DNA.pred7.min.pdb
+  [115] ✅ 3dRNA_DNA.pred7.min_1.pdb
+  [116] ✅ 3dRNA_DNA.pred8.min.pdb
+  [117] ✅ 3dRNA_DNA.pred8.min_1.pdb
+  [118] ✅ 3dRNA_DNA.pred9.min.pdb
+  [119] ✅ 3dRNA_DNA.pred9.min_1.pdb
+  [120] ✅ 3dRNA_DNA.pred1.min.pdb
+  [121] ✅ 3dRNA_DNA.pred1.min_1.pdb
+  [122] ✅ 3dRNA_DNA.pred10.min.pdb
+  [123] ✅ 3dRNA_DNA.pred10.min_1.pdb
+  [124] ✅ 3dRNA_DNA.pred2.min.pdb
+  [125] ✅ 3dRNA_DNA.pred2.min_1.pdb
+  [126] ✅ 3dRNA_DNA.pred3.min.pdb
+  [127] ✅ 3dRNA_DNA.pred3.min_1.pdb
+  [128] ✅ 3dRNA_DNA.pred4.min.pdb
+  [129] ✅ 3dRNA_DNA.pred4.min_1.pdb
+  [130] ✅ 3dRNA_DNA.pred5.min.pdb
+  [131] ✅ 3dRNA_DNA.pred5.min_1.pdb
+  [132] ✅ 3dRNA_DNA.pred6.min.pdb
+  [133] ✅ 3dRNA_DNA.pred6.min_1.pdb
+  [134] ✅ 3dRNA_DNA.pred7.min.pdb
+  [135] ✅ 3dRNA_DNA.pred7.min_1.pdb
+  [136] ✅ 3dRNA_DNA.pred8.min.pdb
+  [137] ✅ 3dRNA_DNA.pred8.min_1.pdb
+  [138] ✅ 3dRNA_DNA.pred9.min.pdb
+  [139] ✅ 3dRNA_DNA.pred9.min_1.pdb
+  [140] ✅ 3dRNA_DNA.pred1.min.pdb
+  [141] ✅ 3dRNA_DNA.pred1.min_1.pdb
+  [142] ✅ 3dRNA_DNA.pred10.min.pdb
+  [143] ✅ 3dRNA_DNA.pred10.min_1.pdb
+  [144] ✅ 3dRNA_DNA.pred2.min.pdb
+  [145] ✅ 3dRNA_DNA.pred2.min_1.pdb
+  [146] ✅ 3dRNA_DNA.pred3.min.pdb
+  [147] ✅ 3dRNA_DNA.pred3.min_1.pdb
+  [148] ✅ 3dRNA_DNA.pred4.min.pdb
+  [149] ✅ 3dRNA_DNA.pred4.min_1.pdb
+  [150] ✅ 3dRNA_DNA.pred5.min.pdb
+  [151] ✅ 3dRNA_DNA.pred5.min_1.pdb
+  [152] ✅ 3dRNA_DNA.pred6.min.pdb
+  [153] ✅ 3dRNA_DNA.pred6.min_1.pdb
+  [154] ✅ 3dRNA_DNA.pred7.min.pdb
+  [155] ✅ 3dRNA_DNA.pred7.min_1.pdb
+  [156] ✅ 3dRNA_DNA.pred8.min.pdb
+  [157] ✅ 3dRNA_DNA.pred8.min_1.pdb
+  [158] ✅ 3dRNA_DNA.pred9.min.pdb
+  [159] ✅ 3dRNA_DNA.pred9.min_1.pdb
+  [160] ✅ 3dRNA_DNA.pred1.min.pdb
+  [161] ✅ 3dRNA_DNA.pred1.min_1.pdb
+  [162] ✅ 3dRNA_DNA.pred10.min.pdb
+  [163] ✅ 3dRNA_DNA.pred10.min_1.pdb
+  [164] ✅ 3dRNA_DNA.pred2.min.pdb
+  [165] ✅ 3dRNA_DNA.pred2.min_1.pdb
+  [166] ✅ 3dRNA_DNA.pred3.min.pdb
+  [167] ✅ 3dRNA_DNA.pred3.min_1.pdb
+  [168] ✅ 3dRNA_DNA.pred4.min.pdb
+  [169] ✅ 3dRNA_DNA.pred4.min_1.pdb
+  [170] ✅ 3dRNA_DNA.pred5.min.pdb
+  [171] ✅ 3dRNA_DNA.pred5.min_1.pdb
+  [172] ✅ 3dRNA_DNA.pred6.min.pdb
+  [173] ✅ 3dRNA_DNA.pred6.min_1.pdb
+  [174] ✅ 3dRNA_DNA.pred7.min.pdb
+  [175] ✅ 3dRNA_DNA.pred7.min_1.pdb
+  [176] ✅ 3dRNA_DNA.pred8.min.pdb
+  [177] ✅ 3dRNA_DNA.pred8.min_1.pdb
+  [178] ✅ 3dRNA_DNA.pred9.min.pdb
+  [179] ✅ 3dRNA_DNA.pred9.min_1.pdb
+  [180] ❌ Failed: 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [181] ❌ Failed: 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.10.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [182] ❌ Failed: 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.2.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [183] ❌ Failed: 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.3.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [184] ❌ Failed: 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.4.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [185] ❌ Failed: 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.5.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [186] ❌ Failed: 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.6.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [187] ❌ Failed: 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.7.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [188] ❌ Failed: 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.8.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [189] ❌ Failed: 2c3d508f-a5fb-426a-8843-1e2c4fbeed20.9.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [190] ❌ Failed: 3dRNA_DNA.pred1.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [191] ❌ Failed: 3dRNA_DNA.pred10.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [192] ❌ Failed: 3dRNA_DNA.pred2.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [193] ❌ Failed: 3dRNA_DNA.pred3.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [194] ❌ Failed: 3dRNA_DNA.pred4.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [195] ❌ Failed: 3dRNA_DNA.pred5.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [196] ❌ Failed: 3dRNA_DNA.pred6.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [197] ❌ Failed: 3dRNA_DNA.pred7.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [198] ❌ Failed: 3dRNA_DNA.pred8.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [199] ❌ Failed: 3dRNA_DNA.pred9.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [200] ❌ Failed: 3dRNA_DNA.pred1.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [201] ❌ Failed: 3dRNA_DNA.pred1.min_1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [202] ❌ Failed: 3dRNA_DNA.pred10.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [203] ❌ Failed: 3dRNA_DNA.pred10.min_1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [204] ❌ Failed: 3dRNA_DNA.pred2.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [205] ❌ Failed: 3dRNA_DNA.pred2.min_1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [206] ❌ Failed: 3dRNA_DNA.pred3.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [207] ❌ Failed: 3dRNA_DNA.pred3.min_1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [208] ❌ Failed: 3dRNA_DNA.pred4.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [209] ❌ Failed: 3dRNA_DNA.pred4.min_1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [210] ❌ Failed: 3dRNA_DNA.pred5.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [211] ❌ Failed: 3dRNA_DNA.pred5.min_1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [212] ❌ Failed: 3dRNA_DNA.pred6.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [213] ❌ Failed: 3dRNA_DNA.pred6.min_1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [214] ❌ Failed: 3dRNA_DNA.pred7.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [215] ❌ Failed: 3dRNA_DNA.pred7.min_1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [216] ❌ Failed: 3dRNA_DNA.pred8.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [217] ❌ Failed: 3dRNA_DNA.pred8.min_1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [218] ❌ Failed: 3dRNA_DNA.pred9.min.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [219] ❌ Failed: 3dRNA_DNA.pred9.min_1.pdb
+     Exception in thread "main" java.lang.NullPointerException: Cannot read field "type" because "pAfter2" is null
+  [220] ✅ 3dRNA_DNA.pred1.min.pdb
+  [221] ✅ 3dRNA_DNA.pred1.min_1.pdb
+  [222] ✅ 3dRNA_DNA.pred10.min.pdb
+  [223] ✅ 3dRNA_DNA.pred10.min_1.pdb
+  [224] ✅ 3dRNA_DNA.pred2.min.pdb
+  [225] ✅ 3dRNA_DNA.pred2.min_1.pdb
+  [226] ✅ 3dRNA_DNA.pred3.min.pdb
+  [227] ✅ 3dRNA_DNA.pred3.min_1.pdb
+  [228] ✅ 3dRNA_DNA.pred4.min.pdb
+  [229] ✅ 3dRNA_DNA.pred4.min_1.pdb
+  [230] ✅ 3dRNA_DNA.pred5.min.pdb
+  [231] ✅ 3dRNA_DNA.pred5.min_1.pdb
+  [232] ✅ 3dRNA_DNA.pred6.min.pdb
+  [233] ✅ 3dRNA_DNA.pred6.min_1.pdb
+  [234] ✅ 3dRNA_DNA.pred7.min.pdb
+  [235] ✅ 3dRNA_DNA.pred7.min_1.pdb
+  [236] ✅ 3dRNA_DNA.pred8.min.pdb
+  [237] ✅ 3dRNA_DNA.pred8.min_1.pdb
+  [238] ✅ 3dRNA_DNA.pred9.min.pdb
+  [239] ✅ 3dRNA_DNA.pred9.min_1.pdb
+  [240] ✅ 3dRNA_DNA.pred1.min.pdb
+  [241] ✅ 3dRNA_DNA.pred1.min_1.pdb
+  [242] ✅ 3dRNA_DNA.pred10.min.pdb
+  [243] ✅ 3dRNA_DNA.pred10.min_1.pdb
+  [244] ✅ 3dRNA_DNA.pred2.min.pdb
+  [245] ✅ 3dRNA_DNA.pred2.min_1.pdb
+  [246] ✅ 3dRNA_DNA.pred3.min.pdb
+  [247] ✅ 3dRNA_DNA.pred3.min_1.pdb
+  [248] ✅ 3dRNA_DNA.pred4.min.pdb
+  [249] ✅ 3dRNA_DNA.pred4.min_1.pdb
+  [250] ✅ 3dRNA_DNA.pred5.min.pdb
+  [251] ✅ 3dRNA_DNA.pred5.min_1.pdb
+  [252] ✅ 3dRNA_DNA.pred6.min.pdb
+  [253] ✅ 3dRNA_DNA.pred6.min_1.pdb
+  [254] ✅ 3dRNA_DNA.pred7.min.pdb
+  [255] ✅ 3dRNA_DNA.pred7.min_1.pdb
+  [256] ✅ 3dRNA_DNA.pred8.min.pdb
+  [257] ✅ 3dRNA_DNA.pred8.min_1.pdb
+  [258] ✅ 3dRNA_DNA.pred9.min.pdb
+  [259] ✅ 3dRNA_DNA.pred9.min_1.pdb
+  [260] ✅ 3dRNA_DNA.pred1.min.pdb
+  [261] ✅ 3dRNA_DNA.pred10.min.pdb
+  [262] ✅ 3dRNA_DNA.pred2.min.pdb
+  [263] ✅ 3dRNA_DNA.pred3.min.pdb
+  [264] ✅ 3dRNA_DNA.pred4.min.pdb
+  [265] ✅ 3dRNA_DNA.pred5.min.pdb
+  [266] ✅ 3dRNA_DNA.pred6.min.pdb
+  [267] ✅ 3dRNA_DNA.pred7.min.pdb
+  [268] ✅ 3dRNA_DNA.pred8.min.pdb
+  [269] ✅ 3dRNA_DNA.pred9.min.pdb
+  [270] ✅ ac6eecd6-069a-4d94-a312-9a697aefdaba.1.pdb
+  [271] ✅ ac6eecd6-069a-4d94-a312-9a697aefdaba.10.pdb
+  [272] ✅ ac6eecd6-069a-4d94-a312-9a697aefdaba.2.pdb
+  [273] ✅ ac6eecd6-069a-4d94-a312-9a697aefdaba.3.pdb
+  [274] ✅ ac6eecd6-069a-4d94-a312-9a697aefdaba.4.pdb
+  [275] ✅ ac6eecd6-069a-4d94-a312-9a697aefdaba.5.pdb
+  [276] ✅ ac6eecd6-069a-4d94-a312-9a697aefdaba.6.pdb
+  [277] ✅ ac6eecd6-069a-4d94-a312-9a697aefdaba.7.pdb
+  [278] ✅ ac6eecd6-069a-4d94-a312-9a697aefdaba.8.pdb
+  [279] ✅ ac6eecd6-069a-4d94-a312-9a697aefdaba.9.pdb
+  [280] ✅ 3dRNA_DNA.pred1.min.pdb
+  [281] ✅ 3dRNA_DNA.pred10.min.pdb
+  [282] ✅ 3dRNA_DNA.pred2.min.pdb
+  [283] ✅ 3dRNA_DNA.pred3.min.pdb
+  [284] ✅ 3dRNA_DNA.pred4.min.pdb
+  [285] ✅ 3dRNA_DNA.pred5.min.pdb
+  [286] ✅ 3dRNA_DNA.pred6.min.pdb
+  [287] ✅ 3dRNA_DNA.pred7.min.pdb
+  [288] ✅ 3dRNA_DNA.pred8.min.pdb
+  [289] ✅ 3dRNA_DNA.pred9.min.pdb
+  [290] ✅ 3dRNA_DNA.pred1.min.pdb
+  [291] ✅ 3dRNA_DNA.pred1.min_1.pdb
+  [292] ✅ 3dRNA_DNA.pred10.min.pdb
+  [293] ✅ 3dRNA_DNA.pred10.min_1.pdb
+  [294] ✅ 3dRNA_DNA.pred2.min.pdb
+  [295] ✅ 3dRNA_DNA.pred2.min_1.pdb
+  [296] ✅ 3dRNA_DNA.pred3.min.pdb
+  [297] ✅ 3dRNA_DNA.pred3.min_1.pdb
+  [298] ✅ 3dRNA_DNA.pred4.min.pdb
+  [299] ✅ 3dRNA_DNA.pred4.min_1.pdb
+  [300] ✅ 3dRNA_DNA.pred5.min.pdb
+  [301] ✅ 3dRNA_DNA.pred5.min_1.pdb
+  [302] ✅ 3dRNA_DNA.pred6.min.pdb
+  [303] ✅ 3dRNA_DNA.pred6.min_1.pdb
+  [304] ✅ 3dRNA_DNA.pred7.min.pdb
+  [305] ✅ 3dRNA_DNA.pred7.min_1.pdb
+  [306] ✅ 3dRNA_DNA.pred8.min.pdb
+  [307] ✅ 3dRNA_DNA.pred8.min_1.pdb
+  [308] ✅ 3dRNA_DNA.pred9.min.pdb
+  [309] ✅ 3dRNA_DNA.pred9.min_1.pdb
+  [310] ✅ 3dRNA_DNA.pred1.min.pdb
+  [311] ✅ 3dRNA_DNA.pred1.min_1.pdb
+  [312] ✅ 3dRNA_DNA.pred10.min.pdb
+  [313] ✅ 3dRNA_DNA.pred10.min_1.pdb
+  [314] ✅ 3dRNA_DNA.pred2.min.pdb
+  [315] ✅ 3dRNA_DNA.pred2.min_1.pdb
+  [316] ✅ 3dRNA_DNA.pred3.min.pdb
+  [317] ✅ 3dRNA_DNA.pred3.min_1.pdb
+  [318] ✅ 3dRNA_DNA.pred4.min.pdb
+  [319] ✅ 3dRNA_DNA.pred4.min_1.pdb
+  [320] ✅ 3dRNA_DNA.pred5.min.pdb
+  [321] ✅ 3dRNA_DNA.pred5.min_1.pdb
+  [322] ✅ 3dRNA_DNA.pred6.min.pdb
+  [323] ✅ 3dRNA_DNA.pred6.min_1.pdb
+  [324] ✅ 3dRNA_DNA.pred7.min.pdb
+  [325] ✅ 3dRNA_DNA.pred7.min_1.pdb
+  [326] ✅ 3dRNA_DNA.pred8.min.pdb
+  [327] ✅ 3dRNA_DNA.pred8.min_1.pdb
+  [328] ✅ 3dRNA_DNA.pred9.min.pdb
+  [329] ✅ 3dRNA_DNA.pred9.min_1.pdb
+
+🔍 Processing Vfold...
+  Found 12 PDB files (processing 12 total)
+  [0] ✅ 9C75_vfold3D-CLU.pdb
+  [1] ✅ 9C75_vfold3D.pdb
+  [2] ✅ 9C75_vfold3D_init.pdb
+  [3] ✅ 9C75_vfold3D_init0.pdb
+  [4] ✅ clu-1.pdb
+  [5] ✅ em_clu-1.pdb
+  [6] ✅ clu-2.pdb
+  [7] ✅ em_clu-2.pdb
+  [8] ✅ clu-3.pdb
+  [9] ✅ em_clu-3.pdb
+  [10] ✅ 9C75_vfold.pdb
+  [11] ✅ 9C75_vfold.pdb
+
+🔍 Processing MC-Sym...
+  Found 11 PDB files (processing 11 total)
+  [0] ✅ 9C75-0001.pdb
+  [1] ✅ 9C75-0002.pdb
+  [2] ✅ 9C75-0003.pdb
+  [3] ✅ 9C75-0004.pdb
+  [4] ✅ 9C75-0005.pdb
+  [5] ✅ 9C75-0006.pdb
+  [6] ✅ 9C75-0007.pdb
+  [7] ✅ 9C75-0008.pdb
+  [8] ✅ 9DCF-0001.pdb
+  [9] ✅ 9DCF-0002.pdb
+  [10] ✅ 9DCF-0003.pdb
+
+============================================================
+✅ Total Processed: 1105
+❌ Total Failed: 266
+============================================================
